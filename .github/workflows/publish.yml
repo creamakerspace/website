@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: creamakerspace/website/.github/workflows/build.yml@master
+    uses: creamakerspace/website/.github/workflows/build.yml@main
 
   deploy:
     needs: build

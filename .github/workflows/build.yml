@@ -18,12 +18,11 @@ jobs:
         run: |
           curl -LSfs https://github.com/gohugoio/hugo/releases/download/v0.92.0/hugo_extended_0.92.0_Linux-64bit.tar.gz | \
             tar -xvz -C /tmp
-          tar -xvzf hugo.tgz
           mv /tmp/hugo ~/hugo
           echo HUGO_BIN=~/hugo >> $GITHUB_ENV
 
       - name: Build Site
-        run: ${{ env.HUGO_BIN }} build
+        run: ${{ env.HUGO_BIN }}
 
       - name: Upload built site archive
         uses: actions/upload-artifact@v2
