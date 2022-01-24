@@ -1,0 +1,82 @@
+############# Spanish navigation ##############
+
+# main menu
+[[main]]
+name = "Pagina inicial"
+url = ""
+weight = 1
+
+[[main]]
+name = "Chi siamo"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Proyecto"
+url = "project/"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+[[main]]
+weight = 5
+name = "Más"
+hasChildren = true
+
+  [[main]]
+  parent = "Más"
+  name = "Servicio"
+  url = "service/"
+  weight = 1
+
+  [[main]]
+  parent = "Più"
+  name = "Precios"
+  url = "pricing/"
+  weight = 2
+
+  [[main]]
+  parent = "Più"
+  name = "Preguntas frecuentes"
+  url = "faq/"
+  weight = 3
+  
+[[main]]
+name = "Contacto"
+url = "contact/"
+weight = 6
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[footer]]
+name = "Projecto"
+url = "project/"
+weight = 3
+
+[[footer]]
+name = "Servicio"
+url = "service/"
+weight = 4
+
+[[footer]]
+name = "Precios"
+url = "pricing/"
+weight = 5
+
+[[footer]]
+name = "Preguntas frecuentes"
+url = "faq/"
+weight = 6
+
+[[footer]]
+name = "Contacto"
+url = "contact/"
+weight = 7

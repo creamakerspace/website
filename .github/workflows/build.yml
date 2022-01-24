@@ -1,0 +1,33 @@
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_call:
+
+name: Build
+
+jobs:
+  scraper:
+    name: Site Generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+
+      - name: Install Hugo
+        run: |
+          curl -LSfs https://github.com/gohugoio/hugo/releases/download/v0.92.0/hugo_extended_0.92.0_Linux-64bit.tar.gz | \
+            tar -xvz -C /tmp
+          tar -xvzf hugo.tgz
+          mv /tmp/hugo ~/hugo
+          echo HUGO_BIN=~/hugo >> $GITHUB_ENV
+
+      - name: Build Site
+        run: ${{ env.HUGO_BIN }} build
+
+      - name: Upload built site archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: site-archive
+          path: public
+

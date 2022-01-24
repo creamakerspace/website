@@ -1,0 +1,3 @@
+baseURL = 'https://creamakerspace.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
