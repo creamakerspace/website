@@ -50,42 +50,42 @@ service:
   description : "We're still in the early stages of planning, but this is what we're focused on."
   service_item:
     # service item loop
-    - icon : fas fa-hammer #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-hammer
       name: Woodworking
       content: "Training and access to saws, routers, CNC equipment and other tools you'd find in a professional woodshop."
 
     # service item loop
-    - icon : fas fa-microchip #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-microchip
       name: Electronics & Circuits
       content: "Arduino, circuits, soldering, PCB, and even coding. Removing the mystery of how electronics work."
 
     # service item loop
-    - icon : fas fa-graduation-cap #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-graduation-cap
       name: Classes
       content: "Empowering through education with equipment-specific training and guided projects."
 
     # service item loop
-    - icon : fas fa-calendar #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-calendar
       name: Events
-      content: "We plan to have team building events as well as events that engage the community"
+      content: "Designing unforgettable events for team building and community engagement."
 
     # service item loop
-    - icon : fas fa-users #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-users
       name: Membership
-      content: "Providing access to the equipment and space for more frequent making."
+      content: "Providing more frequent access to the equipment and space for those who always have more projects to make."
 
     # service item loop
-    - icon : fas fa-globe-americas #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-globe-americas
       name: Local Community
       content: "We are neighbors committed to focusing on supporting our local community."
 
     # service item loop
-    - icon : fas fa-warehouse #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-warehouse
       name: Collaborative Space
-      content: "A space to meet other creators and inspire one another."
+      content: "A unique space to meet, inspire, and work alongside other creators."
 
     # # service item loop
-    - icon : fas fa-handshake #https://fontawesome.com/v5.15/icons
+    - icon : fas fa-handshake
       name: Partnerships
       content: "Enabling other organizations to leverage the value of a maker community."
 

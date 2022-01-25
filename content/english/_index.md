@@ -26,14 +26,10 @@ portfolio:
   enable: true
   bg_image: "images/woodwork.jpg"
   title: "COMING SOON"
-  content: "We are still in the early stages of planning, so there are a lot of questions we don't have answers for yet.
-
-
-  What we do know: we are planning to open a [makerspace](https://www.makerspaces.com/what-is-a-makerspace/) in or near the Skyway neighborhood. We are working to provide a space with equipment, classes, and events initially focused on woodworking and electronics.
+  content: "We are planning to open a [makerspace](https://www.makerspaces.com/what-is-a-makerspace/) in or near the Skyway neighborhood. We are working to provide a space with equipment, classes, and events initially focused on woodworking and electronics.
   
   
-  We will provide additional updates as we get further into our planning process.
-
+  We are still in the early stages of planning, so there are a lot of details we're still working on. We will provide additional updates when we have progress to share.
   "
   button:
     enable: false
@@ -52,7 +48,7 @@ cta:
   enable: true
   bg_image: "images/woodwork-3.jpg"
   title: "We are a community of creators."
-  content: "Connect with us so we can include you in the process. In these early stages, we plan to send a monthly newletter on progress and may include surveys to help shape our plans."
+  content: "Connect with us so we can include you in the process. In these early stages, we plan to send a monthly newletter on progress. We may even send an occasional survey to help shape our plans."
   button:
     enable: true
     label: "Signup for updates"
