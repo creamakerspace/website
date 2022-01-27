@@ -21,12 +21,12 @@ address_descriptors = false
 # phone = "0124857985320"
 email = "hi@creamakerspace.com"
 location = """
-**Crea Makerspace**  
+**Crea Makerspace**
 Location TBD
 """
 # copyright
 copyright = "Crea Makerspace"
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script= ""
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -41,7 +41,7 @@ use_netlify = false
 use_recaptcha = true
 # Form action
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
-## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
+## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included)
 action = "#"
 # Image on custom success page `/message_sent.html`
 success_image = "images/paper-plane.svg"
@@ -101,6 +101,11 @@ expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
 
+[chat]
+enable = true
+sib_key = "s3769tdiqgyqawd7jupolmhn"
+
+
 ######################## sidebar widgets #########################
 [widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
@@ -117,20 +122,20 @@ link = "https://www.facebook.com/CreaMakerspace/"
 # icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
 # link = "#"
 
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "instagram"
+# icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
 
-[[social]]
-title = "tiktok"
-icon = "fab fa-tiktok" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "tiktok"
+# icon = "fab fa-tiktok" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
 
-[[social]]
-title = "youtube"
-icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+# [[social]]
+# title = "youtube"
+# icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+# link = "#"
 
 # [[social]]
 # title = "github"
