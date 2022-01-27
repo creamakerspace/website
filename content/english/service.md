@@ -49,45 +49,37 @@ service:
   title : "Our Focus"
   description : "We're still in the early stages of planning, but this is what we're focused on."
   service_item:
-    # service item loop
     - icon : fas fa-hammer
       name: Woodworking
       content: "Training and access to saws, routers, CNC equipment and other tools you'd find in a professional woodshop."
 
-    # service item loop
     - icon : fas fa-microchip
       name: Electronics & Circuits
-      content: "Arduino, circuits, soldering, PCB, and even coding. Removing the mystery of how electronics work."
+      content: "Arduino, circuits, soldering, PCB, and coding; let's remove the mystery of how electronics work."
 
-    # service item loop
     - icon : fas fa-graduation-cap
       name: Classes
-      content: "Empowering through education with equipment-specific training and guided projects."
+      content: "Get hands-on training with the tools or take a guided class to turn an idea into something you built."
 
-    # service item loop
     - icon : fas fa-calendar
       name: Events
       content: "Designing unforgettable events for team building and community engagement."
 
-    # service item loop
     - icon : fas fa-users
       name: Membership
       content: "Providing more frequent access to the equipment and space for those who always have more projects to make."
 
-    # service item loop
     - icon : fas fa-globe-americas
       name: Local Community
-      content: "We are neighbors committed to focusing on supporting our local community."
+      content: "We are neighbors committed to supporting our local community. We care."
 
-    # service item loop
     - icon : fas fa-warehouse
       name: Collaborative Space
       content: "A unique space to meet, inspire, and work alongside other creators."
 
-    # # service item loop
-    - icon : fas fa-handshake
-      name: Partnerships
-      content: "Enabling other organizations to leverage the value of a maker community."
+    - icon : fas fa-assistive-listening-systems
+      name: Listening
+      content: "We're also learning. We look forward adapting based on feedback from our community."
 
 ############################# call to action #################################
 cta:

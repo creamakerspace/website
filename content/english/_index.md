@@ -16,7 +16,7 @@ about:
   enable: true
   title: "About Us"
   description: "**Create & Care**."
-  content: "Crea aspires to provide a world class space for collaborating and creating, for inspiring and incubating, for empowering and elevating. We believe that everybody in our neighborhood should have access to the knowledge, tools, and people required to literally *make* their dreams come true.  
+  content: "We aspire to provide a world class space for collaborating and creating, for inspiring and incubating, for empowering and elevating. We believe that everybody in our neighborhood should have access to the knowledge, tools, and people required to literally *make* their dreams come true.
   "
   image: "images/woodwork-2.jpg"
 
@@ -27,8 +27,8 @@ portfolio:
   bg_image: "images/woodwork.jpg"
   title: "COMING SOON"
   content: "We are planning to open a [makerspace](https://www.makerspaces.com/what-is-a-makerspace/) in or near the Skyway neighborhood. We are working to provide a space with equipment, classes, and events initially focused on woodworking and electronics.
-  
-  
+
+
   We are still in the early stages of planning, so there are a lot of details we're still working on. We will provide additional updates when we have progress to share.
   "
   button:
