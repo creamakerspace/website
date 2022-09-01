@@ -2,80 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://creamakerspace.com/faq/</loc>
-    <lastmod>2022-01-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://creamakerspace.com/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creamakerspace.com/categories/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://creamakerspace.com/tags/how-to/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <loc>https://creamakerspace.com/tags/cnc/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creamakerspace.com/blog/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://creamakerspace.com/blog/date-i18n/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <loc>https://creamakerspace.com/tags/nfc/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://creamakerspace.com/categories/projects/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creamakerspace.com/tags/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://creamakerspace.com/categories/technical-assistance/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+    <loc>https://creamakerspace.com/blog/nfc-wifi-coaster/</loc>
+    <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://creamakerspace.com/tags/technology/</loc>
-    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/advice/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/ai/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/android/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/categories/artificial-intelligence/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/company/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/categories/company-news/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-1/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-2/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-3/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-4/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-5/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/blog/blog-post-6/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/categories/legacy-support/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/mechine/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/news/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>https://creamakerspace.com/tags/retro/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
+    <loc>https://creamakerspace.com/faq/</loc>
+    <lastmod>2022-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://creamakerspace.com/message_sent/</loc>
   </url><url>
@@ -84,8 +36,6 @@
     <loc>https://creamakerspace.com/author/</loc>
   </url><url>
     <loc>https://creamakerspace.com/contact/</loc>
-  </url><url>
-    <loc>https://creamakerspace.com/author/jackie-nowell/</loc>
   </url><url>
     <loc>https://creamakerspace.com/pricing/</loc>
   </url><url>
