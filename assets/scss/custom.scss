@@ -1,0 +1,31 @@
+/* Basic Grid */
+
+.grid {
+    display: flex;
+    width: 100%;
+}
+
+.col {
+    flex: 1;
+    width: 0;
+    margin-right: 5px;
+}
+
+.col:last-child {
+    margin-right: 0px;
+}
+
+@media (max-width: 480px) {
+  .grid {
+    display: block;
+  }
+  .col {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.grid + p {
+    margin-top: 30px;
+}

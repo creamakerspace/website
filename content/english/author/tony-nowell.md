@@ -1,16 +1,13 @@
 ---
 title: "Tony Nowell"
-email: "tony@creamakerspace.com"
+photo: "https://www.gravatar.com/avatar/339ff643e06ce18c144855e117d1a3d2?s=128"
 bg_image: "images/woodwork-3.jpg"
 draft: false
 social:
-  - icon : "fab fa-facebook" #https://fontawesome.com/v5.15/icons
-    link : "#"
   - icon : "fab fa-twitter" #https://fontawesome.com/v5.15/icons
-    link : "#"
-  - icon : "fab fa-pinterest" #https://fontawesome.com/v5.15/icons
-    link : "#"
+    link : "https://twitter.com/atnowell"
+  - icon : "fab fa-linkedin" #https://fontawesome.com/v5.15/icons
+    link : "https://www.linkedin.com/in/anthonynowell"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+Founder of Crea Makerspace
