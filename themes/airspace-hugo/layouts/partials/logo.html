@@ -31,12 +31,12 @@
 {{ $logoDefaultWidth:= add (string $logoDefaultWidth) "x"}}
 {{ $logoWidth:= $logoWidth | default $logoDefaultWidth }}
 {{ $options := add (string $logoWidth) " webp" }}
-{{ .Scratch.Set "logo" ($logo.Resize $options).RelPermalink }}
+{{ .Scratch.Set "logo" $logo.RelPermalink }}
 <!-- logo fallback -->
 {{ .Scratch.Set "logo_fallback" ($logo.Resize $logoWidth).RelPermalink }}
 {{ end }}
 
-<img loading="preload" decoding="async" class="img-fluid" width="{{replace $logoWidth `x` `` | default $logoDefaultWidth}}" height="{{$logoDefaultHeight}}" src="{{.Scratch.Get `logo`}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{.Scratch.Get `logo_fallback`}}'">
+<img loading="preload" decoding="async" class="img-fluid" width="{{replace $logoWidth `x` `` | default $logoDefaultWidth}}" src="{{.Scratch.Get `logo`}}" alt="{{ site.Title }}" onerror="this.onerror=null;this.src='{{.Scratch.Get `logo_fallback`}}'">
 {{ else }}
 <strong class="text-danger">`{{$logoPath}}` doesn't exist</strong>
 {{ end }}
