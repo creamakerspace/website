@@ -14,13 +14,13 @@ type: "post"
 __A simple drink coaster that doubles as a way to share the Wifi password.__
 
 If you find yourself giving out the Wifi password on a regular basis,
-this project enables your guests to simply tap their phone on a drink coaster to connect to the Wifi. 
+this project enables your guests to simply tap their phone on a drink coaster to connect to the Wifi.
 
-At the core of this project is an inexpensive NFC tag. NFC, or Near Field Communication, is a proximity-based wireless standard. It is the technology behind tap-to-pay (Apple Pay or Google Pay) and Nintendo Switch Amiibos, and very similar to the technology behind key cards used to access an office building or hotel room. 
+At the core of this project is an inexpensive NFC tag. NFC, or Near Field Communication, is a proximity-based wireless standard. It is the technology behind tap-to-pay (Apple Pay or Google Pay) and Nintendo Switch Amiibos, and very similar to the technology behind key cards used to access an office building or hotel room.
 
 For this project, we're going to embed an NFC tag in a simple coaster made of spare wood left over from another project, but you could embed the NFC tag into almost anything to create your own Tap-to-Connect object. In this project we'll use:
 
-- 1 NFC tag ([Amazon](https://www.amazon.com/dp/B087M9FLM4/)) 
+- 1 NFC tag ([Amazon](https://www.amazon.com/dp/B087M9FLM4/))
 - 4.5" x 4.5" x 0.5" wood (or the desired size of your coaster - I actually used three 4.5" strips maple left over from another project)
 - Genmitsu CNC 3018-PRO Router ([Amazon](https://www.amazon.com/Genmitsu-3018-PRO-Control-Engraving-300x180x45mm/dp/B07P6K9BL3/)) with a 3mm end mill bit.
 - Free NFC Tools App ([Android](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&gl=US), [iPhone](https://apps.apple.com/us/app/nfc-tools/id1252962749))
@@ -63,7 +63,7 @@ For the top, I wanted to incorporate a Wifi icon into the design, so I found an 
 
 ### 3. Stain and Epoxy
 
-I love walnut, so I applied a walnut stain to the coaster. Then I mixed a pearl white resin with epoxy to fill the wifi logo. After letting it sit overnight, a few final touches to glue the NFC tag on (after testing that it could
+I love walnut, so I applied a walnut stain to the coaster. Then I mixed a pearl white resin with epoxy to fill the wifi logo. After letting it sit overnight, I finally glued the NFC tag in place.
 
 
 
