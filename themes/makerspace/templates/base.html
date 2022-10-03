@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default(value=section.title) }}</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Enable navbar burgers to toggle menu visibility
+            const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+            // Linkify email in browser to reduce spam
+            const $emailLinks = document.querySelectorAll('[data-email]');
+            $emailLinks.forEach(el => {
+                const email = atob(el.dataset.email);
+                el.href = 'mailto:' + email;
+                try {
+                    const emailHtml = atob(el.dataset.emailHtml);
+                    el.innerHTML = emailHtml;
+                } catch {
+                    el.textContent = email;
+                }
+            });
+
+        });
+    </script>
+    {% block head %}{% endblock head %}
+</head>
+
+<body>
+    {% include "partials/header.html" %}
+
+    {% block content %}{% endblock content %}
+
+    {% include "partials/footer.html" %}
+</body>
+
+</html>

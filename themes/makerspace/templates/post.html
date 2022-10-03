@@ -1,0 +1,62 @@
+{% import "macros/posts.html" as posts %}
+
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if page.extra.banner %}
+<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner }}')">
+{% else %}
+<section class="hero is-dark is-bold">
+{% endif %}
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+            <p class="subtitle is-uppercase is-size-6">
+                <span class="">{{ page.date | date(format="%B %e, %Y") }}</span>
+                by
+                {% if page.extra.author_link %} <a href="{{ page.extra.author_link }}">{% endif %}
+                    {{ page.extra.author }}
+                {% if page.extra.author_link %} </a>{% endif %}
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-two-thirds">
+                <div class="block has-text-right">
+                </div>
+                <div class="content">
+                    {{ page.content | safe }}
+                </div>
+                {% if false %}
+                <div class="is-align-content-center">
+                    <figure class="image is-4by3">
+                        <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}" alt="Placeholder image">
+                    </figure>
+                </div>
+                {% endif %}                
+            </div>
+            <div class="column is-one-third">
+                {% set blog = get_section(path="blog/_index.md") %}
+                {%- for post in blog.pages | slice(end=3) %}
+                {% if post.permalink != page.permalink %}
+                <div class="block">
+                    {{ posts::preview(post=post) }}
+                </div>
+                {% endif %}
+                {% endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

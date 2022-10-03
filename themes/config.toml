@@ -1,0 +1,9 @@
+[extra]
+logo = "http://bulma.io/images/bulma-type.png"
+copyright = "My Makerspace"
+
+[extra.social]
+facebook = "https://www.facebook.com/TODO/"
+instagram = "https://www.instagram.com/TODO/"
+location = "12345 Findyour Way"
+# discourse = ""

@@ -14,15 +14,11 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v2
 
-      - name: Install Hugo
-        run: |
-          curl -LSfs https://github.com/gohugoio/hugo/releases/download/v0.92.0/hugo_extended_0.92.0_Linux-64bit.tar.gz | \
-            tar -xvz -C /tmp
-          mv /tmp/hugo ~/hugo
-          echo HUGO_BIN=~/hugo >> $GITHUB_ENV
+      - name: Get Zola
+        run: docker pull ghcr.io/getzola/zola:v0.16.0
 
       - name: Build Site
-        run: ${{ env.HUGO_BIN }}
+        run: docker run -u "$(id -u):$(id -g)" -v $PWD:/app --workdir /app ghcr.io/getzola/zola:v0.16.0 build
 
       - name: Upload built site archive
         uses: actions/upload-artifact@v2

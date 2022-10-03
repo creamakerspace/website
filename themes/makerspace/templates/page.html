@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% if page.extra.banner %}
+<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner }}')">
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+        </div>
+    </div>
+</section>
+{% else %}
+<section class="hero is-dark is-bold">
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                {{ page.title }}
+            </h1>
+        </div>
+    </div>
+</section>
+
+{% endif %}
+
+<div class="section">
+    <!-- MAYBE BANNER IMAGE -->
+    <div class="container content">
+        {{ page.content | safe }}
+    </div>
+</div>
+{% endblock content %}

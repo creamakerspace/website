@@ -1,0 +1,54 @@
+@import 'variables.scss';
+
+// Values to customize Bulma
+$blue: $sapphire;
+$cyan: $sapphire;
+$turquoise: $sapphire;
+$yellow: $goldenrod;
+$orange: $goldenrod;
+$red: $magenta;
+$purple: $magenta;
+$grey: $text-color;
+$grey-dark: $text-dark;
+$grey-light: $text-light;
+$white-ter: $body-bg;
+
+$family-primary: $font-primary;
+$family-secondary: $font-secondary;
+$hr-background-color: lighten($onyx, 50%); 
+
+$pricing-item-background: $light;
+$pricing-plan-border: .1rem solid $light;
+.pricing-table .pricing-plan.is-active {
+    border: .1rem solid $border-color;
+}
+
+.pricing-table .pricing-plan {
+    ul {
+        margin-left: 0px;
+    }
+    li {
+        list-style: none;
+    }
+    li + li {
+        margin-top: 0px;
+    }
+}
+
+$footer-background-color: darken($grey-dark, 10%);
+$footer-color: $white-ter;
+$footer-padding: 3rem 1.5rem 3rem;
+
+@import '../bulma/bulma.sass';
+@import '../bulma-extensions/pricingtable.sass';
+@import '../bulma-extensions/switch.sass';
+
+// @import 'typography.scss';
+
+@import 'common.scss';
+
+@import 'templates/_header.scss';
+
+@import 'templates/_landing.scss';
+
+@import 'templates/_footer.scss';
