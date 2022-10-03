@@ -1,0 +1,67 @@
+{% macro show(header, description, image, link, cta, is_reversed) %}
+    <div class="level columns {% if is_reversed %}is-reversed-mobile{% endif %}">
+        {% if not is_reversed %}
+        <div class="column">
+            <img class="has-right-frame" src="{{ image }}">
+        </div>
+        {% endif %}
+        <div class="column has-text-centered">
+            <div class="">
+                <h4 class="title is-4">{{ header }}</h4>
+                <p class="pb-6">{{ description }}</p>
+            </div>
+            <div>
+                {% if link %}
+                <a href = "{{ link }}" class="cta button is-small is-primary is-rounded">
+                    {{ cta | default(value="Learn more") }}
+                </a>
+                {% else %}
+                <a class="cta button is-small is-primary is-rounded">Coming soon</a>
+                {% endif %}
+            </div>
+        </div>
+        {% if is_reversed %}
+        <div class="column">
+            <img class="has-left-frame" src="{{ image }}">
+        </div>
+        {% endif %}
+    </div>
+{% endmacro show %}
+
+{% macro list(experiences) %}
+    {% for experience in experiences %}
+    <div class="level columns {% if loop.index0 % 2 != 0 %}is-reversed-mobile{% endif %}">
+        {% if loop.index0 % 2 == 0 %}
+        <div class="column">
+            <figure class="image is-3by2">
+                <img class="has-right-frame" src="{{ experience.image }}">
+            </figure>
+        </div>
+        {% endif %}
+        <div class="column has-text-centered">
+            <div class="">
+                <h4 class="title is-4">{{ experience.header }}</h4>
+                <p class="pb-6">{{ experience.description | safe }}</p>
+            </div>
+            <div>
+                {% if experience.link %}
+                <a href="{{ experience.link }}" class="cta button is-small is-primary is-rounded">
+                    {{ experience.cta | default(value="Learn more") }}
+                </a>
+                {% else %}
+                <a href="/comingsoon" class="cta button is-small is-primary is-rounded">Coming soon</a>
+                {% endif %}
+            </div>
+        </div>
+        {% if loop.index0 % 2 != 0 %}
+        <div class="column">
+            <figure class="image is-3by2">
+                <img class="has-left-frame" src="{{ experience.image }}">
+            </figure>
+        </div>
+        {% endif %}
+    </div>
+
+    {% if not loop.last %}<hr />{% endif %}
+    {% endfor %}
+{% endmacro list %}

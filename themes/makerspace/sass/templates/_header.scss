@@ -1,0 +1,52 @@
+@include desktop {
+    .navbar-item img {
+        max-height: 2.75rem;
+    }
+}
+
+
+#connect-nav {
+    background-color: $onyx;
+    margin-bottom: 0px;
+
+    a,
+    a:hover,
+    a:active,
+    a:visited {
+        color: $white;
+    }
+
+    @include desktop {
+        // Sticky header bits
+        position: fixed;
+        top: 0px;
+        z-index: 30;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+.navbar-toggle .icon-bar {
+    background: $color-primary;
+}
+
+.navbar {
+    box-shadow: $shadow;
+
+    @include desktop {
+        // fixed header bits
+        position: fixed;
+        top: 1.5rem;
+        z-index: 30;
+        left: 0;
+        right: 0;
+    }
+}
+
+@include desktop {
+    body {
+        // for sticky header
+        padding-top: 4.5rem;
+    }
+}

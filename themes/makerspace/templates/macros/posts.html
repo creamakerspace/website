@@ -1,0 +1,28 @@
+{% macro preview(post) %}
+<div class="card">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="{{ post.permalink }}"><img src="{{ post.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="{{ post.permalink }}" class="title is-6 has-text-primary">{{ post.title }}</a>
+            </div>
+        </div>
+
+        <div class="content">
+            {% if post.summary -%}
+            {{ post.summary | safe }}
+            {% else %}
+            {{ post.content | striptags | truncate(length=280) | safe }}
+            {%- endif %}
+        </div>
+        <div class="has-text-right">
+            <a href="{{ post.permalink }}" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+{% endmacro preview %}

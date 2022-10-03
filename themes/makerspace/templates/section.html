@@ -1,0 +1,24 @@
+{% import "macros/posts.html" as posts %}
+{% extends "base.html" %}
+{% block content %}
+
+<div class="section">
+    <!-- MAYBE BANNER IMAGE -->
+    <div class="container columns">
+        {% for post in paginator.pages %}
+        <div class="column is-one-third">
+            {{ posts::preview(post=post) }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock content %}
+
+<nav class="pagination">
+    {% if paginator.previous %}
+        <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+    {% endif %}
+    {% if paginator.next %}
+        <a class="next" href="{{ paginator.next }}">Next ›</a>
+    {% endif %}
+</nav>

@@ -1,0 +1,55 @@
+.hero.has-overlay {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+
+    .title,
+    .subtitle {
+        color: $text-dark;
+    }
+
+    .hero-foot {
+        @include desktop {
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0) 50%);
+        }
+
+        @include touch {
+            background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+    }
+}
+
+.announce {
+    background-color: $goldenrod;
+
+    &,
+    p {
+        color: $white;
+        font-weight: bold;
+    }
+}
+
+.has-right-frame {
+    border-right: 16px solid $magenta;
+    border-radius: 8px;
+}
+
+.has-left-frame {
+    border-left: 16px solid $magenta;
+    border-radius: 8px;
+}
+
+.hero-body .card {
+    .card-image {
+        border: 5px solid $goldenrod;
+    }
+
+    border-radius: 0 0 0 25px;
+}
+
+@include desktop {
+    #blog-highlights .card-content .content {
+        height: 65px;
+    }
+}

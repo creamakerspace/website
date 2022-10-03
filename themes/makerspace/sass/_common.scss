@@ -1,0 +1,41 @@
+// Responsive helpers to reverse flex column order
+@include mobile {
+  .columns.is-reversed-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
+// Helper to apply a filter overlay on an image
+.has-filter {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: darken($goldenrod, 45);
+    opacity: 0.8;
+  }
+}
+
+.hero.is-dark {
+  .title {
+    color: $goldenrod;
+  }
+}
+
+.hero .title {
+  text-transform: uppercase;
+}
+
+.button.cta {
+  text-transform: uppercase;
+  font-weight: bold;
+  ;
+}

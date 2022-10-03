@@ -1,0 +1,58 @@
+.footer {
+
+    @include touch {
+        text-align: center;
+
+        .column:not(:last-child) {
+            border-bottom: $white-ter solid 1px;
+        }
+    }
+
+    @include desktop {
+        .column:not(:last-child) {
+            border-right: $white-ter solid 1px;
+        }
+    }
+
+    .title {
+        color: $magenta;
+    }
+
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+        color: $white-ter;
+    }
+
+
+    a.email-link {
+
+        &,
+        &:hover,
+        &:visited,
+        &:active {
+            color: $goldenrod;
+
+            span {
+                color: $grey-light;
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: $onyx;
+
+    &,
+    a,
+    a:hover,
+    a:visited,
+    a:active {
+        color: $white-ter;
+    }
+
+    @include touch {
+        text-align: center;
+    }
+}

@@ -1,0 +1,80 @@
+
+{% extends "base.html" %}
+{% import "macros/experiences.html" as experiences %}
+{% import "macros/posts.html" as posts %}
+
+{% block content %}
+<section class="hero has-overlay is-medium is-bold is-halfheight" id="hero-landing">
+        <div class="hero-head"></div>
+        <div class="hero-body">
+        </div>
+        <div class="hero-foot p-5">
+            <div class="container">
+                <h1 class="title">
+                    {{ section.extra.hero.header }}
+                </h1>
+                <h2 class="subtitle">
+                    {{ section.extra.hero.text }}
+                </h2>
+                <div>
+                    <a href="{{ section.extra.hero.link }}" class="cta button is-primary is-rounded">
+                        <span class="has-text-weight-bold">{{ section.extra.hero.link_text }}</span>
+                        <span class="icon is-small">
+                            <i class="fas fa-angle-right"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% if section.extra.announcement %}
+    <div class="announce p-2">
+        <p class="has-text-centered">
+            {{ section.extra.announcement }}
+        </p>
+    </div>
+    {% endif %}
+    
+    
+    <section class="container section">
+        {{ experiences::list(experiences=section.extra.experiences) }}
+    </section>
+
+    <section class="hero is-dark p-6">
+
+        {% set blog = get_section(path="blog/_index.md") %}
+        <div class="hero-head has-text-centered">
+            <h3 class="title is-3">{{ section.extra.blog_header | default(value=blog.title) }}</h3>
+        </div>
+        <div class="hero-body" id="blog-highlights">
+            <div class="container columns">
+                {%- for post in blog.pages | slice(end=3) %}
+                <div class="column is-one-third">
+                    {{ posts::preview(post=post) }}
+                </div>
+                {% endfor -%}
+            </div>
+        </div>
+        <div class="hero-foot has-text-centered">
+            <a href="{{ config.extra.newsletter_link }}" class="cta button is-warning is-rounded">
+                <span class="has-text-weight-bold">Get the Newsletter</span>
+            </a>
+
+        </div>
+    </section>
+
+    <section class="p-6 has-text-centered">
+        <h3 class="title is-3">Want to learn more?</h3>
+        <div class="content">
+            <p>Sometimes it's best to see things in person.</p>
+            <p>Let us walk you through the space and answer any questions.</p>
+            <p>It's free. We'll keep it short (15-20 min).</p>
+            <p>And we won't pressure you into any purchase.</p>
+        </div>
+        <p>
+            <button class="cta button is-small is-primary is-rounded">Schedule a tour</button>
+        </p>
+    </section>
+
+{% endblock content %}
