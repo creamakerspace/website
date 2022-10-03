@@ -34,5 +34,3 @@ image = "/images/woodwork-3.jpg"
 
 +++
 
-{{ debug }}
-
