@@ -2,7 +2,7 @@
 {% block content %}
 
 {% if page.extra.banner %}
-<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner }}')">
+<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner | safe }}')">
     <div class="hero-body"></div>
     <div class="hero-foot p-5">
         <div class="container">

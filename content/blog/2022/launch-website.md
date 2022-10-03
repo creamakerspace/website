@@ -2,6 +2,7 @@
 title = "Launch Website"
 date = "2022-10-01"
 template = "post.html"
+description = "Crea has a new website to prepare for launch. It's not finished, but here's a sneak peak of what's coming."
 
 [extra]
 author = "Tony Nowell"
@@ -10,12 +11,7 @@ image = "/images/2022/bizcard-back.png"
 
 +++
 
-Crea has a new website to prepare for launch. It's not finished, but here's a sneak peak of what's coming.
-
-<!-- more -->
-
-
-Crea's website has been live since late January, but it was only a placeholder to reference in conversations. Now that we've had months of planning, we're starting to update content on the website to reflect that progress.
+Crea's website has been live since late January, but it was only a placeholder to reference in conversations. Now that we've had months of planning, we're starting to update content on the website to reflect that progress. It's not finished, but here's a sneak peak of what's coming.
 
 The website now has a clear focus on 3 areas:
 

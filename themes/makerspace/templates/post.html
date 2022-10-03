@@ -5,7 +5,7 @@
 {% block content %}
 
 {% if page.extra.banner %}
-<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner }}')">
+<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner | safe }}')">
 {% else %}
 <section class="hero is-dark is-bold">
 {% endif %}
@@ -18,7 +18,7 @@
             <p class="subtitle is-uppercase is-size-6">
                 <span class="">{{ page.date | date(format="%B %e, %Y") }}</span>
                 by
-                {% if page.extra.author_link %} <a href="{{ page.extra.author_link }}">{% endif %}
+                {% if page.extra.author_link %} <a href="{{ page.extra.author_link | safe }}">{% endif %}
                     {{ page.extra.author }}
                 {% if page.extra.author_link %} </a>{% endif %}
             </p>

@@ -2,6 +2,7 @@
 title = "Founder's Story"
 date = "2022-10-04"
 template = "post.html"
+description = "One year ago, I had no thoughts of starting a makerspace. But now I've quit my job as an engineering manager to make it happen."
 
 [extra]
 author = "Tony Nowell"
@@ -10,7 +11,7 @@ banner = "/images/2022/laser-cut-catan.jpg"
 image = "/images/2022/laser-cut-catan.jpg"
 +++
 
-One year ago, I had no thought of starting a makerspace. But now I've quit job as an engineering manager to make it happen. 
+One year ago, I had no thoughts of starting a makerspace. But now I've quit my job as an engineering manager to make it happen. 
 
 <!-- more -->
 

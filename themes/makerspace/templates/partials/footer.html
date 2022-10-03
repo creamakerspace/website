@@ -12,7 +12,7 @@
                 </div>
                 <h5 class="title is-5">Contact Us</h5>
                 <ul>
-                    <li><a href='https://www.google.com/maps/place/{{ config.extra.address | replace(from=" ", to="+") }}''>{{ config.extra.address }}</a></li>
+                    <li><a href='https://www.google.com/maps/place/{{ config.extra.address | replace(from=" ", to="+") | safe }}'>{{ config.extra.address }}</a></li>
                     <li><a href="#" class="email-link"
                         data-email="{{ config.extra.contact_email | base64_encode }}"
                         data-email-html="{{ config.extra.contact_email_html | base64_encode }}"
@@ -22,7 +22,7 @@
             <div class="column is-one-third has-text-centered px-5">
                 <nav>
                     {% for item in config.extra.footer_nav %}
-                    <div class="pb-2 is-size-5"><a href=' {{ item.link | default(value="/comingsoon" ) | safe }}'>{{
+                    <div class="pb-2 is-size-5"><a href='{{ item.link | default(value="/comingsoon") | safe }}'>{{
                             item.text }}</a>
             </div>
             {% endfor %}
@@ -84,21 +84,21 @@
         <div class="level-right">
             {% set social = config.extra.social %}
             {% if social.instagram %}
-            <a class="link" href="{{ social.instagram }}">
+            <a class="link" href="{{ social.instagram | safe }}">
                 <span class="icon">
                     <i class="fa-brands fa-instagram"></i>
                 </span>
             </a>
             {% endif %}
             {% if social.facebook %}
-            <a class="link" href="{{ social.facebook }}">
+            <a class="link" href="{{ social.facebook | safe }}">
                 <span class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                 </span>
             </a>
             {% endif %}
             {% if social.discourse %}
-            <a class="link" href="{{ social.discourse }}">
+            <a class="link" href="{{ social.discourse | safe }}">
                 <span class="icon">
                     <i class="fa-brands fa-discourse"></i>
                 </span>

@@ -17,7 +17,7 @@
                     {{ section.extra.hero.text }}
                 </h2>
                 <div>
-                    <a href="{{ section.extra.hero.link }}" class="cta button is-primary is-rounded">
+                    <a href="{{ section.extra.hero.link | safe }}" class="cta button is-primary is-rounded">
                         <span class="has-text-weight-bold">{{ section.extra.hero.link_text }}</span>
                         <span class="icon is-small">
                             <i class="fas fa-angle-right"></i>
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="hero-foot has-text-centered">
-            <a href="{{ config.extra.newsletter_link }}" class="cta button is-warning is-rounded">
+            <a href="{{ config.extra.newsletter_link | safe }}" class="cta button is-warning is-rounded">
                 <span class="has-text-weight-bold">Get the Newsletter</span>
             </a>
 

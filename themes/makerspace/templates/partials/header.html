@@ -12,28 +12,28 @@
             <p class="level-item has-text-centered">
                 {% set social = config.extra.social %}
                 {% if social.instagram %}
-                <a class="link" href="{{ social.instagram }}">
+                <a class="link" href="{{ social.instagram | safe }}">
                     <span class="icon">
                         <i class="fa-brands fa-instagram"></i>
                     </span>
                 </a>
                 {% endif %}
                 {% if social.facebook %}
-                <a class="link" href="{{ social.facebook }}">
+                <a class="link" href="{{ social.facebook | safe }}">
                     <span class="icon">
                         <i class="fa-brands fa-facebook-f"></i>
                     </span>
                 </a>
                 {% endif %}
                 {% if social.linkedin %}
-                <a class="link" href="{{ social.linkedin }}">
+                <a class="link" href="{{ social.linkedin | safe }}">
                     <span class="icon">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </span>
                 </a>
                 {% endif %}
                 {% if social.discourse %}
-                <a class="link" href="{{ social.discourse }}">
+                <a class="link" href="{{ social.discourse | safe }}">
                     <span class="icon">
                         <i class="fa-brands fa-discourse"></i>
                     </span>
@@ -48,7 +48,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="{{ config.extra.logo }}" alt="Logo">
+                <img src="{{ config.extra.logo | safe }}" alt="Logo">
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                 <span aria-hidden="true"></span>
@@ -59,7 +59,7 @@
         <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
             <div class="navbar-end">
                 {% for item in config.extra.nav | slice(end=3) %}
-                <a href="{{ item.link }}" class="navbar-item">{{ item.text }}</a>
+                <a href="{{ item.link | safe }}" class="navbar-item">{{ item.text }}</a>
                 {% endfor %}
 
                 {% set nav_length = config.extra.nav | length %}
@@ -74,7 +74,7 @@
                       
                     <div class="navbar-dropdown is-right">
                         {% for item in config.extra.nav | slice(start=3) %}
-                          <a href="{{ item.link }}" class="navbar-item">{{ item.text }}</a>
+                          <a href="{{ item.link | safe }}" class="navbar-item">{{ item.text }}</a>
                         {% endfor %}
                     </div>
                 </div>

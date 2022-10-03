@@ -1,7 +1,7 @@
 <div class="columns">
     {% for image in src %}
     <div class="column">
-        <img src="/images/{{ image }}">
+        <img src="/images/{{ image | safe }}">
     </div>
     {% endfor %}
 </div>
