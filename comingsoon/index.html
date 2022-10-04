@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>We&#x27;re still building this</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Enable navbar burgers to toggle menu visibility
+            const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+            // Linkify email in browser to reduce spam
+            const $emailLinks = document.querySelectorAll('[data-email]');
+            $emailLinks.forEach(el => {
+                const email = atob(el.dataset.email);
+                el.href = 'mailto:' + email;
+                try {
+                    const emailHtml = atob(el.dataset.emailHtml);
+                    el.innerHTML = emailHtml;
+                } catch {
+                    el.textContent = email;
+                }
+            });
+
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="level is-dark" id="connect-nav">
+    <div class="container">
+        <div class="level-right">
+            <p class="level-item has-text-centered px-5">
+                <a class="link icon-text">
+                    <span class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <span>Address TBD</span>
+                </a>
+            </p>
+            <p class="level-item has-text-centered">
+                
+                
+                
+                <a class="link" href="https:&#x2F;&#x2F;www.facebook.com&#x2F;CreaMakerspace&#x2F;">
+                    <span class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
+                
+                
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="&#x2F;images&#x2F;logo.png" alt="Logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
+            <div class="navbar-end">
+                
+                <a href="&#x2F;blog" class="navbar-item">Blog</a>
+                
+                <a href="&#x2F;about" class="navbar-item">About</a>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+<section class="hero has-overlay is-bold" style="background-image: url('&#x2F;images&#x2F;woodwork-3.jpg')">
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                We&#x27;re still building this
+            </h1>
+        </div>
+    </div>
+</section>
+
+
+<div class="section">
+    <!-- MAYBE BANNER IMAGE -->
+    <div class="container content">
+        <h3 id=""></h3>
+<p>In true makerspace fasion, this content is still a work in progress.</p>
+<blockquote>
+<p>Can anything be sadder than work left unfinished? Yes, work never begun. <div class="has-text-right">-Christina Rossetti</span></p>
+</blockquote>
+
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third px-5">
+                <div class="block pb-5">
+                    <h5 class="title is-5">Hours of Operation</h5>
+                    <ul>
+                        <li>Mon: Closed</li>
+                        <li>Tues-Fri: 2 PM - 8 PM</li>
+                        <li>Sat-Sun: 12 PM - 8 PM</li>
+                    </ul>
+                </div>
+                <h5 class="title is-5">Contact Us</h5>
+                <ul>
+                    <li><a href='https://www.google.com/maps/place/Address+TBD''>Address TBD</a></li>
+                    <li><a href="#" class="email-link"
+                        data-email="aGlAY3JlYW1ha2Vyc3BhY2UuY29t"
+                        data-email-html="aGlAY3JlYTxzcGFuPm1ha2Vyc3BhY2U8L3NwYW4+LmNvbQ=="
+                    >placeholder@example.com</a></li>
+                </ul>
+            </div>
+            <div class="column is-one-third has-text-centered px-5">
+                <nav>
+                    
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Classes</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Groups</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Membership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Partnership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Events</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Equipment</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Makers</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Policies &amp; Rules</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' /blog'>Blog</a>
+            </div>
+            
+            </nav>
+        </div>
+        <div class="column is-one-third px-5">
+            <h5 class="title is-5">About Us</h5>
+            <p class="block">Crea is a place where you can make your ideas come to life.
+                We provide shared access to a collaborative space and equipment.
+                We also provide equipment training and other classes and events.</p>
+            <h5 class="title is-5 pt-5">Subscribe</h5>
+            <p class="block">For email updates, subscribe to our newsletter:</p>
+            <script>
+
+            </script>
+            <form name="sibform" method="post" target="iframe">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="EMAIL" data-required="true" placeholder="Email">
+                                <input type="text" name="email_address_check" value="" class="is-hidden">
+                                <input type="hidden" name="locale" value="en">
+                                <input type="hidden" name="html_type" value="simple">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-danger" form="sib-form" onclick="submitForm(event)">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <p class="block is-hidden" id="form-submitted">Thanks! We're glad that you want updates!</p>
+            <iframe name="iframe" class="is-hidden"></iframe>
+            <script>
+                function submitForm(event) {
+                    // we set the action in JS to make it slightly harder for bots
+                    document.sibform.action = "https://000a4b3c.sibforms.com/serve/MUIEAFNX5KBJVY5bcgEBDAUJRB4w9Y91GvT4PyYcJI2q9JkjjjsLyd8Q031gGVQdcOaY5lqYM9tbHoAaPugkFAH4DcQHLE8_IN86qR3j3cPv2Cxr1bIED_tu8jy3gJ5wjLfob5KNnfkVj8Gqii8bE3WdK-xGUiEaf1NKaiq7R-PwI6yzEDS9iw_95WxTUYgxzzJMdsGT1xF9KV8b";
+                    document.sibform.submit();
+                    document.sibform.classList.add("is-hidden");
+                    document.getElementById('form-submitted').classList.remove("is-hidden");
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+</footer>
+<div class="layer copyright py-3">
+    <div class="container level">
+        <div class="level-left">
+            
+            &copy; Crea Makerspace 2022
+            
+        </div>
+        <div class="level-right">
+            
+            
+            
+            <a class="link" href="https:&#x2F;&#x2F;www.facebook.com&#x2F;CreaMakerspace&#x2F;">
+                <span class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </span>
+            </a>
+            
+            
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>

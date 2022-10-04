@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Join Crea Community</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Enable navbar burgers to toggle menu visibility
+            const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+            // Linkify email in browser to reduce spam
+            const $emailLinks = document.querySelectorAll('[data-email]');
+            $emailLinks.forEach(el => {
+                const email = atob(el.dataset.email);
+                el.href = 'mailto:' + email;
+                try {
+                    const emailHtml = atob(el.dataset.emailHtml);
+                    el.innerHTML = emailHtml;
+                } catch {
+                    el.textContent = email;
+                }
+            });
+
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="level is-dark" id="connect-nav">
+    <div class="container">
+        <div class="level-right">
+            <p class="level-item has-text-centered px-5">
+                <a class="link icon-text">
+                    <span class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <span>Address TBD</span>
+                </a>
+            </p>
+            <p class="level-item has-text-centered">
+                
+                
+                
+                <a class="link" href="https:&#x2F;&#x2F;www.facebook.com&#x2F;CreaMakerspace&#x2F;">
+                    <span class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
+                
+                
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="&#x2F;images&#x2F;logo.png" alt="Logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
+            <div class="navbar-end">
+                
+                <a href="&#x2F;blog" class="navbar-item">Blog</a>
+                
+                <a href="&#x2F;about" class="navbar-item">About</a>
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+<section class="hero has-overlay is-bold" style="background-image: url('&#x2F;images&#x2F;woodwork-3.jpg')">
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                Join Crea Community
+            </h1>
+        </div>
+    </div>
+</section>
+
+
+<div class="section">
+    <!-- MAYBE BANNER IMAGE -->
+    <div class="container content">
+        <h3 id="open-house-tuesdays">Open House Tuesdays</h3>
+<p><span class="has-text-danger has-text-weight-bold">Every Tuesday, from 6pm to 9pm</span>, Crea is open to the public for free (no membership or day pass required).</p>
+<p>If you've never visited Crea before, we recommend visiting on Open House night.</p>
+<article class="message is-dark">
+    <div class="message-header">What to expect</div>
+    <div class="message-body">
+        <p>When you arrive, ask for Tony (usually near the front reception). We'll give you a brief tour, an overview of the makerspace rules, and answer any questions you have. After the tour, if you want to hang around and get to know our maker community or work on your own project in the space, we'll simply ask you to sign our liability waiver (as required by our insurance policy).</p>
+    <p>While accessing the space during open house is free, some equipment still has a machine time cost (except for members with unlimited machine time) or a cost for staff to operate the equipment on your behalf. That said, we encourage you to disuss your project with members - you *might* even find a member who is willing to help out.</p>
+    </div>
+</article><h3 id="membership-plans">Membership Plans</h3>
+<p>If you want to be a regular part of our maker community, decide which membership is right for you.</p>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const annualToggle = document.getElementById('annualToggle');
+    // browser refresh can leave toggle in previous state, requiring refresh
+    annualToggle.checked = true;
+    annualToggle.addEventListener('change', function() {
+        const $priceEls = document.querySelectorAll('.plan-price');
+        // console.log(el);
+        $priceEls.forEach(el => {
+            if(annualToggle.checked) {
+                el.classList.remove('is-monthly');
+            } else {
+                el.classList.add('is-monthly');
+            }
+        });
+    });
+});
+</script>
+<div class="field has-text-centered p-5">
+  <input id="annualToggle" type="checkbox" name="annualToggle" class="switch is-rtl" checked="checked">
+  <label for="annualToggle">Show prices when paid annually</label>
+</div>
+<div class="pricing-table pb-5">
+    <div class="pricing-plan">
+        <div class="plan-header is-uppercase">Starter</div>   
+        <div class="plan-price">
+            <span class="plan-price-amount">
+                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">65</span></span>/month
+            <div class="annual">($660/year)</div>
+        </div>
+        <p class="px-2 has-text-centered is-italic">Perfect for casual tinkering</p>
+        <div class="plan-items">
+            <div class="plan-item">Access to space during open hours</div>
+            <div class="plan-item">No access to woodshop</div>
+            <div class="plan-item">10% discount on classes</div>
+            <div class="plan-item">Use of tools and equipment
+                <ul>
+                    <li>3D printer</li>
+                    <li>Laser cutter/engraver</li>
+                    <li>Digital electronics</li>
+                    <li>and more...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="plan-footer">
+            <button class="button is-fullwidth is-uppercase">Choose Starter</button>
+        </div>
+    </div>
+    <div class="pricing-plan is-primary is-active">
+        <div class="plan-header is-uppercase">Maker</div>   
+        <div class="plan-price">
+            <span class="plan-price-amount">
+                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">115</span></span>/month
+            <div class="annual">($1,200/year)</div>
+        </div>
+        <p class="px-2 has-text-centered is-italic">Perfect for hobbyists and DIYers</p>
+        <div class="plan-items">
+            <div class="plan-item">Access to space during open hours</div>
+            <div class="plan-item has-text-primary has-text-weight-bold">Access to woodshop</div>
+            <div class="plan-item">20% discount on classes</div>
+            <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
+            <div class="plan-item">50% off day pass for 1 guest per day</div>
+            <div class="plan-item">10% discount on membership for family</div>
+            <div class="plan-item">Use of tools and equipment
+                <ul>
+                    <li>3D printer</li>
+                    <li>Laser cutter/engraver</li>
+                    <li>Digital electronics</li>
+                    <li>CNC wood mill</li>
+                    <li>Table saw, bandsaw, etc...</li>
+                    <li>Planar</li>
+                    <li>and more...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="plan-footer">
+            <button class="button is-fullwidth is-uppercase">Choose Maker</button>
+        </div>
+    </div>
+    <div class="pricing-plan">
+        <div class="plan-header is-uppercase">Pro</div>   
+        <div class="plan-price">
+            <span class="plan-price-amount">
+                <span class="plan-price-currency">$</span><span class="annual">225</span><span class="monthly">250</span></span>/month
+            <div class="annual">($2,700/year)</div>
+        </div>
+        <p class="px-2 has-text-centered is-italic">Perfect for inventors and entrepreneurs</p>
+        <div class="plan-items">
+            <div class="plan-item has-text-primary has-text-weight-bold">Access to space 24/7</div>
+            <div class="plan-item has-text-primary has-text-weight-bold">Access to woodshop</div>
+            <div class="plan-item">20% discount on classes</div>
+            <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
+            <div class="plan-item">1 free guest per day during open hours</div>
+            <div class="plan-item">20% discount on membership for family</div>
+            <div class="plan-item">Promote your business on Crea's website</div>
+            <div class="plan-item">Dedicated storage</div>
+            <div class="plan-item">Use of tools and equipment
+                <ul>
+                    <li>3D printer</li>
+                    <li>Laser cutter/engraver</li>
+                    <li>Digital electronics</li>
+                    <li>CNC wood mill</li>
+                    <li>Table saw, bandsaw, etc...</li>
+                    <li>Planar</li>
+                    <li>and more...</li>
+                </ul>
+            </div>
+        </div>
+        <div class="plan-footer">
+            <button class="button is-fullwidth is-uppercase">Choose Pro</button>
+        </div>
+    </div>    
+</div>
+<div class="is-size-7 pt-5">
+<p>Disclaimers:</p>
+<ul>
+<li>Some equipment requires completion of training class.</li>
+<li>Some equipment has a fee based on machine time usage except for members on plans with unlimited machine time. </li>
+<li>Unlimited usage is still subject to reasonable usage and sharing of the equipment.</li>
+<li>24/7 access for Pro members requires a background check.</li>
+<li>Family discounts limited to single billing account.</li>
+<li>All plans default to automatic renewal, but you can cancel or change your plan at any time.</li>
+</ul>
+</div>
+<h3 id="day-pass">Day Pass</h3>
+<p>For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.</p>
+<p>Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a machine time usage cost.</p>
+<h3 id="sponsorships">Sponsorships</h3>
+<p>If you're interested in making an investment in the maker community near Renton, our first suggestion is to simply sponsor a membership for someone you know. Beyond that, we also make it possible to purchase a sponsorship in 3 or 12 month bundles:</p>
+<p>Sponsor a &quot;Maker&quot; membership:</p>
+<p><button class="button is-primary is-outlined">3 months: $345</button>
+<button class="button is-primary is-outlined">1 year: $1,200</button></p>
+<p>We'll announce any sponsorship availability at events (e.g. Open House Tuesdays) and in our subsequent newsletter (sign up <a href="https:&#x2F;&#x2F;000a4b3c.sibforms.com&#x2F;serve&#x2F;MUIEACsqgUfzNUnjRwJxuXpeFa3tgRjoySDVAZ2Va8qywAkO8O95A5DNq4ABmRQdA35MONBjUMQcI2HYqi_WlUfF75SImq68Y_fqTmfLSmkvzbqdRA-H97mmU4iQ5C86Drh-VtOvvINZn4b1qtMg7iFjpISoJ0lEzgwTezyuQcm7o6jl0dOEFP6ilAo3C2immGAU9Nnt7DCgl4dC">here</a>. Applicants will be selected based on need and intended use.</p>
+
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third px-5">
+                <div class="block pb-5">
+                    <h5 class="title is-5">Hours of Operation</h5>
+                    <ul>
+                        <li>Mon: Closed</li>
+                        <li>Tues-Fri: 2 PM - 8 PM</li>
+                        <li>Sat-Sun: 12 PM - 8 PM</li>
+                    </ul>
+                </div>
+                <h5 class="title is-5">Contact Us</h5>
+                <ul>
+                    <li><a href='https://www.google.com/maps/place/Address+TBD''>Address TBD</a></li>
+                    <li><a href="#" class="email-link"
+                        data-email="aGlAY3JlYW1ha2Vyc3BhY2UuY29t"
+                        data-email-html="aGlAY3JlYTxzcGFuPm1ha2Vyc3BhY2U8L3NwYW4+LmNvbQ=="
+                    >placeholder@example.com</a></li>
+                </ul>
+            </div>
+            <div class="column is-one-third has-text-centered px-5">
+                <nav>
+                    
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Classes</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Groups</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Membership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Partnership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Events</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Equipment</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Makers</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' &#x2F;comingsoon'>Policies &amp; Rules</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href=' /blog'>Blog</a>
+            </div>
+            
+            </nav>
+        </div>
+        <div class="column is-one-third px-5">
+            <h5 class="title is-5">About Us</h5>
+            <p class="block">Crea is a place where you can make your ideas come to life.
+                We provide shared access to a collaborative space and equipment.
+                We also provide equipment training and other classes and events.</p>
+            <h5 class="title is-5 pt-5">Subscribe</h5>
+            <p class="block">For email updates, subscribe to our newsletter:</p>
+            <script>
+
+            </script>
+            <form name="sibform" method="post" target="iframe">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="EMAIL" data-required="true" placeholder="Email">
+                                <input type="text" name="email_address_check" value="" class="is-hidden">
+                                <input type="hidden" name="locale" value="en">
+                                <input type="hidden" name="html_type" value="simple">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-danger" form="sib-form" onclick="submitForm(event)">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <p class="block is-hidden" id="form-submitted">Thanks! We're glad that you want updates!</p>
+            <iframe name="iframe" class="is-hidden"></iframe>
+            <script>
+                function submitForm(event) {
+                    // we set the action in JS to make it slightly harder for bots
+                    document.sibform.action = "https://000a4b3c.sibforms.com/serve/MUIEAFNX5KBJVY5bcgEBDAUJRB4w9Y91GvT4PyYcJI2q9JkjjjsLyd8Q031gGVQdcOaY5lqYM9tbHoAaPugkFAH4DcQHLE8_IN86qR3j3cPv2Cxr1bIED_tu8jy3gJ5wjLfob5KNnfkVj8Gqii8bE3WdK-xGUiEaf1NKaiq7R-PwI6yzEDS9iw_95WxTUYgxzzJMdsGT1xF9KV8b";
+                    document.sibform.submit();
+                    document.sibform.classList.add("is-hidden");
+                    document.getElementById('form-submitted').classList.remove("is-hidden");
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+</footer>
+<div class="layer copyright py-3">
+    <div class="container level">
+        <div class="level-left">
+            
+            &copy; Crea Makerspace 2022
+            
+        </div>
+        <div class="level-right">
+            
+            
+            
+            <a class="link" href="https:&#x2F;&#x2F;www.facebook.com&#x2F;CreaMakerspace&#x2F;">
+                <span class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </span>
+            </a>
+            
+            
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
