@@ -1,12 +1,12 @@
 +++
 title = "Crea Makerspace"
-description = ""
 template = "index.html"
 
 [extra]
 announcement = "We're actively working on finding a space to lease."
 blog_header = "What's happening at Crea?"
 banner = "images/woodwork-3.jpg"
+image = "images/logo-share.png"
 
 [extra.hero]
 header = "Coming soon"

@@ -18,6 +18,7 @@ highlight_code = true
 
 [extra]
 logo = "/images/logo.png"
+social_image = "/images/logo-share.png"
 copyright = "Crea Makerspace"
 newsletter_link = "https://000a4b3c.sibforms.com/serve/MUIEACsqgUfzNUnjRwJxuXpeFa3tgRjoySDVAZ2Va8qywAkO8O95A5DNq4ABmRQdA35MONBjUMQcI2HYqi_WlUfF75SImq68Y_fqTmfLSmkvzbqdRA-H97mmU4iQ5C86Drh-VtOvvINZn4b1qtMg7iFjpISoJ0lEzgwTezyuQcm7o6jl0dOEFP6ilAo3C2immGAU9Nnt7DCgl4dC"
 contact_email = "hi@creamakerspace.com"
