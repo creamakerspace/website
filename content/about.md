@@ -9,7 +9,7 @@ banner = "/images/woodwork-3.jpg"
 **cre&middot;a** [KRAY-uh]
 
 1. verb: **create** or make [Spanish, Italian, Catalan. Latin: creā]
-2. annagram for **care**
+2. anagram for **care**
 3. **Renton makerspace where you can make your ideas come to life.**
 
 ---
