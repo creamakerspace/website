@@ -19,7 +19,7 @@ I have over a decade of experience building software and leading engineering tea
 
 My first makerspace experience was at Metrix Create:Space in Capitol Hill (now closed) back in 2015 as part of a company team building event. It was a fantastic experience, and I walked away with laser cut pieces to replace the cardboard pieces from my Settlers of Catan game. 
 
-![/images/2022/laser-cut-catan.jpg](/images/2022/laser-cut-catan.jpg)
+[![Laser Cut Catan Board](/images/2022/laser-cut-catan.jpg)](/images/2022/laser-cut-catan.jpg)
 
 In more recent years, I rekindled the long-neglected start to my career in devices (embedded systems), and returned to tinkering with electronics (e.g. Arduino). Around the same time, I started to appreciate a family trade as I began tinkering in woodworking, and before long I was gifted a small CNC router. 
 
