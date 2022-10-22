@@ -22,6 +22,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -52,6 +53,14 @@
                 }
             });
 
+            var $qrcodeEl = document.getElementById("qrcode");
+            if($qrcodeEl) {
+                var qrc = new QRCode($qrcodeEl, {
+                    text: "https://creamakerspace.com/classes/",
+                    width: 135,
+                    height: 135
+                });
+            }
         });
     </script>
     
@@ -101,12 +110,33 @@
         <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
             <div class="navbar-end">
                 
-                <a href="/blog" class="navbar-item">Blog</a>
+                <a href="/classes" class="navbar-item">Take a Class</a>
                 
-                <a href="/about" class="navbar-item">About</a>
+                <a href="/comingsoon" class="navbar-item">Bring a Group</a>
+                
+                <a href="/comingsoon" class="navbar-item">Join our Community</a>
                 
 
                 
+                
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link is-arrowless is-hidden-touch">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a class="navbar-link is-hidden-desktop">
+                        More
+                    </a>
+                      
+                    <div class="navbar-dropdown is-right">
+                        
+                          <a href="/equipment" class="navbar-item">Equipment</a>
+                        
+                          <a href="/blog" class="navbar-item">Blog</a>
+                        
+                          <a href="/about" class="navbar-item">About</a>
+                        
+                    </div>
+                </div>
                 
             </div>
         </div>
@@ -116,13 +146,17 @@
     
 
 
+
+
 <section class="hero has-overlay is-bold" style="background-image: url('/images/woodwork-3.jpg')">
+
     <div class="hero-body"></div>
     <div class="hero-foot p-5">
         <div class="container">
             <h1 class="title">
                 Take a Class
             </h1>
+            
         </div>
     </div>
 </section>
@@ -132,22 +166,26 @@
     <!-- MAYBE BANNER IMAGE -->
     <div class="container content">
         <p>Classes are available to anybody with or without a membership.</p>
-<p>TODO: add a calendar</p>
-<h3 id="class-offerrings">Class Offerrings</h3>
+<article class='message is-warning'>
+    <div class="message-header">Work in progress</div>
+    <div class="message-body">
+        <p>We're still preparing content for the classes below, and we have several additional class ideas in the making.</p>
+    </div>
+</article><h3 id="class-offerrings">Class Offerrings</h3>
 
     
     <div class="level columns ">
         
         <div class="column">
             <figure class="image">
-                <img class="has-right-frame" src="/images/woodwork-3.jpg">
+                <img class="has-right-frame" src="/images/classes/robot-art.webp">
             </figure>
         </div>
         
         <div class="column has-text-centered">
             <div class="">
-                <h4 class="title is-4">Table Saw</h4>
-                <p class="pb-6">Learn how to safely operate the table saw.<br><br><b class='has-text-danger'>This class is required to use the table saw.</b></p>
+                <h4 class="title is-4">Art and Robots</h4>
+                <p class="pb-6">Whether the thought of building a robot sounds intimidating or exciting, this class is for you. This is a light-hearted, artistic introduction to robots, digital circuits, and code suitable for all ages. You'll design a simple craft robot, and we'll walk through the process of incorporating a micro:bit to bring it to life.<br><br><b class='has-text-info'>This class does not require any prior knowledge about coding or digital electronics</b>.</p>
             </div>
             <div>
                 
@@ -176,7 +214,7 @@
         
         <div class="column">
             <figure class="image">
-                <img class="has-left-frame" src="/images/woodwork-3.jpg">
+                <img class="has-left-frame" src="/images/classes/laser-state.jpg">
             </figure>
         </div>
         
@@ -188,7 +226,7 @@
         
         <div class="column">
             <figure class="image">
-                <img class="has-right-frame" src="/images/woodwork-3.jpg">
+                <img class="has-right-frame" src="/images/classes/cnc-routing.webp">
             </figure>
         </div>
         
@@ -212,8 +250,8 @@
         
         <div class="column has-text-centered">
             <div class="">
-                <h4 class="title is-4">Woodworking 101</h4>
-                <p class="pb-6">This class will provide you with an introduction to many of the tools in the woodshop. We'll compare and contrast the various saws in the shop. We'll discuss sanding, routing, planing, and jointing. We'll briefly introduce a variety of joining techniques. And of course, we'll do this all hands-on in the shop.<br><br><b class='has-text-info'>This class does not require any prior experience with woodworking.</b></p>
+                <h4 class="title is-4">Table Saw</h4>
+                <p class="pb-6">Learn how to safely operate the table saw.<br><br><b class='has-text-danger'>This class is required to use the table saw.</b></p>
             </div>
             <div>
                 
@@ -224,7 +262,7 @@
         
         <div class="column">
             <figure class="image">
-                <img class="has-left-frame" src="/images/woodwork-3.jpg">
+                <img class="has-left-frame" src="/images/classes/sawstop.webp">
             </figure>
         </div>
         
@@ -242,8 +280,8 @@
         
         <div class="column has-text-centered">
             <div class="">
-                <h4 class="title is-4">Art and Robots</h4>
-                <p class="pb-6">Whether the thought of building a robot sounds intimidating or exciting, this class is for you. This is a light-hearted, artistic introduction to robots, digital circuits, and code suitable for all ages. You'll design a simple craft robot, and we'll walk through the process of incorporating a micro:bit to bring it to life.<br><br><b class='has-text-info'>This class does not require any prior knowledge about coding or digital electronics</b>.</p>
+                <h4 class="title is-4">Woodworking 101</h4>
+                <p class="pb-6">This class will provide you with an introduction to many of the tools in the woodshop. We'll compare and contrast the various saws in the shop, and we'll discuss sanding, routing, and planing. We'll briefly introduce a variety of joining techniques. And of course, we'll do this all hands-on in the shop.<br><br><b class='has-text-info'>This class does not require any prior experience with woodworking.</b></p>
             </div>
             <div>
                 
@@ -257,13 +295,7 @@
     
     
 
-<article class="message is-dark">
-    <div class="message-header">What to expect</div>
-    <div class="message-body">
-        <p>If this is your first time...</p>
-<p>TODO2</p>
-    </div>
-</article>
+
     </div>
 </div>
 
@@ -292,7 +324,7 @@
             <div class="column is-one-third has-text-centered px-5">
                 <nav>
                     
-                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Classes</a>
+                    <div class="pb-2 is-size-5"><a href='/classes'>Classes</a>
             </div>
             
                     <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Groups</a>
@@ -307,7 +339,7 @@
                     <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Events</a>
             </div>
             
-                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Equipment</a>
+                    <div class="pb-2 is-size-5"><a href='/equipment'>Equipment</a>
             </div>
             
                     <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Makers</a>

@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crea Equipment | Crea Makerspace</title>
+    <meta property="og:title" content="Crea Equipment" />
+    <link rel="canonical" href="https://creamakerspace.com/equipment/" />
+    <meta property="og:url" content="https://creamakerspace.com/equipment/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://creamakerspace.com/images/logo-share.png" />
+    <meta property="og:description" content="Renton makerspace providing classes, events, and shared access to a collaborative space and equipment." />
+    <meta property="og:site_name" content="Crea Makerspace" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Enable navbar burgers to toggle menu visibility
+            const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+            // Linkify email in browser to reduce spam
+            const $emailLinks = document.querySelectorAll('[data-email]');
+            $emailLinks.forEach(el => {
+                const email = atob(el.dataset.email);
+                el.href = 'mailto:' + email;
+                try {
+                    const emailHtml = atob(el.dataset.emailHtml);
+                    el.innerHTML = emailHtml;
+                } catch {
+                    el.textContent = email;
+                }
+            });
+
+            var $qrcodeEl = document.getElementById("qrcode");
+            if($qrcodeEl) {
+                var qrc = new QRCode($qrcodeEl, {
+                    text: "https://creamakerspace.com/equipment/",
+                    width: 135,
+                    height: 135
+                });
+            }
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="level is-dark" id="connect-nav">
+    <div class="container">
+        <div class="level-right">
+            <p class="level-item has-text-centered px-5">
+                <a class="link icon-text">
+                    <span class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <span>Address TBD</span>
+                </a>
+            </p>
+            <p class="level-item has-text-centered">
+                
+                
+                
+                <a class="link" href="https://www.facebook.com/CreaMakerspace/">
+                    <span class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
+                
+                
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/images/logo.png" alt="Logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
+            <div class="navbar-end">
+                
+                <a href="/classes" class="navbar-item">Take a Class</a>
+                
+                <a href="/comingsoon" class="navbar-item">Bring a Group</a>
+                
+                <a href="/comingsoon" class="navbar-item">Join our Community</a>
+                
+
+                
+                
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link is-arrowless is-hidden-touch">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a class="navbar-link is-hidden-desktop">
+                        More
+                    </a>
+                      
+                    <div class="navbar-dropdown is-right">
+                        
+                          <a href="/equipment" class="navbar-item">Equipment</a>
+                        
+                          <a href="/blog" class="navbar-item">Blog</a>
+                        
+                          <a href="/about" class="navbar-item">About</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+
+
+<section class="hero is-dark is-bold">
+
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                Crea Equipment
+            </h1>
+            
+        </div>
+    </div>
+</section>
+
+
+<div class="section">
+    <div class="container columns">
+        
+        
+        
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/shapeoko-pro.webp">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">Shapeoko Pro XXL CNC Router</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">CNC Router for cutting and engraving wood, most plastics, and some metals.</p>
+
+            <dl>
+                
+                <dt>Cutting area</dt>
+                <dl>33&quot; x 33&quot; x 4&quot;</dl>
+                
+                <dt>Max resolution</dt>
+                <dl>5760 x 1440 dpi</dl>
+                
+                <dt>Max paper size</dt>
+                <dl>8.5&quot; x 47.2&quot;</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>All types of wood, most plastics (ABS, Acrylic, Polycarbonate, Delrin, HDPE, PEEK, PVC), and some alloys of aluminum, brass, and copper</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/omtech-laser.jpg">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">OMTech 80W Laser Cutter</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">Laser cutter and engraver for wood, plastics, leather, fabric, and stone.</p>
+
+            <dl>
+                
+                <dt>Cutting area</dt>
+                <dl>20&quot; x 28&quot;</dl>
+                
+                <dt>Max cutting depth</dt>
+                <dl>0.39&quot; (plywood or acrylic)</dl>
+                
+                <dt>Max power</dt>
+                <dl>80W</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>Wood, paper, plastics, leather, fabric, stone, and some other nonmetallic materials</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/sawstop-contractor.jpg">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">SawStop Contractor Saw</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">Table saw that reduces risk of injury by stopping the blade in less than 5 milliseconds if it makes contact with skin.</p>
+
+            <dl>
+                
+                <dt>Blade size</dt>
+                <dl>10&quot;</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>Depends on blade - generally wood products</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+    </div>
+    <div class="container columns">
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" >
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+            <a href="https://creamakerspace.com/equipment/prusa-mini/">
+                <img src="/images/equipment/prusa-mini.webp">
+            </a>
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <a href="https://creamakerspace.com/equipment/prusa-mini/" class="title is-6 has-text-primary">Prusa MINI+ 3D Printer</a>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">3D printer for printing plastic objects.</p>
+
+            <dl>
+                
+                <dt>Build volume</dt>
+                <dl>180x180x180mm (7x7x7 in)</dl>
+                
+                <dt>Nozzle</dt>
+                <dl>0.4mm</dl>
+                
+                <dt>Layer height</dt>
+                <dl>0.05-0.25mm</dl>
+                
+                <dt>Filament diameter</dt>
+                <dl>1.75mm</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>PLA, PETG, ASA, ABS, PC (Polycarbonate), CPE, PVA&#x2F;BVOH, PVB, HIPS, PP (Polypropylene), Flex, nGen, Nylon, Woodfill</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <a href="https://creamakerspace.com/equipment/prusa-mini/" class="has-text-weight-bold has-text-primary">Read SOP</a>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/epson-et-2803.jpg">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">Epson Sublimation Printer</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">Printer for dye sublimation that can be heat transferred to other items such as clothing or glassware.</p>
+
+            <dl>
+                
+                <dt>Ink</dt>
+                <dl>Hiippo Sublimation Ink</dl>
+                
+                <dt>Max resolution</dt>
+                <dl>5760 x 1440 dpi</dl>
+                
+                <dt>Max paper size</dt>
+                <dl>8.5&quot; x 47.2&quot;</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>Sublimation paper only</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/heat-press.jpg">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">Heat Press</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">Heat press for dye sublimation transfer or vynyl transfer.</p>
+
+            <dl>
+                
+                <dt>Max transfer size</dt>
+                <dl>15&quot; x 12&quot;</dl>
+                
+                <dt>Max temperature</dt>
+                <dl>430°F (250°C)</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>Textiles (e.g. shirts, hats), ceramics, and glasses.</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+    </div>
+    <div class="container columns">
+    
+        
+        <div class="column is-one-third">  
+                  
+            
+<div class="card" style="opacity: 0.5;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            
+                <img src="/images/equipment/pinecil.webp">
+            
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">Pinecil Solder Iron</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">Solder iron with temperature control, sleep mode, motion detection, and that can be powered by USB-C PD.</p>
+
+            <dl>
+                
+                <dt>Max temperature</dt>
+                <dl>450°C (842°F)</dl>
+                
+                <dt>Charging power</dt>
+                <dl>USB-C PD65W (20V, 3A)</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    
+        
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third px-5">
+                <div class="block pb-5">
+                    <h5 class="title is-5">Hours of Operation</h5>
+                    <ul>
+                        <li>Mon: Closed</li>
+                        <li>Tues-Fri: 2 PM - 8 PM</li>
+                        <li>Sat-Sun: 12 PM - 8 PM</li>
+                    </ul>
+                </div>
+                <h5 class="title is-5">Contact Us</h5>
+                <ul>
+                    <li><a href='https://www.google.com/maps/place/Address+TBD'>Address TBD</a></li>
+                    <li><a href="#" class="email-link"
+                        data-email="aGlAY3JlYW1ha2Vyc3BhY2UuY29t"
+                        data-email-html="aGlAY3JlYTxzcGFuPm1ha2Vyc3BhY2U8L3NwYW4+LmNvbQ=="
+                    >placeholder@example.com</a></li>
+                </ul>
+            </div>
+            <div class="column is-one-third has-text-centered px-5">
+                <nav>
+                    
+                    <div class="pb-2 is-size-5"><a href='/classes'>Classes</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Groups</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Membership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Partnership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Events</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/equipment'>Equipment</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Makers</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Policies &amp; Rules</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/blog'>Blog</a>
+            </div>
+            
+            </nav>
+        </div>
+        <div class="column is-one-third px-5">
+            <h5 class="title is-5">About Us</h5>
+            <p class="block">Crea is a place where you can make your ideas come to life.
+                We provide shared access to a collaborative space and equipment.
+                We also provide equipment training and other classes and events.</p>
+            <h5 class="title is-5 pt-5">Subscribe</h5>
+            <p class="block">For email updates, subscribe to our newsletter:</p>
+            <script>
+
+            </script>
+            <form name="sibform" method="post" target="iframe">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="EMAIL" data-required="true" placeholder="Email">
+                                <input type="text" name="email_address_check" value="" class="is-hidden">
+                                <input type="hidden" name="locale" value="en">
+                                <input type="hidden" name="html_type" value="simple">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-danger" form="sib-form" onclick="submitForm(event)">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <p class="block is-hidden" id="form-submitted">Thanks! We're glad that you want updates!</p>
+            <iframe name="iframe" class="is-hidden"></iframe>
+            <script>
+                function submitForm(event) {
+                    // we set the action in JS to make it slightly harder for bots
+                    document.sibform.action = "https://000a4b3c.sibforms.com/serve/MUIEAFNX5KBJVY5bcgEBDAUJRB4w9Y91GvT4PyYcJI2q9JkjjjsLyd8Q031gGVQdcOaY5lqYM9tbHoAaPugkFAH4DcQHLE8_IN86qR3j3cPv2Cxr1bIED_tu8jy3gJ5wjLfob5KNnfkVj8Gqii8bE3WdK-xGUiEaf1NKaiq7R-PwI6yzEDS9iw_95WxTUYgxzzJMdsGT1xF9KV8b";
+                    document.sibform.submit();
+                    document.sibform.classList.add("is-hidden");
+                    document.getElementById('form-submitted').classList.remove("is-hidden");
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+</footer>
+<div class="layer copyright py-3">
+    <div class="container level">
+        <div class="level-left">
+            
+            &copy; Crea Makerspace 2022
+            
+        </div>
+        <div class="level-right">
+            
+            
+            
+            <a class="link" href="https://www.facebook.com/CreaMakerspace/">
+                <span class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </span>
+            </a>
+            
+            
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
