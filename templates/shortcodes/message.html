@@ -1,4 +1,4 @@
-<article class="message is-dark">
+<article class='message {{ class | default(value="is-dark") }}'>
     <div class="message-header">{{ header }}</div>
     <div class="message-body">
         {{ body | safe }}

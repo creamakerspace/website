@@ -1,0 +1,29 @@
+{% macro banner(img, format=false) %}
+{% if page.extra.banner %}
+<section class="hero has-overlay is-bold" style="background-image: url('{{ img | safe }}')">
+{% else %}
+<section class="hero is-dark is-bold">
+{% endif %}
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                {{ page.title | default(value=section.title) }}
+            </h1>
+            {% if format == 'post' %}
+            <p class="subtitle is-uppercase is-size-6">
+                <span class="">{{ page.date | date(format="%B %e, %Y") }}</span>
+                by
+                {% if page.extra.author_link %} <a href="{{ page.extra.author_link | safe }}">{% endif %}
+                    {{ page.extra.author }}
+                {% if page.extra.author_link %} </a>{% endif %}
+            </p>
+            {% elif format == 'last_updated' %}
+            <p class="subtitle is-uppercase is-size-6">
+                Last updated: <span class="">{{ page.updated | date(format="%B %e, %Y") }}</span>
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endmacro banner %}

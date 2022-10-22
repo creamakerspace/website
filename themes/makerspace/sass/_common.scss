@@ -6,6 +6,13 @@
   }
 }
 
+@media print {
+  .columns.is-reversed-print {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
+
 // Helper to apply a filter overlay on an image
 .has-filter {
   position: relative;
@@ -38,4 +45,83 @@
   text-transform: uppercase;
   font-weight: bold;
   ;
+}
+
+
+dt {
+  float: left;
+  clear: left;
+  margin-right: 10px;
+  font-weight: bold;
+  color: $magenta;
+}
+
+dt::after {
+  content: ":";
+}
+
+// Fix hashtag linking
+@include desktop {
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    &:before {
+      display: block;
+      content: " ";
+      margin-top: -116px; // 24 top nav, 72 main nav, 20 padding
+      height: 116px;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .section {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .column.full-width-print {
+    width: 100%;
+
+    img {
+      max-width: 67%;
+    }
+  }
+
+  .hero-foot {
+    padding: 0px !important;
+  }
+}
+
+@media screen {
+  #qrcode {
+    display: none;
+  }
+}
+
+@media print {
+  #qrcode {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+
+@include desktop {
+  @media screen {
+    .toc {
+      position: sticky;
+      top: 110px;
+    }
+  }
 }

@@ -1,19 +1,37 @@
-{% import "macros/posts.html" as posts %}
+{% import "macros/section.html" as section %}
+{% import "macros/macros.html" as macros %}
 {% extends "base.html" %}
 {% block content %}
 
+{% set banner = section.extra.banner | default(value=false) %}
+{{ macros::banner(img=banner) }}
+
 <div class="section">
-    <!-- MAYBE BANNER IMAGE -->
     <div class="container columns">
-        {% for post in paginator.pages %}
-        <div class="column is-one-third">
-            {{ posts::preview(post=post) }}
+        {% if paginator %}
+        {% set pages  = paginator.pages %}
+        {% else %}
+        {% set pages  = section.pages %}
+        {% endif %}
+        {% for page in pages %}
+        <div class="column is-one-third">  
+            {% if section.path is starting_with("/equipment") %}      
+            {{ section::equipment(page=page) }}
+            {% else %}    
+            {{ section::page(page=page) }}
+            {% endif %}
         </div>
+    {% if loop.index % 3 == 0 %}
+    </div>
+    <div class="container columns">
+    {% endif %}
         {% endfor %}
     </div>
 </div>
 {% endblock content %}
 
+
+{% if paginator %}
 <nav class="pagination">
     {% if paginator.previous %}
         <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
@@ -22,3 +40,4 @@
         <a class="next" href="{{ paginator.next }}">Next ›</a>
     {% endif %}
 </nav>
+{% endif %}

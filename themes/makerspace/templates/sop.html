@@ -1,0 +1,54 @@
+{% import "macros/macros.html" as macros %}
+{% extends "base.html" %}
+{% block content %}
+
+<div id="qrcode"></div>
+
+{% set banner = page.extra.banner | default(value=false) %}
+{{ macros::banner(img=banner, format='last_updated') }}
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-reversed-mobile is-reversed-print">
+                <div class="column is-two-thirds full-width-print">
+                    <div class="content">
+                        {{ page.content | safe }}
+                    </div>
+                </div>
+                <div class="column is-one-third full-width-print">
+                    {% if page.extra.specs %}
+                    <h3 class="title is-4">Specs</h3>
+                    <dl>
+                        {% for spec, value  in page.extra.specs %}
+                        <dt>{{ spec }}</dt>
+                        <dl>{{ value }}</dl>
+                        {% endfor %}
+                    </dl>
+                        {% endif %}
+                    {% if page.toc %}
+                    <hr>
+                    <ul class="toc pt-3 no-print">
+                        {% for h1 in page.toc %}
+                        <li>
+                            <a href="{{ h1.permalink | safe }}" class="has-text-weight-bold">{{ h1.title }}</a>
+                            {% if h1.children %}
+                            <ul class="pl-5">
+                                {% for h2 in h1.children %}
+                                <li>
+                                    <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    {% endblock content %}

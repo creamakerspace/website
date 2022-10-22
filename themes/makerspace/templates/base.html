@@ -55,6 +55,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script data-goatcounter="{{ config.extra.goatcounter | safe }}" async src="//gc.zgo.at/count.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
@@ -85,6 +86,14 @@
                 }
             });
 
+            var $qrcodeEl = document.getElementById("qrcode");
+            if($qrcodeEl) {
+                var qrc = new QRCode($qrcodeEl, {
+                    text: "{{ page_url | safe }}",
+                    width: 135,
+                    height: 135
+                });
+            }
         });
     </script>
     {% block head %}{% endblock head %}

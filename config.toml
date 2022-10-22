@@ -34,21 +34,25 @@ facebook = "https://www.facebook.com/CreaMakerspace/"
 # instagram = "https://www.instagram.com/CreaMakerspace/"
 # discourse = ""
 
-# [[extra.nav]]
-# text = "Take a Class"
-# link = "/classes"
+[[extra.nav]]
+text = "Take a Class"
+link = "/classes"
 
-# [[extra.nav]]
-# text = "Bring a Group"
-# link = "/groups"
+[[extra.nav]]
+text = "Bring a Group"
+link = "/comingsoon"
 
-# [[extra.nav]]
-# text = "Join our Community"
-# link = "/community"
+[[extra.nav]]
+text = "Join our Community"
+link = "/comingsoon"
 
 # [[extra.nav]]
 # text = "Events"
 # link = "/events"
+
+[[extra.nav]]
+text = "Equipment"
+link = "/equipment"
 
 # [[extra.nav]]
 # text = "Makers"
@@ -69,7 +73,7 @@ link = "/about"
 
 [[extra.footer_nav]]
 text = "Classes"
-# link = "/classes"
+link = "/classes"
 
 [[extra.footer_nav]]
 text = "Groups"
@@ -89,7 +93,7 @@ text = "Events"
 
 [[extra.footer_nav]]
 text = "Equipment"
-# link = "/equipment"
+link = "/equipment"
 
 [[extra.footer_nav]]
 text = "Makers"

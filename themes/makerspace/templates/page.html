@@ -1,30 +1,10 @@
+{% import "macros/macros.html" as macros %}
+
 {% extends "base.html" %}
 {% block content %}
 
-{% if page.extra.banner %}
-<section class="hero has-overlay is-bold" style="background-image: url('{{ page.extra.banner | safe }}')">
-    <div class="hero-body"></div>
-    <div class="hero-foot p-5">
-        <div class="container">
-            <h1 class="title">
-                {{ page.title }}
-            </h1>
-        </div>
-    </div>
-</section>
-{% else %}
-<section class="hero is-dark is-bold">
-    <div class="hero-body"></div>
-    <div class="hero-foot p-5">
-        <div class="container">
-            <h1 class="title">
-                {{ page.title }}
-            </h1>
-        </div>
-    </div>
-</section>
-
-{% endif %}
+{% set banner = page.extra.banner | default(value=false) %}
+{{ macros::banner(img=banner) }}
 
 <div class="section">
     <!-- MAYBE BANNER IMAGE -->

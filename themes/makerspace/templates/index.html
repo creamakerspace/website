@@ -1,7 +1,7 @@
 
 {% extends "base.html" %}
 {% import "macros/experiences.html" as experiences %}
-{% import "macros/posts.html" as posts %}
+{% import "macros/section.html" as section %}
 
 {% block content %}
 <section class="hero has-overlay is-medium is-bold is-halfheight" id="hero-landing">
@@ -51,7 +51,7 @@
             <div class="container columns">
                 {%- for post in blog.pages | slice(end=3) %}
                 <div class="column is-one-third">
-                    {{ posts::preview(post=post) }}
+                    {{ section::page(page=post) }}
                 </div>
                 {% endfor -%}
             </div>

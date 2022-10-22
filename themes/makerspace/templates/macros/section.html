@@ -1,0 +1,76 @@
+{% macro page(page) %}
+<div class="card">
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="{{ page.permalink | safe }}"><img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="{{ page.permalink | safe }}" class="title is-6 has-text-primary">{{ page.title }}</a>
+            </div>
+        </div>
+
+        <div class="content">
+            {% if page.summary -%}
+            {{ page.summary | safe }}
+            {% elif page.description -%}
+            {{ page.description | safe }}
+            {% else %}
+            {{ page.content | striptags | truncate(length=120) | safe }}
+            {%- endif %}
+        </div>
+        <div class="has-text-right">
+            <a href="{{ page.permalink | safe }}" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+{% endmacro page %}
+
+
+{% macro equipment(page) %}
+<div class="card" {% if page.extra.coming_soon %}style="opacity: 0.5;"{% endif %}>
+    <div class="card-image">
+        <figure class="image is-4by3">
+            {% if page.extra.coming_soon %}
+                <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}">
+            {% else %}
+            <a href="{{ page.permalink | safe }}">
+                <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}">
+            </a>
+            {% endif %}
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                {% if page.extra.coming_soon %}
+                <span class="title is-6 has-text-primary">{{ page.title }}</span>
+                {% else %}
+                <a href="{{ page.permalink | safe }}" class="title is-6 has-text-primary">{{ page.title }}</a>
+                {% endif %}
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">{{ page.description | safe }}</p>
+
+            <dl>
+                {% for spec, value in page.extra.specs %}
+                <dt>{{ spec }}</dt>
+                <dl>{{ value }}</dl>
+                {% endfor %}
+            </dl>
+        </div>
+        <div class="has-text-right">
+            {% if page.extra.coming_soon %}
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            {% else %}
+            <a href="{{ page.permalink | safe }}" class="has-text-weight-bold has-text-primary">Read SOP</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endmacro page %}

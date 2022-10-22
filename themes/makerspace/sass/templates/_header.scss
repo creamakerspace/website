@@ -1,9 +1,14 @@
+@media print {
+    #connect-nav, .navbar, .hero-body { 
+        display: none;
+    }
+}
+
 @include desktop {
     .navbar-item img {
         max-height: 2.75rem;
     }
 }
-
 
 #connect-nav {
     background-color: $onyx;
