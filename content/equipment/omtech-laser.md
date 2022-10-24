@@ -6,8 +6,9 @@ description = "Laser cutter and engraver for wood, plastics, leather, fabric, an
 weight = 550
 
 [extra]
-image = "/images/equipment/omtech-laser.jpg"
+image = "/images/equipment/omtech-laser.webp"
 coming_soon = true
+requires_training = true
 
 [extra.specs]
 "Cutting area" = '20" x 28"'
@@ -16,5 +17,5 @@ coming_soon = true
 "Supported materials" = "Wood, paper, plastics, leather, fabric, stone, and some other nonmetallic materials"
 +++
 
-![](/images/equipment/omtech-laser.jpg)
+![](/images/equipment/omtech-laser.webp)
 

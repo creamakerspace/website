@@ -6,7 +6,7 @@ description = "Printer for dye sublimation that can be heat transferred to other
 weight = 8000
 
 [extra]
-image = "/images/equipment/epson-et-2803.jpg"
+image = "/images/equipment/epson-et-2803.webp"
 coming_soon = true
 
 [extra.specs]
@@ -16,7 +16,7 @@ coming_soon = true
 "Supported materials" = "Sublimation paper only"
 +++
 
-![](/images/equipment/epson-et-2803.jpg)
+![](/images/equipment/epson-et-2803.webp)
 
 
 TODO

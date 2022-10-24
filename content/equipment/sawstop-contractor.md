@@ -6,13 +6,14 @@ description = "Table saw that reduces risk of injury by stopping the blade in le
 weight = 700
 
 [extra]
-image = "/images/equipment/sawstop-contractor.jpg"
+image = "/images/equipment/sawstop-contractor.webp"
 coming_soon = true
+requires_training = true
 
 [extra.specs]
 "Blade size" = '10"'
 "Supported materials" = "Depends on blade - generally wood products"
 +++
 
-![](/images/equipment/sawstop-contractor.jpg)
+![](/images/equipment/sawstop-contractor.webp)
 

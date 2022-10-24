@@ -6,7 +6,7 @@ description = "Heat press for dye sublimation transfer or vynyl transfer."
 weight = 8050
 
 [extra]
-image = "/images/equipment/heat-press.jpg"
+image = "/images/equipment/heat-press.webp"
 coming_soon = true
 
 [extra.specs]
@@ -15,5 +15,5 @@ coming_soon = true
 "Supported materials" = "Textiles (e.g. shirts, hats), ceramics, and glasses."
 +++
 
-![](/images/equipment/epson-et-2803.jpg)
+![](/images/equipment/heat-press.webp)
 

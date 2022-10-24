@@ -22,7 +22,7 @@
             {{ page.content | striptags | truncate(length=120) | safe }}
             {%- endif %}
         </div>
-        <div class="has-text-right">
+        <div class="has-text-right pt-2">
             <a href="{{ page.permalink | safe }}" class="has-text-weight-bold has-text-primary">Read More</a>
         </div>
     </div>
@@ -32,16 +32,19 @@
 
 {% macro equipment(page) %}
 <div class="card" {% if page.extra.coming_soon %}style="opacity: 0.5;"{% endif %}>
-    <div class="card-image">
+    <div class="card-image is-clipped">
         <figure class="image is-4by3">
             {% if page.extra.coming_soon %}
-                <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}">
+            <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}">
             {% else %}
             <a href="{{ page.permalink | safe }}">
                 <img src="{{ page.extra.image | default(value="https://bulma.io/images/placeholders/1280x960.png") | safe }}">
             </a>
             {% endif %}
         </figure>
+        {% if page.extra.requires_training %}
+        <div class="cr cr-top cr-right cr-danger">Requires training</div>
+        {% endif %}
     </div>
     <div class="card-content p-3">
         <div class="media">
@@ -64,7 +67,7 @@
                 {% endfor %}
             </dl>
         </div>
-        <div class="has-text-right">
+        <div class="has-text-right pt-2">
             {% if page.extra.coming_soon %}
             <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
             {% else %}

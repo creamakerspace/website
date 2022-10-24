@@ -125,3 +125,45 @@ dt::after {
     }
   }
 }
+
+
+// corner ribbons
+
+.cr {
+  width: 140px;
+  padding: 8px;
+  font-size: $size-small;
+  position: absolute;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.cr-sticky {
+  position: fixed;
+}
+
+/* Positions */
+
+.cr-top    { top: 20px; }
+.cr-bottom { bottom: 20px; }
+.cr-left   { left: -32px; }
+.cr-right  { right: -32px; }
+
+/* Rotations */
+
+.cr-top.cr-left,
+.cr-bottom.cr-right {
+  transform: rotate(-45deg);
+}
+
+.cr-top.cr-right,
+.cr-bottom.cr-left {
+  transform: rotate(45deg);
+}
+
+/* Colors */
+.cr-light     { background-color: $white; color: $onyx; }
+.cr-dark     { background-color: $onyx; }
+.cr-info      { background-color: $sapphire; }
+.cr-warning       { background-color: $goldenrod; }
+.cr-danger    { background-color: $magenta; }

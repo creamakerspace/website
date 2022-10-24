@@ -6,6 +6,14 @@
 {% set banner = section.extra.banner | default(value=false) %}
 {{ macros::banner(img=banner) }}
 
+{% if section.content %}
+<div class="section">
+    <div class="container content">
+        {{ section.content | safe }}
+    </div>
+</div>
+{% endif %}
+
 <div class="section">
     <div class="container columns">
         {% if paginator %}

@@ -8,6 +8,7 @@ weight = 500
 [extra]
 image = "/images/equipment/shapeoko-pro.webp"
 coming_soon = true
+requires_training = true
 
 [extra.specs]
 "Cutting area" = '33" x 33" x 4"'
