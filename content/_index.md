@@ -10,7 +10,7 @@ image = "images/logo-share.png"
 
 [extra.hero]
 header = "Coming soon"
-text = "Renton makerspace launching in 2022!" 
+text = "Renton makerspace launching in 2022!"
 link_text = "Signup to be notified"
 link = "https://000a4b3c.sibforms.com/serve/MUIEACsqgUfzNUnjRwJxuXpeFa3tgRjoySDVAZ2Va8qywAkO8O95A5DNq4ABmRQdA35MONBjUMQcI2HYqi_WlUfF75SImq68Y_fqTmfLSmkvzbqdRA-H97mmU4iQ5C86Drh-VtOvvINZn4b1qtMg7iFjpISoJ0lEzgwTezyuQcm7o6jl0dOEFP6ilAo3C2immGAU9Nnt7DCgl4dC"
 
@@ -18,7 +18,7 @@ link = "https://000a4b3c.sibforms.com/serve/MUIEACsqgUfzNUnjRwJxuXpeFa3tgRjoySDV
 header = "Take a class"
 description = "Get hands-on training with the equipment so that you can operate it yourself. Or take a class where we guide you through making something that you get to take home and show off."
 image = "/images/solder.jpg"
-# link = "/classes"
+link = "/classes"
 
 [[extra.experiences]]
 header = "Bring a group"
