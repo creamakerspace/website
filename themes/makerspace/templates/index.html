@@ -48,12 +48,14 @@
             <h3 class="title is-3">{{ section.extra.blog_header | default(value=blog.title) }}</h3>
         </div>
         <div class="hero-body" id="blog-highlights">
-            <div class="container columns">
-                {%- for post in blog.pages | slice(end=3) %}
-                <div class="column is-one-third">
-                    {{ section::page(page=post) }}
+            <div class="container">
+                <div class="columns">
+                    {%- for post in blog.pages | slice(end=3) %}
+                    <div class="column is-one-third">
+                        {{ section::page(page=post) }}
+                    </div>
+                    {% endfor -%}
                 </div>
-                {% endfor -%}
             </div>
         </div>
         <div class="hero-foot has-text-centered">
