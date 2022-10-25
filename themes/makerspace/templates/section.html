@@ -15,25 +15,27 @@
 {% endif %}
 
 <div class="section">
-    <div class="container columns">
-        {% if paginator %}
-        {% set pages  = paginator.pages %}
-        {% else %}
-        {% set pages  = section.pages %}
-        {% endif %}
-        {% for page in pages %}
-        <div class="column is-one-third">  
-            {% if section.path is starting_with("/equipment") %}      
-            {{ section::equipment(page=page) }}
-            {% else %}    
-            {{ section::page(page=page) }}
+    <div class="container">
+        <div class="columns">
+            {% if paginator %}
+            {% set pages  = paginator.pages %}
+            {% else %}
+            {% set pages  = section.pages %}
             {% endif %}
+            {% for page in pages %}
+            <div class="column is-one-third">
+                {% if section.path is starting_with("/equipment") %}
+                {{ section::equipment(page=page) }}
+                {% else %}
+                {{ section::page(page=page) }}
+                {% endif %}
+            </div>
+            {% if loop.index % 3 == 0 %}
+            </div>
+            <div class="container columns">
+            {% endif %}
+            {% endfor %}
         </div>
-    {% if loop.index % 3 == 0 %}
-    </div>
-    <div class="container columns">
-    {% endif %}
-        {% endfor %}
     </div>
 </div>
 {% endblock content %}
