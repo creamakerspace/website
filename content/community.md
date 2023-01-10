@@ -61,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>
                     <li>3D printer</li>
                     <li>Laser cutter/engraver</li>
-                    <li>Digital electronics</li>
+                    <li>Electronics/robotics lab</li>
+                    <li>Sublimation printing (e.g. t-shirts)</li>
                     <li>and more...</li>
                 </ul>
             </div>
@@ -89,10 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>
                     <li>3D printer</li>
                     <li>Laser cutter/engraver</li>
-                    <li>Digital electronics</li>
-                    <li>CNC wood mill</li>
-                    <li>Table saw, bandsaw, etc...</li>
-                    <li>Planar</li>
+                    <li>Electronics/robotics lab</li>
+                    <li>Sublimation printing (e.g. t-shirts)</li>
+                    <li>CNC router</li>
+                    <li>Table saw, bandsaw, planar, etc...</li>
                     <li>and more...</li>
                 </ul>
             </div>
@@ -122,10 +123,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul>
                     <li>3D printer</li>
                     <li>Laser cutter/engraver</li>
-                    <li>Digital electronics</li>
-                    <li>CNC wood mill</li>
-                    <li>Table saw, bandsaw, etc...</li>
-                    <li>Planar</li>
+                    <li>Electronics/robotics lab</li>
+                    <li>Sublimation printing (e.g. t-shirts)</li>
+                    <li>CNC router</li>
+                    <li>Table saw, bandsaw, planar, etc...</li>
                     <li>and more...</li>
                 </ul>
             </div>
@@ -163,4 +164,4 @@ Sponsor a "Maker" membership:
 <button class="button is-primary is-outlined">3 months: $345</button>
 <button class="button is-primary is-outlined">1 year: $1,200</button>
 
-We'll announce any sponsorship availability at events (e.g. Open House Tuesdays) and in our subsequent newsletter (sign up <a href="{{ newsletter_url() }}">here</a>. Applicants will be selected based on need and intended use.
+We'll announce any sponsorship availability at events (e.g. Open House Tuesdays) and in our subsequent newsletter (sign up <a href="{{ newsletter_url() }}">here</a>). Applicants will be selected based on need and intended use.
