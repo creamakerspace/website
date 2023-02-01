@@ -5,6 +5,10 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
+{% message(header="Work In Progress", class="is-danger") %}
+    <p>The contents of this page are NOT final. Pricing and offerrings may still change before launch.</p>
+{% end %}
+
 ### Open House Tuesdays
 
 <span class="has-text-danger has-text-weight-bold">Every Tuesday, from 6pm to 9pm</span>, Crea is open to the public for free (no membership or day pass required).
@@ -46,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="pricing-table pb-5">
     <div class="pricing-plan">
-        <div class="plan-header is-uppercase">Starter</div>   
+        <div class="plan-header is-uppercase">Starter</div>
         <div class="plan-price">
             <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">65</span></span>/month
@@ -72,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
     <div class="pricing-plan is-primary is-active">
-        <div class="plan-header is-uppercase">Maker</div>   
+        <div class="plan-header is-uppercase">Maker</div>
         <div class="plan-price">
             <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">115</span></span>/month
@@ -103,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
     <div class="pricing-plan">
-        <div class="plan-header is-uppercase">Pro</div>   
+        <div class="plan-header is-uppercase">Pro</div>
         <div class="plan-price">
             <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span><span class="annual">225</span><span class="monthly">250</span></span>/month
@@ -134,18 +138,18 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-footer">
             <button class="button is-fullwidth is-uppercase">Choose Pro</button>
         </div>
-    </div>    
+    </div>
 </div>
 
 <div class="is-size-7 pt-5">
 
 Disclaimers:
 - Some equipment requires completion of training class.
-- Some equipment has a fee based on machine time usage except for members on plans with unlimited machine time. 
+- Some equipment has a fee based on machine time usage except for members on plans with unlimited machine time.
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account.
-- All plans default to automatic renewal, but you can cancel or change your plan at any time.
+- All plans default to automatic renewal, but you can cancel or change your plan at any time with no hassle.
 
 </div>
 
