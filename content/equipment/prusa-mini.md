@@ -18,7 +18,7 @@ Nozzle = "0.4mm"
 
 ![](/images/equipment/prusa-mini.webp)
 
-The Prusa MINI+ 3D printer heats up a filament and precisely deposits it layer-by-layer to print objects. This 3D printing is great for prototyping ideas, printing replacement parts, creating artistic pieces, printing boardgame pieces, and making many other creative ideas. 
+The Prusa MINI+ 3D printer heats up a filament and precisely deposits it layer-by-layer to print objects. This 3D printing is great for prototyping ideas, printing replacement parts, creating artistic pieces, printing boardgame pieces, and making many other creative ideas.
 
 ## Risks
 
@@ -72,7 +72,7 @@ Typical uses: covers, protective cases, prototypes, replacement parts, toys & fi
 
 ### Printing a model
 
-You can obtain models from online sites (e.g. [Printables](https://www.printables.com/), [Thingiverse](https://www.thingiverse.com/)) or you can create them on your own with a 3D editor (e.g. [Tinkercad](tinkercad.com), [Blender](https://www.blender.org/)).
+You can obtain models from online sites (e.g. [Printables](https://www.printables.com/), [Thingiverse](https://www.thingiverse.com/)) or you can create them on your own with a 3D editor (e.g. [Tinkercad](https://www.tinkercad.com/), [Blender](https://www.blender.org/)).
 
 <article class="message is-danger">
   <div class="message-body">
@@ -123,7 +123,7 @@ Try to avoid touching the steel sheet surface with your fingers as fingerprints 
 1. Select the type of filament you have inserted into the PTFE tube
 1. Wait for the nozzle to reach the target preheat temperature
 1. Press the control knob to start loading and push the filament into the extruder until the extruder drive gears grab the filament
-1. The printer will automatically load the filament into the print head and prompt you to confirm if the color extruded from the print head is the correct color (in case the extruded plastic is contaminated by the previous filament). Select "no" to push more material out of the nozzle. Select "Retry" to repeat the loading process.  
+1. The printer will automatically load the filament into the print head and prompt you to confirm if the color extruded from the print head is the correct color (in case the extruded plastic is contaminated by the previous filament). Select "no" to push more material out of the nozzle. Select "Retry" to repeat the loading process.
 
 ## References
 
