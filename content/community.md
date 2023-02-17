@@ -61,6 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="plan-item">Access to space during open hours</div>
             <div class="plan-item">No access to woodshop</div>
             <div class="plan-item">10% discount on classes</div>
+            <div class="plan-item">$150 machine time credit per month</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
                     <li>3D printer</li>
@@ -155,7 +156,7 @@ Disclaimers:
 
 ### Day Pass
 
-For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.
+We emphasize membership because our priority is building an active community of makers. That said, we recognize that some may have interest in using the space infrequently. For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.
 
 Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a machine time usage cost.
 
