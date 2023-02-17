@@ -1,6 +1,6 @@
 +++
 title = "Prusa MINI+ 3D Printer"
-updated = "2022-10-20"
+updated = "2023-02-17"
 template = "sop.html"
 description = "3D printer for printing plastic objects."
 weight = 5000
@@ -22,7 +22,7 @@ The Prusa MINI+ 3D printer heats up a filament and precisely deposits it layer-b
 
 ## Risks
 
-- **Burn Risk**: Nozzle can reach temperatures up to 280°C / 536°F. Heatbed can reach temperatures up to 100°C / 212°F
+- **Burn risk**: Nozzle can reach temperatures up to 280°C / 536°F. Heatbed can reach temperatures up to 100°C / 212°F
 - **Harmful emissions**: Heating plastics at 3D printing temperatures can lead to the emission of VOCs.
 - **Unprotected moving parts**: Unprotected moving mechanical parts can cause injuries.
 
@@ -63,7 +63,7 @@ Typical uses: prototypes, toys, figures, jewelry, architectural models
 
 Typical uses: mechanical components, holders and cases, watertight prints (e.g. pots)
 
-**ASA**: Has higher temperature and UV resistance. High impact and wear resistance. Difficult to print (prone to warping if not printed in enclosure). Satin sheets require no preparation. For smooth/textured sheets, apply a thin layer of glue stick. Post-process with sanding or cutting. Easy to glue together as it's soluable in acetone.
+**ASA**: Has higher temperature and UV resistance. High impact and wear resistance. Difficult to print (prone to warping if not printed in enclosure). Satin sheets require no preparation. For smooth/textured sheets, apply a thin layer of glue stick. Post-process with sanding or cutting. Easy to glue together as it's soluble in acetone.
 
 Typical uses: covers, protective cases, prototypes, replacement parts, toys & figures
 
