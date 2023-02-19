@@ -91,6 +91,7 @@ It is important to choose the correct blade for the material being cut, and to m
    - If switching between blade and dado set, you'll need to also switch the brake cartridge and insert as there are specific brake cartridges and inserts for dado sets.
 1. Adjust the brake cartridge position. Using an 8mm hex key, turn the brake positioning bolt to change the spacing 
 between the brake cartridge and the edge of the blade. Set the spacing between the teeth of the blade and the closest point on the brake cartridge between 1/16 and 3/32 inch using the spacing adjustment gauge (or a US nickel).
+![SawStop Brake Adjustment](/images/equipment/sawstop-brake-adjustment.webp)
 1. Rotate the blade by hand at least one complete revolution to ensure that the blade does not contact the brake.
 1. Reinstall the insert and blade guard or riving knife.
 1. Check the blade again for alignment before plugging in the saw and resuming use.
