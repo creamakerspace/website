@@ -1,6 +1,6 @@
 +++
 title = "SawStop Contractor Saw"
-updated = "2023-02-17"
+updated = "2023-03-01"
 template = "sop.html"
 description = "Table saw that reduces risk of injury by stopping the blade in less than 5 milliseconds if it makes contact with skin."
 weight = 700
@@ -31,20 +31,23 @@ While the SawStop Table Saw has advanced skin detection technology that greatly 
 - **Hearing damage** from long-term exposure to saw noise
 
 
-
 ## Safety Precautions
 
-- **Wear PPE** including eye and ear protection, gloves, dust mask, and leather apron.
+- **Wear PPE** including eye and ear protection, dust mask, and leather apron. [SawStop recommends against wearing gloves](https://www.sawstop.com/why-sawstop/faqs/) since the glove could snag on the blade and pull your hand into the blade faster resulting in a deeper cut before the blade brake engages.
 - **Avoid loose clothing or jewelry** that may dangle near the saw blade (e.g. Hoodie draw strings) when operating the table saw.
-- **Use the safety features**. In most situations, skin detection should remain enabled, and both the riving knife and blade guard should be installed. 
+- **Use the safety features**. In most situations, skin detection should remain enabled, and the blade guard should be installed. 
 - **Turn off the saw when making adjustments**. All adjustments must be performed when the saw is off. And the saw must be unplugged to perform adjustments that put you in close contact with the blade (e.g. changing the blade or brake)
+- **Ensure saw is safe to use**. Do not use if any of these problems are present:
+  - Cracked, dull, or improperly filed blade
+  - Blade has gum sticking to the sides
+  - Unintended fence or table movement
 - **Use proper techniques**
   - Stand out of the way of kickback
   - Never reach over the blade to remove waste or off-cuts while the blade is moving.
+  - Use the riving knife and a featherboard or jig when not using the standard blade guard.
   - Use a push stick or push block for cuts less than 3" wide.
-  - Avoid narrow cuts between the blade and fence (high risk of binding and kickback).
+  - Avoid very narrow cuts between the blade and fence (high risk of binding and kickback).
 
-    
 
 ## Glossary
 
@@ -54,7 +57,7 @@ dado set to cut a groove or slot in a workpiece.
 - **Fence**: An adjustable guide attached to the saw's table that helps ensure the material is cut straight.
 - **Miter Gauge**: An adjustable gauge that fits into the slots on the table to allow for making angled cuts.
 - **Push Stick**: A device used to push the material through the blade, keeping hands away from the blade.
-- **Riving Knife**: A device that helps prevent the material from binding on the blade and reduces the risk of kickback.
+- **Riving Knife or Spreader**: A device that helps prevent the material from binding on the blade and reduces the risk of kickback.
 - **Kickback**: A dangerous condition that occurs when the material is violently thrown back towards the user.
 - **Blade Guard**: A clear plastic guard that covers the blade, helping to reduce the risk of injury.
 
@@ -158,4 +161,5 @@ _Coming soon... procedure for jointing with the table saw_
 
 - [SawStop Owner's Manual](https://www.sawstop.com/wp-content/uploads/2021/10/Contractor_Saw_Manual_V2.0_CSA-ED201610_2022_2_.pdf)
 - [SawStop Skin Detection Technology](https://www.sawstop.com/why-sawstop/the-technology/)
-
+- [WA Administrative Code for Saws and Cutting Heads](https://apps.leg.wa.gov/WAC/default.aspx?cite=296-806-480)
+- [OSHA Table Saw Machine Guarding](https://www.osha.gov/etools/machine-guarding/saws/table)
