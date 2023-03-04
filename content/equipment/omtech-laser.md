@@ -9,6 +9,7 @@ weight = 550
 image = "/images/equipment/omtech-laser.webp"
 coming_soon = true
 requires_training = true
+tags = "fablab cnc"
 
 [extra.specs]
 "Cutting area" = '20" x 28"'

@@ -7,6 +7,7 @@ weight = 5000
 
 [extra]
 image = "/images/equipment/prusa-mini.webp"
+tags = "cnc fablab"
 
 [extra.specs]
 "Build volume" = "180x180x180mm (7x7x7 in)"

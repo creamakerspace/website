@@ -8,6 +8,7 @@ weight = 8050
 [extra]
 image = "/images/equipment/heat-press.webp"
 coming_soon = true
+tags = "fablab"
 
 [extra.specs]
 "Max transfer size" = '15" x 12"'

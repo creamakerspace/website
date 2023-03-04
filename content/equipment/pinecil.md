@@ -8,6 +8,7 @@ weight = 9000
 [extra]
 image = "/images/equipment/pinecil.webp"
 coming_soon = true
+tags = "elab"
 
 [extra.specs]
 "Max temperature" = "450°C (842°F)"

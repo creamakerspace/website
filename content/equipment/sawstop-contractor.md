@@ -8,6 +8,7 @@ weight = 700
 [extra]
 image = "/images/equipment/sawstop-contractor.webp"
 requires_training = true
+tags = "woodshop"
 
 [extra.specs]
 "Blade size" = '10" (kerf: 3/32" to 3/16")'

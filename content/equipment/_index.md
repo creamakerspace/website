@@ -11,11 +11,90 @@ sort_by = "weight"
 
 Crea will provide access to a variety of equipment:
 
-- CNC equipment (3D printing, laser cutting/engraving, routing)
-- A full woodshop (table tools, power tools, and hand tools)
-- Robotics lab (soldering stations, Arduino, micro:bit, sensors and circuit components, logic analyzers)
-- Printing equipment (office printer, sublimation printer, heat transfer equipment - *print your own t-shirts!*)
 
-...and we regularly evaluate additional equipment based on community feedback, so feel free to suggest additional equipment.
+<div class="columns">
 
-For select equipment, the specifications and Standard Operating Procedures are available online. We also have a printed copy available in the space. 
+{% card_col(header="Woodshop") %}
+A full woodshop to accomodate a large range of woodworking projects.
+
+ - Table saw
+ - CNC router
+ - Benchtop planer
+ - Miter saw 
+ - Circular saw
+ - Orbital sander
+ - Plunge router
+ - Various hand & power tools
+{% end %}
+
+ 
+{% card_col(header="Fabrication Lab") %}
+Turn your digital ideas into physical creations.
+
+ - Laser cutter/engraver
+ - 3D printer
+ - Sublimation printer
+ - Ink jet printer
+ - Heat press
+ - Various hand & power tools
+{% end %}
+
+
+
+{% card_col(header="Electronics Lab") %}
+Make or repair things that move, light up, make noise, or otherwise need power. 
+
+ - Soldering station
+ - Logic analyzer
+ - Arduino, Micro:bit, Raspberry Pi
+ - Sensors & circuit components
+ - Multimeter
+ - Variable DC power supply
+ - Wires and wire tools
+{% end %}
+
+</div>
+
+
+{% message(header="Missing something?" class="is-info") %}
+The equipment available at Crea will evolve based on community interest and feedback, so feel free to suggest additional equipment.
+{% end %}
+
+## Standard Operating Procedures (SOP)
+
+For the equipment below, we share the specifications and SOP documents online. We also have a printed copies available in the space. 
+
+<div class="tabs">
+  <ul>
+    <li class="is-active"><a data-filter="">All Equipment</a></li>
+    <li><a data-filter="cnc">CNC Equipment</a></li>
+    <li><a data-filter="woodshop">Woodshop</a></li>
+    <li><a data-filter="fablab">Fabrication Lab</a></li>
+    <li><a data-filter="elab">Electronics Lab</a></li>
+  </ul>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const $filterButtons = document.querySelectorAll('[data-filter]');
+    $filterButtons.forEach(btn => {
+    	btn.addEventListener('click', function() {
+    		const activeButtons = document.querySelectorAll('.is-active > [data-filter]');
+    		activeButtons.forEach(activeBtn => { activeBtn.parentElement.classList.remove('is-active') });
+    		btn.parentElement.classList.add('is-active');
+    		const filter = btn.dataset.filter;
+    		console.log('filter: ', filter);
+    		const $equipEls = document.querySelectorAll('.card[data-tags]');
+    		$equipEls.forEach(equip => {
+    			if(equip.dataset?.tags?.includes(filter)) {
+    				console.log(equip.dataset.tags);
+    				equip.parentElement.style.display = '';
+    			} else {
+	    			equip.parentElement.style.display = 'none';
+    			}
+    		});
+    	});
+
+    });
+});
+</script>

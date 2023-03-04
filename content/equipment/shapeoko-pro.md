@@ -9,6 +9,7 @@ weight = 500
 image = "/images/equipment/shapeoko-pro.webp"
 coming_soon = true
 requires_training = true
+tags = "woodshop cnc"
 
 [extra.specs]
 "Cutting area" = '33" x 33" x 4"'

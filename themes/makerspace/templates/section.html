@@ -16,7 +16,7 @@
 
 <div class="section">
     <div class="container">
-        <div class="columns">
+        <div class="columns is-multiline">
             {% if paginator %}
             {% set pages  = paginator.pages %}
             {% else %}
@@ -30,10 +30,7 @@
                 {{ section::page(page=page) }}
                 {% endif %}
             </div>
-            {% if loop.index % 3 == 0 %}
-            </div>
-            <div class="columns">
-            {% endif %}
+
             {% endfor %}
         </div>
     </div>

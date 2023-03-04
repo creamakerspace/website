@@ -31,7 +31,7 @@
 
 
 {% macro equipment(page) %}
-<div class="card" {% if page.extra.coming_soon %}style="opacity: 0.5;"{% endif %}>
+<div class="card" {% if page.extra.coming_soon %}style="opacity: 0.5;"{% endif %} data-tags="{% if page.extra.tags %}{{ page.extra.tags }}{% endif %}">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             {% if page.extra.coming_soon %}
