@@ -166,22 +166,112 @@
 <div class="section">
     <div class="container content">
         <p>Crea will provide access to a variety of equipment:</p>
+<div class="columns">
+<div class="column is-one-third">
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">Woodshop</p>
+    </header>
+    <div class="card-content">
+      A full woodshop to accomodate a large range of woodworking projects.
 <ul>
-<li>CNC equipment (3D printing, laser cutting/engraving, routing)</li>
-<li>A full woodshop (table tools, power tools, and hand tools)</li>
-<li>Robotics lab (soldering stations, Arduino, micro:bit, sensors and circuit components, logic analyzers)</li>
-<li>Printing equipment (office printer, sublimation printer, heat transfer equipment - <em>print your own t-shirts!</em>)</li>
+<li>Table saw</li>
+<li>CNC router</li>
+<li>Benchtop planer</li>
+<li>Miter saw </li>
+<li>Circular saw</li>
+<li>Orbital sander</li>
+<li>Plunge router</li>
+<li>Various hand &amp; power tools</div>
+</li>
 </ul>
-<p>...and we regularly evaluate additional equipment based on community feedback, so feel free to suggest additional equipment.</p>
-<p>For select equipment, the specifications and Standard Operating Procedures are available online. We also have a printed copy available in the space. </p>
+</div>
+</div>
+<div class="column is-one-third">
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">Fabrication Lab</p>
+    </header>
+    <div class="card-content">
+      Turn your digital ideas into physical creations.
+<ul>
+<li>Laser cutter/engraver</li>
+<li>3D printer</li>
+<li>Sublimation printer</li>
+<li>Ink jet printer</li>
+<li>Heat press</li>
+<li>Various hand &amp; power tools</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="column is-one-third">
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">Electronics Lab</p>
+    </header>
+    <div class="card-content">
+      Make or repair things that move, light up, make noise, or otherwise need power. 
+<ul>
+<li>Soldering station</li>
+<li>Logic analyzer</li>
+<li>Arduino, Micro:bit, Raspberry Pi</li>
+<li>Sensors &amp; circuit components</li>
+<li>Multimeter</li>
+<li>Variable DC power supply</li>
+<li>Wires and wire tools</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<article class='message is-info'>
+    <div class="message-header">Missing something?</div>
+    <div class="message-body">
+        The equipment available at Crea will evolve based on community interest and feedback, so feel free to suggest additional equipment.
+    </div>
+</article><h2 id="standard-operating-procedures-sop">Standard Operating Procedures (SOP)</h2>
+<p>For the equipment below, we share the specifications and SOP documents online. We also have a printed copies available in the space. </p>
+<div class="tabs">
+  <ul>
+    <li class="is-active"><a data-filter="">All Equipment</a></li>
+    <li><a data-filter="cnc">CNC Equipment</a></li>
+    <li><a data-filter="woodshop">Woodshop</a></li>
+    <li><a data-filter="fablab">Fabrication Lab</a></li>
+    <li><a data-filter="elab">Electronics Lab</a></li>
+  </ul>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const $filterButtons = document.querySelectorAll('[data-filter]');
+    $filterButtons.forEach(btn => {
+    	btn.addEventListener('click', function() {
+    		const activeButtons = document.querySelectorAll('.is-active > [data-filter]');
+    		activeButtons.forEach(activeBtn => { activeBtn.parentElement.classList.remove('is-active') });
+    		btn.parentElement.classList.add('is-active');
+    		const filter = btn.dataset.filter;
+    		console.log('filter: ', filter);
+    		const $equipEls = document.querySelectorAll('.card[data-tags]');
+    		$equipEls.forEach(equip => {
+    			if(equip.dataset?.tags?.includes(filter)) {
+    				console.log(equip.dataset.tags);
+    				equip.parentElement.style.display = '';
+    			} else {
+	    			equip.parentElement.style.display = 'none';
+    			}
+    		});
+    	});
 
+    });
+});
+</script>
     </div>
 </div>
 
 
 <div class="section">
     <div class="container">
-        <div class="columns">
+        <div class="columns is-multiline">
             
             
             
@@ -189,7 +279,7 @@
             <div class="column is-one-third">
                 
                 
-<div class="card" style="opacity: 0.5;">
+<div class="card" style="opacity: 0.5;" data-tags="woodshop cnc">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -238,12 +328,12 @@
 
                 
             </div>
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" style="opacity: 0.5;">
+<div class="card" style="opacity: 0.5;" data-tags="fablab cnc">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -292,12 +382,12 @@
 
                 
             </div>
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" >
+<div class="card"  data-tags="woodshop">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -345,15 +435,64 @@
 
                 
             </div>
-            
-            </div>
-            <div class="columns">
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" >
+<div class="card" style="opacity: 0.5;" data-tags="woodshop">
+    <div class="card-image is-clipped">
+        <figure class="image is-4by3">
+            
+            <img src="/images/equipment/dewalt-planer.webp">
+            
+        </figure>
+        
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                
+                <span class="title is-6 has-text-primary">DeWalt DW735X Planer</span>
+                
+            </div>
+        </div>
+
+        <div>
+            <p class="content is-italic">13" thickness planer</p>
+
+            <dl>
+                
+                <dt>Planing width</dt>
+                <dl>Max 13&quot; (325mm)</dl>
+                
+                <dt>Planing height</dt>
+                <dl>1&#x2F;8&quot; to 6&quot; (4mm to 152mm)</dl>
+                
+                <dt>Feed speeds</dt>
+                <dl>96 or 179 CPI</dl>
+                
+                <dt>Supported materials</dt>
+                <dl>Wood</dl>
+                
+            </dl>
+        </div>
+        <div class="has-text-right pt-2">
+            
+            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+<div class="card"  data-tags="cnc fablab">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -405,16 +544,18 @@
 
                 
             </div>
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" style="opacity: 0.5;">
+<div class="card"  data-tags="fablab">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
-            <img src="/images/equipment/epson-et-2803.webp">
+            <a href="https://creamakerspace.com/equipment/epson-sublimation-printer/">
+                <img src="/images/equipment/epson-et-2803.webp">
+            </a>
             
         </figure>
         
@@ -423,7 +564,7 @@
         <div class="media">
             <div class="media-content has-text-centered">
                 
-                <span class="title is-6 has-text-primary">Epson Sublimation Printer</span>
+                <a href="https://creamakerspace.com/equipment/epson-sublimation-printer/" class="title is-6 has-text-primary">Epson Sublimation Printer</a>
                 
             </div>
         </div>
@@ -449,7 +590,7 @@
         </div>
         <div class="has-text-right pt-2">
             
-            <span" class="has-text-weight-bold has-text-primary">Coming soon</span>
+            <a href="https://creamakerspace.com/equipment/epson-sublimation-printer/" class="has-text-weight-bold has-text-primary">Read SOP</a>
             
         </div>
     </div>
@@ -457,12 +598,12 @@
 
                 
             </div>
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" style="opacity: 0.5;">
+<div class="card" style="opacity: 0.5;" data-tags="fablab">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -506,15 +647,12 @@
 
                 
             </div>
-            
-            </div>
-            <div class="columns">
-            
+
             
             <div class="column is-one-third">
                 
                 
-<div class="card" style="opacity: 0.5;">
+<div class="card" style="opacity: 0.5;" data-tags="elab">
     <div class="card-image is-clipped">
         <figure class="image is-4by3">
             
@@ -555,7 +693,7 @@
 
                 
             </div>
-            
+
             
         </div>
     </div>
