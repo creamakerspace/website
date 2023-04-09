@@ -28,6 +28,16 @@
         <lastmod>2022-10-12</lastmod>
     </url>
     <url>
+        <loc>https://creamakerspace.com/blog/2023/</loc>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/blog/2023/crea-has-a-location/</loc>
+        <lastmod>2023-04-08</lastmod>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/blog/2023/page/1/</loc>
+    </url>
+    <url>
         <loc>https://creamakerspace.com/blog/page/1/</loc>
     </url>
     <url>
@@ -35,9 +45,6 @@
     </url>
     <url>
         <loc>https://creamakerspace.com/comingsoon/</loc>
-    </url>
-    <url>
-        <loc>https://creamakerspace.com/community/</loc>
     </url>
     <url>
         <loc>https://creamakerspace.com/equipment/</loc>
@@ -71,7 +78,10 @@
         <lastmod>2023-03-01</lastmod>
     </url>
     <url>
-        <loc>https://creamakerspace.com/equipment/shapeoko-pro/</loc>
+        <loc>https://creamakerspace.com/equipment/shapeoko-5-pro/</loc>
         <lastmod>2022-10-21</lastmod>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/join/</loc>
     </url>
 </urlset>
