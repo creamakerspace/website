@@ -17,3 +17,4 @@ tags = "elab"
 
 ![](/images/equipment/pinecil.webp)
 
+- [r/AskElectronics Soldering Guide](https://www.reddit.com/r/AskElectronics/wiki/soldering/)

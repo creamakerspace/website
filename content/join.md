@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Laser cutter/engraver</li>
                     <li>Electronics/robotics lab</li>
                     <li>Sublimation printing (e.g. t-shirts)</li>
-                    <li>and more...</li>
+                    <li><a href="/equipment">and more...</a></li>
                 </ul>
             </div>
         </div>
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Sublimation printing (e.g. t-shirts)</li>
                     <li>CNC router</li>
                     <li>Table saw, bandsaw, planar, etc...</li>
-                    <li>and more...</li>
+                    <li><a href="/equipment">and more...</a></li>
                 </ul>
             </div>
         </div>
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Sublimation printing (e.g. t-shirts)</li>
                     <li>CNC router</li>
                     <li>Table saw, bandsaw, planar, etc...</li>
-                    <li>and more...</li>
+                    <li><a href="/equipment">and more...</a></li>
                 </ul>
             </div>
         </div>

@@ -9,6 +9,10 @@ sort_by = "weight"
 # 5000+: trivial equipment (<$200)
 +++
 
+{% message(header="Work In Progress", class="is-warning") %}
+    <p>The contents of this page are NOT final. Equipment available at launch is still being finalized.</p>
+{% end %}
+
 Crea will provide access to a variety of equipment:
 
 
@@ -45,6 +49,7 @@ Turn your digital ideas into physical creations.
 Make or repair things that move, light up, make noise, or otherwise need power. 
 
  - Soldering station
+ - Hot air rework station
  - Logic analyzer
  - Arduino, Micro:bit, Raspberry Pi
  - Sensors & circuit components

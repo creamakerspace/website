@@ -23,7 +23,8 @@ copyright = "Crea Makerspace"
 newsletter_link = "https://000a4b3c.sibforms.com/serve/MUIEACsqgUfzNUnjRwJxuXpeFa3tgRjoySDVAZ2Va8qywAkO8O95A5DNq4ABmRQdA35MONBjUMQcI2HYqi_WlUfF75SImq68Y_fqTmfLSmkvzbqdRA-H97mmU4iQ5C86Drh-VtOvvINZn4b1qtMg7iFjpISoJ0lEzgwTezyuQcm7o6jl0dOEFP6ilAo3C2immGAU9Nnt7DCgl4dC"
 contact_email = "hi@creamakerspace.com"
 contact_email_html = "hi@crea<span>makerspace</span>.com"
-address = "Address TBD"
+address = "1000 SW 34th St, Suite C, Renton, WA 98057"
+address_short = "1000 SW 34th St, Suite C"
 
 # analytics
 goatcounter = "https://crea.goatcounter.com/count"
