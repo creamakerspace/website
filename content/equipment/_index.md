@@ -24,6 +24,7 @@ A full woodshop to accomodate a large range of woodworking projects.
  - Table saw
  - CNC router
  - Benchtop planer
+ - Woodturning lathe
  - Miter saw 
  - Circular saw
  - Orbital sander
@@ -51,10 +52,11 @@ Make or repair things that move, light up, make noise, or otherwise need power.
  - Soldering station
  - Hot air rework station
  - Logic analyzer
+ - Digital oscilloscope
  - Arduino, Micro:bit, Raspberry Pi
  - Sensors & circuit components
- - Multimeter
  - Variable DC power supply
+ - Multimeter
  - Wires and wire tools
 {% end %}
 

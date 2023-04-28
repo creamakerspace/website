@@ -3,7 +3,7 @@ title = "Pinecil Solder Iron"
 updated = "2022-10-21"
 template = "sop.html"
 description = "Solder iron with temperature control, sleep mode, motion detection, and that can be powered by USB-C PD."
-weight = 9000
+weight = 9050
 
 [extra]
 image = "/images/equipment/pinecil.webp"
