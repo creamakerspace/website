@@ -54,8 +54,20 @@
         <loc>https://creamakerspace.com/equipment/</loc>
     </url>
     <url>
+        <loc>https://creamakerspace.com/equipment/atten-rework/</loc>
+        <lastmod>2023-04-27</lastmod>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/equipment/cummins-lathe/</loc>
+        <lastmod>2023-04-27</lastmod>
+    </url>
+    <url>
         <loc>https://creamakerspace.com/equipment/dewalt-planer/</loc>
         <lastmod>2023-03-04</lastmod>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/equipment/dslogic-plus/</loc>
+        <lastmod>2023-04-27</lastmod>
     </url>
     <url>
         <loc>https://creamakerspace.com/equipment/epson-sublimation-printer/</loc>
@@ -84,6 +96,10 @@
     <url>
         <loc>https://creamakerspace.com/equipment/shapeoko-5-pro/</loc>
         <lastmod>2022-10-21</lastmod>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/equipment/siglent-scope/</loc>
+        <lastmod>2023-04-27</lastmod>
     </url>
     <url>
         <loc>https://creamakerspace.com/join/</loc>
