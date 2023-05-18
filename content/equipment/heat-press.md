@@ -71,4 +71,5 @@ Plate (sublimation) | 392°F  |  900s
 ## References
 
 - [Heat Press Machine User Manual](https://heatpressauthority.com/wp-content/uploads/2016/12/Generic-5-in-1-Heat-press-manual.pdf)
-- [Heat Press Time & Temperature Guide](/comingsoon)
+- [Sublimation Time/Temp Reference](https://www.sawgrassink.com/Sawgrass/media/Documents/Tech%20Support/Guides/Sublimation-HeatPress-Settings.pdf)
+- [HTV Time/Temp Reference](https://drive.google.com/file/d/1qXUMsP7IFnliB9QGBn3WIF2orDxXXCtO/view)
