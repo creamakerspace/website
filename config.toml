@@ -84,12 +84,12 @@ text = "Groups"
 text = "Membership"
 # link = "/community"
 
-[[extra.footer_nav]]
-text = "Partnership"
+# [[extra.footer_nav]]
+# text = "Partnership"
 # link = "/partners"
 
-[[extra.footer_nav]]
-text = "Events"
+# [[extra.footer_nav]]
+# text = "Events"
 # link = "/events"
 
 [[extra.footer_nav]]
