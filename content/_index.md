@@ -30,7 +30,7 @@ image = "/images/teamwork.jpg"
 header = "Join our community"
 description = "Whether you are a seasoned maker or just an occasional tinkerer, we want to make it possible to be a part of the Crea's maker community. We have memberships, single day usage, and even free open house nights."
 image = "/images/woodwork-3.jpg"
-# link = "/join"
+link = "/join"
 
 +++
 

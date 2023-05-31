@@ -5,8 +5,8 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
-{% message(header="Work In Progress", class="is-danger") %}
-    <p>The contents of this page are NOT final. Pricing and offerrings may still change before launch.</p>
+{% message(header="Coming Soon", class="is-info") %}
+    <p>Join links will be active by our June 3, 2023 launch date.<br><br>And to celebrate the launch, for the month of June, all monthly memberships subscriptions will get the annual pricing discount.</p>
 {% end %}
 
 ### Open House Tuesdays
@@ -17,7 +17,7 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 {% message(header="What to expect") %}
     <p>When you arrive, ask for Tony (usually near the front reception). We'll give you a brief tour, an overview of the makerspace rules, and answer any questions you have. After the tour, if you want to hang around and get to know our maker community or work on your own project in the space, we'll simply ask you to sign our liability waiver (as required by our insurance policy).</p>
-    <p>While accessing the space during open house is free, some equipment still has a machine time cost (except for members with unlimited machine time) or a cost for staff to operate the equipment on your behalf. That said, we encourage you to disuss your project with members - you *might* even find a member who is willing to help out.</p>
+    <p>While accessing the space during open house is free, some equipment still has a machine time cost (except for members with unlimited machine time) or a cost for staff to operate the equipment on your behalf. That said, we encourage you to disuss your project with members; you <i>might</i> even find a member who wants to help out.</p>
 {% end %}
 
 ### Membership Plans
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Electronics/robotics lab</li>
                     <li>Sublimation printing (e.g. t-shirts)</li>
                     <li>CNC router</li>
-                    <li>Table saw, bandsaw, planar, etc...</li>
+                    <li>Table saw, bandsaw, planer, etc...</li>
                     <li><a href="/equipment">and more...</a></li>
                 </ul>
             </div>
@@ -123,7 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="plan-item">1 free guest per day during open hours</div>
             <div class="plan-item">20% discount on membership for family</div>
             <div class="plan-item">Promote your business on Crea's website</div>
-            <div class="plan-item">Dedicated storage</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
                     <li>3D printer</li>
@@ -131,13 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>Electronics/robotics lab</li>
                     <li>Sublimation printing (e.g. t-shirts)</li>
                     <li>CNC router</li>
-                    <li>Table saw, bandsaw, planar, etc...</li>
+                    <li>Table saw, bandsaw, planer, etc...</li>
                     <li><a href="/equipment">and more...</a></li>
                 </ul>
             </div>
         </div>
         <div class="plan-footer">
-            <button class="button is-fullwidth is-uppercase">Choose Pro</button>
+            <button class="button is-fullwidth is-uppercase">Contact Us</button>
         </div>
     </div>
 </div>
@@ -159,6 +158,7 @@ Disclaimers:
 We emphasize membership because our priority is building an active community of makers. That said, we recognize that some may have interest in using the space infrequently. For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.
 
 Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a machine time usage cost.
+
 
 ### Sponsorships
 
