@@ -5,10 +5,6 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
-{% message(header="Coming Soon", class="is-info") %}
-    <p>Join links will be active by our June 3, 2023 launch date.<br><br>And to celebrate the launch, for the month of June, all monthly memberships subscriptions will get the annual pricing discount.</p>
-{% end %}
-
 ### Open House Tuesdays
 
 <span class="has-text-danger has-text-weight-bold">Every Tuesday, from 6pm to 9pm</span>, Crea is open to the public for free (no membership or day pass required).
@@ -21,6 +17,11 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 {% end %}
 
 ### Membership Plans
+
+{% message(header="Launch Special", class="is-danger") %}
+    <p>To celebrate the launch, for the month of June, all monthly memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
+    <p>Also, through June 16, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
+{% end %}
 
 If you want to be a regular part of our maker community, decide which membership is right for you.
 
@@ -73,7 +74,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <button class="button is-fullwidth is-uppercase">Choose Starter</button>
+            <a href="https://buy.stripe.com/28o01mdJScjmbo48ww" class="button is-fullwidth is-uppercase" target="_blank">
+                Choose Starter
+            </a>
         </div>
     </div>
     <div class="pricing-plan is-primary is-active">
@@ -104,7 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <button class="button is-fullwidth is-uppercase">Choose Maker</button>
+            <a href="https://buy.stripe.com/6oE01m35eabe0JqcMN" class="button is-fullwidth is-uppercase">
+                Choose Maker
+            </a>
         </div>
     </div>
     <div class="pricing-plan">
@@ -136,7 +141,11 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <button class="button is-fullwidth is-uppercase">Contact Us</button>
+            <a href="#" data-email="c3VwcG9ydEBjcmVhbWFrZXJzcGFjZS5jb20/c3ViamVjdD1Qcm8gTWVtYmVyc2hpcCBJbnF1aXJ5"
+               data-email-html="Contact Us"
+               class="button is-fullwidth is-uppercase">
+                Contact Us
+            </a>
         </div>
     </div>
 </div>
@@ -160,6 +169,7 @@ We emphasize membership because our priority is building an active community of 
 Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a machine time usage cost.
 
 
+<!--
 ### Sponsorships
 
 If you're interested in making an investment in the maker community near Renton, our first suggestion is to simply sponsor a membership for someone you know. Beyond that, we also make it possible to purchase a sponsorship in 3 or 12 month bundles:
@@ -170,3 +180,4 @@ Sponsor a "Maker" membership:
 <button class="button is-primary is-outlined">1 year: $1,200</button>
 
 We'll announce any sponsorship availability at events (e.g. Open House Tuesdays) and in our subsequent newsletter (sign up <a href="{{ newsletter_url() }}">here</a>). Applicants will be selected based on need and intended use.
+-->
