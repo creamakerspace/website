@@ -49,7 +49,9 @@
                     const emailHtml = atob(el.dataset.emailHtml);
                     el.innerHTML = emailHtml;
                 } catch {
-                    el.textContent = email;
+                    if(el.textContent.includes('placeholder')) {
+                        el.textContent = email;
+                    }
                 }
             });
 
@@ -132,6 +134,8 @@
                           <a href="/equipment" class="navbar-item">Equipment</a>
                         
                           <a href="/blog" class="navbar-item">Blog</a>
+                        
+                          <a href="/faq" class="navbar-item">FAQ</a>
                         
                           <a href="/about" class="navbar-item">About</a>
                         
@@ -335,10 +339,10 @@
                     <div class="pb-2 is-size-5"><a href='/equipment'>Equipment</a>
             </div>
             
-                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Makers</a>
+                    <div class="pb-2 is-size-5"><a href='/faq'>FAQ</a>
             </div>
             
-                    <div class="pb-2 is-size-5"><a href='&#x2F;comingsoon'>Policies &amp; Rules</a>
+                    <div class="pb-2 is-size-5"><a href='/policies'>Policies &amp; Rules</a>
             </div>
             
                     <div class="pb-2 is-size-5"><a href='/blog'>Blog</a>
