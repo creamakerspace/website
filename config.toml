@@ -68,6 +68,10 @@ text = "Blog"
 link = "/blog"
 
 [[extra.nav]]
+text = "FAQ"
+link = "/faq"
+
+[[extra.nav]]
 text = "About"
 link = "/about"
 
@@ -97,7 +101,11 @@ text = "Equipment"
 link = "/equipment"
 
 [[extra.footer_nav]]
-text = "Makers"
+text = "FAQ"
+link = "/faq"
+
+# [[extra.footer_nav]]
+# text = "Makers"
 # link = "/makers"
 
 [[extra.footer_nav]]

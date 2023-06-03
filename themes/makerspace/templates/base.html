@@ -82,7 +82,9 @@
                     const emailHtml = atob(el.dataset.emailHtml);
                     el.innerHTML = emailHtml;
                 } catch {
-                    el.textContent = email;
+                    if(el.textContent.includes('placeholder')) {
+                        el.textContent = email;
+                    }
                 }
             });
 
