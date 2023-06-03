@@ -110,7 +110,7 @@ link = "/faq"
 
 [[extra.footer_nav]]
 text = "Policies & Rules"
-# link = "/policies"
+link = "/policies"
 
 [[extra.footer_nav]]
 text = "Blog"

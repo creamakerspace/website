@@ -30,7 +30,7 @@ For non-members and members on the starter plan (with a monthly usage credit), m
 - 3D Printer: $4 per hour
 - CNC Router: $15 per 30 min
 
-In general, if your usage costs start adding up, we recommend upgrading to the Maker membership with unlimited machine time where we don't charge you any machine usage cost. 
+If your usage costs start adding up, we recommend upgrading to the Maker membership with unlimited machine time where we don't charge you any machine time usage cost.
 
 ### What is the "guided usage cost?"
 
@@ -39,7 +39,7 @@ If you are not Crea-certified to operate a piece of equipment, you'll need a Cre
 - 3D Printer: $20 setup plus $5 per hour of print time
 - Laser Cutter: $25 per 15 min
 - CNC Router: $50 per 30 min
-- General Equipment Operation: $25 per 15 min block
+- General Equipment Operation: $25 per 15 min
 
 ### What is "unlimited" machine time?
 
@@ -67,11 +67,11 @@ Probably not. Our focus is providing a space for you to build. You're welcome to
 
 ### What materials are available at Crea?
 
-We try to stock some of the most common materials and supplies for convenience, but in general, we anticipate makers will usually bring their own materials.
+We try to stock some of the most common materials and supplies for convenience. Most notably, we do sell project plywood (for laser cutting) and filament (for 3D Printing), but in general, we anticipate makers will usually bring their own materials and supplies.
 
-Commonly stocked materials include: project plywood, 3D printer filament, wood glue, staples, nails, screws, circuit components. We don't charge for trivial quantities of supplies like glue or staples, but if your project uses a non-trivial amount, bring your own supplies or plan to purchase some from us.
+Commonly stocked supplies include: wood glue, staples, nails, screws, tape, and circuit components. We don't charge for trivial quantities of supplies, but if your project uses a non-trivial amount, bring your own supplies, or plan to purchase some from us.
 
-We do also have a collection of "community scraps" left by other members that are available for any projects being made in the space.
+We also have a collection of "community scraps" left by other members that are available for any projects being made in the space.
 
 ### How do I cancel my membership?
 
@@ -84,19 +84,7 @@ After cancellation, your membership still continues until the end of the current
 
 ### Can I get a refund?
 
-We aim to be reasonable with refunds, however, so that refunds don't impact our prices, we reduce refunds by any non-refundable fees charged by our payment processor.
-
-- For memberships, you must request the refund within 30 days of being charged for an unused membership.
-
-- For early-termination of annual memberships, we will prorate the refund based on the _monthly_ price. `Refund = Total Paid - (Months Elapsed x Monthly Price) - Processing Fees`. There is no prorated early-termination for monthly memberships.
-
-- For classes, you must cancel at least 48 hours prior to the event.
-
-- For materials, products, or goods, you must return the item within 30 days in its original condition. There are no refunds for items that have been customized or modified.
-
-To request a refund, ask in-person or email us at {{ link(email="support@creamakerspace.com") }}. You may select either:
-- Makerspace Credit - refund for the full amount toward other services or products at Crea.
-- Refund to your payment method - for card payments, the refund will be reduced by our payment processing fees (up to 3.5% for credit cards).
+See our [Refund Policy](http://localhost:1111/policies#refund-policy)
 
 ### Can I change my membership tier?
 
