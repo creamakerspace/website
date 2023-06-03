@@ -18,7 +18,7 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 ### Membership Plans
 
-{% message(header="Launch Special", class="is-danger") %}
+{% message(header="Launch Special", class="is-info") %}
     <p>To celebrate the launch, for the month of June, all monthly memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
     <p>Also, through June 16, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
 {% end %}
