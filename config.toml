@@ -32,7 +32,7 @@ goatcounter = "https://crea.goatcounter.com/count"
 [extra.social]
 facebook = "https://www.facebook.com/CreaMakerspace/"
 # linkedin = "https://www.linkedin.com/company/crea-makerspace"
-# instagram = "https://www.instagram.com/CreaMakerspace/"
+instagram = "https://www.instagram.com/CreaMakerspace/"
 # discourse = ""
 
 [[extra.nav]]
