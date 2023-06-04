@@ -3,16 +3,16 @@ title = "Crea Makerspace"
 template = "index.html"
 
 [extra]
-announcement = "Grand Opening on Saturday, June 3 at 2pm."
+announcement = "Open Tues-Fri 2pm-8pm and Sat-Sun 12pm-8pm. Closed Mondays."
 blog_header = "What's happening at Crea?"
 banner = "images/woodwork-3.jpg"
 image = "images/logo-share.png"
 
 [extra.hero]
-header = "Launching now"
-text = "Renton makerspace launching June 3rd!"
-link_text = "RSVP on Facebook"
-link = "https://www.facebook.com/events/980206513010563/"
+header = "Now Open"
+text = "Special launch discounts for joining in June!"
+link_text = "Become a Member"
+link = "/join"
 
 [[extra.experiences]]
 header = "Take a class"
