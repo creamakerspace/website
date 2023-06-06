@@ -9,11 +9,7 @@ sort_by = "weight"
 # 5000+: trivial equipment (<$200)
 +++
 
-{% message(header="Work In Progress", class="is-warning") %}
-    <p>The contents of this page are NOT final. Equipment available at launch is still being finalized.</p>
-{% end %}
-
-Crea will provide access to a variety of equipment:
+Crea provides access to a variety of equipment:
 
 
 <div class="columns">

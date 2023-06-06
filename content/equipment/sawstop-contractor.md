@@ -60,6 +60,7 @@ dado set to cut a groove or slot in a workpiece.
 - **Push Stick**: A device used to push the material through the blade, keeping hands away from the blade.
 - **Riving Knife or Spreader**: A device that helps prevent the material from binding on the blade and reduces the risk of kickback.
 - **Kickback**: A dangerous condition that occurs when the material is violently thrown back towards the user.
+- **Anti-kickback Pawl** - A device that blocks the material from moving backward if kickback occurs.
 - **Blade Guard**: A clear plastic guard that covers the blade, helping to reduce the risk of injury.
 
 ## Materials
