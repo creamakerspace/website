@@ -5,6 +5,17 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
+
+{% message(header="What to expect") %}
+We just launched!
+<br><br>
+Once we get into a cadence of things, we'll run an Open House every Tuesday night from 6-9pm, open to the public for free with no membership or day pass required.
+<br><br>
+But as a brand new makerspace, we are still working to grow that initial community. For now, our focus is giving tours and training people on equipment. Simply stop by during our <a href="/faq#what-days-are-you-open">Open Hours</a> for a brief tour.
+{% end %}
+
+
+<!--
 ### Open House Tuesdays
 
 <span class="has-text-danger has-text-weight-bold">Every Tuesday, from 6pm to 9pm</span>, Crea is open to the public for free (no membership or day pass required).
@@ -15,11 +26,12 @@ If you've never visited Crea before, we recommend visiting on Open House night.
     <p>When you arrive, ask for Tony (usually near the entrance). We'll give you a brief tour, an overview of the makerspace rules, and answer any questions you have. After the tour, if you want to hang around and get to know our maker community or work on your own project in the space, we'll simply ask you to sign our liability waiver (as required by our insurance policy).</p>
     <p>While accessing the space during open house is free, some equipment still has a machine time cost (except for members with unlimited machine time) or a cost for staff to operate the equipment on your behalf. That said, we encourage you to disuss your project with members; you <i>might</i> even find a member who wants to help out.</p>
 {% end %}
+-->
 
 ### Membership Plans
 
 {% message(header="Launch Special", class="is-info") %}
-    <p>To celebrate the launch, for the month of June, all monthly memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
+    <p>To celebrate the launch, for the month of June, Starter and Maker memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
     <p>Also, through June 16, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
 {% end %}
 
@@ -29,8 +41,9 @@ If you want to be a regular part of our maker community, decide which membership
 document.addEventListener('DOMContentLoaded', () => {
     const annualToggle = document.getElementById('annualToggle');
     // browser refresh can leave toggle in previous state, requiring refresh
-    annualToggle.checked = true;
-    annualToggle.addEventListener('change', function() {
+    annualToggle.checked = false;
+
+    function updatePriceView() {
         const $priceEls = document.querySelectorAll('.plan-price');
         // console.log(el);
         $priceEls.forEach(el => {
@@ -39,13 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 el.classList.add('is-monthly');
             }
-        });
-    });
+        });        
+    }
+
+    annualToggle.addEventListener('change', updatePriceView);
+    updatePriceView()
 });
 </script>
 
 <div class="field has-text-centered p-5">
-  <input id="annualToggle" type="checkbox" name="annualToggle" class="switch is-rtl" checked="checked">
+  <input id="annualToggle" type="checkbox" name="annualToggle" class="switch is-rtl">
   <label for="annualToggle">Show prices when paid annually</label>
 </div>
 
@@ -54,8 +70,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Starter</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">65</span></span>/month
-            <div class="annual">($660/year)</div>
+                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">55</span></span>/month
+            <div>
+                <span class="monthly has-text-weight-bold has-text-info">Launch Special: Normally $65/mo</span>
+                <span class="annual">($660/year)</span>
+            </div>
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for casual tinkering</p>
         <div class="plan-items">
@@ -89,8 +108,11 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Maker</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">115</span></span>/month
-            <div class="annual">($1,200/year)</div>
+                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">100</span></span>/month
+            <div>
+                <span class="monthly has-text-weight-bold has-text-info">Launch Special: Normally $115/mo</span>
+                <span class="annual">($1,200/year)</span>
+            </div>
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for hobbyists and DIYers</p>
         <div class="plan-items">
