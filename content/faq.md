@@ -22,15 +22,17 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 - Sun, Mar 31, 2024 (Easter)
 - Apr 7 - 14, 2024 (Founder Vacation)
 
-### What is machine time usage cost?
+### What is machine time cost?
 
-For non-members and members on the starter plan (with a monthly usage credit), machine usage has an additional cost for the following equipment:
+For non-members and members on the Starter plan (after the plan's machine time limits), machine usage has an additional cost based on the machine runtime for the following equipment:
 
 - Laser Cutter: $10 per 15 min
 - 3D Printer: $4 per hour
 - CNC Router: $15 per 30 min
+ 
+Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time usage cost.
 
-If your usage costs start adding up, we recommend upgrading to the Maker membership with unlimited machine time where we don't charge you any machine time usage cost.
+These costs assume you are certified to use the equipment. If not, see the Guided Usage Costs.
 
 ### What is the "guided usage cost?"
 
@@ -43,7 +45,7 @@ If you are not Crea-certified to operate a piece of equipment, you'll need a Cre
 
 ### What is "unlimited" machine time?
 
-Unlimited machine time means there is no machine time usage cost.
+Unlimited machine time means there is no machine time cost.
 
 Our unlimited machine time is subject to sharing and reasonable usage. Expect to take turns as necessary to ensure all members present have comparable levels of access to the equipment. Don't expect to have exclusive access to equipment for hours at a time (except for cases like 3D printing where a single print can take several hours).
 
