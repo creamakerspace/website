@@ -172,7 +172,7 @@ Disclaimers:
 
 We emphasize membership because our priority is building an active community of makers. That said, we recognize that some may have interest in using the space infrequently. For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.
 
-Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a machine time usage cost.
+Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a [machine time cost](/faq/#what-is-machine-time-cost).
 
 
 <!--

@@ -30,7 +30,7 @@ For non-members and members on the Starter plan (after the plan's machine time l
 - 3D Printer: $4 per hour
 - CNC Router: $15 per 30 min
  
-Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time usage cost.
+Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time cost.
 
 These costs assume you are certified to use the equipment. If not, see the Guided Usage Costs.
 
