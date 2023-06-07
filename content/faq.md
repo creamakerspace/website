@@ -24,13 +24,13 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 
 ### What is machine time cost?
 
-For non-members and members on the Starter plan (after the plan's machine time limits), machine usage has an additional cost based on the machine runtime for the following equipment:
+To allow non-member access to the space and to provide a lower-cost Starter plan, the following equipment has an additional cost based on machine runtime:
 
 - Laser Cutter: $10 per 15 min
 - 3D Printer: $4 per hour
 - CNC Router: $15 per 30 min
  
-Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time cost.
+The Starter plan includes a reasonable allotment of machine time before machine time costs apply. Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time cost.
 
 These costs assume you are certified to use the equipment. If not, see the Guided Usage Costs.
 
@@ -92,6 +92,20 @@ See our [Refund Policy](http://localhost:1111/policies#refund-policy)
 
 You can change it yourself from the [Customer Portal](https://billing.stripe.com/p/login/4gw2aJasm65hgUw000)
 or reach out to us to help you make the change.
+
+### Can I volunteer in the makerspace?
+
+Our goal is to build a sustainable organization that doesn't require extensive volunteering to survive, and as we grow, we intend to hire staff to target specific gaps.
+
+That said, we still welcome and appreciate volunteer efforts from our members, whether it's re-calibrating the laser, double-checking the spacing of the SawStop brake cartridge, or adding art within the space. But please know that we are not currently able to compensate volunteer work (both for our own financial limiations and to remain compliant with [L&I law regarding volunteers](https://www.lni.wa.gov/insurance/insurance-requirements/volunteers/))
+
+### Can I teach a class?
+
+As a collaborative community, we welcome and encourage ad-hoc, informal teaching and collaboration arrangements between members and their guests (as allowed by membership plans).
+
+We may also be able to accomodate and assiste with coordinating uncompensated volunteer teaching beyond the scope of members and their guests on a case-by-case basis.
+
+We are looking into providing a more formal program for individuals to share their own skills and even get paid for it. However, as a small business, we do have to structure it to be compliant with policies from Washington State's Department of Labor & Industry (most notably, through an employee or registered independent contractor).
 
 ### Is Crea a non-profit?
 
