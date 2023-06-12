@@ -3,8 +3,7 @@ title = "Crea Makerspace"
 template = "index.html"
 
 [extra]
-announcement = "Late opening at 2pm on Sat Jun 10"
-# announcement = "Open Tues-Fri 2pm-8pm and Sat-Sun 12pm-8pm. Closed Mondays."
+announcement = "Open Tues-Fri 2pm-8pm and Sat-Sun 12pm-8pm. Closed Mondays."
 blog_header = "What's happening at Crea?"
 banner = "images/woodwork-3.jpg"
 image = "images/logo-share.png"
