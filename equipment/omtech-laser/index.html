@@ -231,10 +231,23 @@
 <h2 id="procedures">Procedures</h2>
 <h3 id="cutting-or-engraving-a-design">Cutting or engraving a design</h3>
 <ol>
-<li>Load or import the design into <a href="https://lightburnsoftware.com/">LightBurn</a></li>
+<li>Load, import, or create your design in <a href="https://lightburnsoftware.com/">LightBurn</a>.
+<ul>
+<li>The PC connected to the laser has Lightburn installed.</li>
+<li>Lightburn supports importing lots of image (e.g. <code>.jpeg</code>, <code>.png</code>) and vector (e.g. <code>.svg</code>, <code>.ai</code>) file types</li>
+<li>You can make your own designs with programs like Adobe Illustrator or InkScape (free).</li>
+</ul>
+</li>
+<li>Assign objects in Lightburn to different layers (colors) as needed
+<ul>
+<li>Each layer gets its own power and speed settings</li>
+<li>Layers that cut around other cuts or engravings should be last (since the cut out may shift slightly)</li>
+<li>Set the speed and power using available material guides</li>
+</ul>
+</li>
 <li>Turn on the laser, water chiller, and exhaust fan.</li>
-<li>Place your workpiece on the workbed, typically in the top-right corner. Adjust the workbed height as necessary with the manual adjustment knob.</li>
-<li>Focus the laser. Ensure the material is under the laser. Use either autofocus from the control panel, or place the acrylic focus tool on the piece and raise the bed until it barely touches the laser head.</li>
+<li>Place your workpiece on the workbed. Note that the origin is near the top-right corner. Adjust the workbed height as necessary with the manual adjustment knob.</li>
+<li>Focus the laser. Jog the laser to a position above the material is under the laser, and adjust the workbed height using the Laser Focus Guide. (For the current lens, that is 16mm between the laser head and the material. The focal distance is determined by a ramp test.)</li>
 <li>From Lightburn, use the Trace button to have it move the laser head around the cut or engraving perimeter without powering the laser. Re-align the material as needed.</li>
 <li>Close the cover, and ensure the water chiller and exhaust are both running.</li>
 <li>Click &quot;Start&quot; in lightburn </li>
