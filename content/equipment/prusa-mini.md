@@ -7,6 +7,7 @@ weight = 5000
 
 [extra]
 image = "/images/equipment/prusa-mini.webp"
+requires_training = true
 tags = "cnc fablab"
 
 [extra.specs]
