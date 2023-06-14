@@ -1,6 +1,6 @@
 +++
 title = "OMTech 80W Laser Cutter"
-updated = "2022-10-21"
+updated = "2023-06-13"
 template = "sop.html"
 description = "Laser cutter and engraver for wood, plastics, leather, fabric, and stone."
 weight = 550
