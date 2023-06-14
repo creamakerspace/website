@@ -1,6 +1,6 @@
 +++
 title = "Heat Press"
-updated = "2022-05-18"
+updated = "2023-05-18"
 template = "sop.html"
 description = "Heat press for dye sublimation transfer or vynyl transfer."
 weight = 8050
