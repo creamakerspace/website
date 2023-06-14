@@ -74,12 +74,17 @@ Do **NOT** cut or engrave the following materials due to toxic fumes: artificial
 
 ### Cutting or engraving a design
 
-
-
-1. Load or import the design into [LightBurn](https://lightburnsoftware.com/)
+1. Load, import, or create your design in [LightBurn](https://lightburnsoftware.com/).
+    - The PC connected to the laser has Lightburn installed.
+    - Lightburn supports importing lots of image (e.g. `.jpeg`, `.png`) and vector (e.g. `.svg`, `.ai`) file types
+    - You can make your own designs with programs like Adobe Illustrator or InkScape (free).
+1. Assign objects in Lightburn to different layers (colors) as needed
+    - Each layer gets its own power and speed settings
+    - Layers that cut around other cuts or engravings should be last (since the cut out may shift slightly)
+    - Set the speed and power using available material guides
 1. Turn on the laser, water chiller, and exhaust fan.
-1. Place your workpiece on the workbed, typically in the top-right corner. Adjust the workbed height as necessary with the manual adjustment knob.
-1. Focus the laser. Ensure the material is under the laser. Use either autofocus from the control panel, or place the acrylic focus tool on the piece and raise the bed until it barely touches the laser head.
+1. Place your workpiece on the workbed. Note that the origin is near the top-right corner. Adjust the workbed height as necessary with the manual adjustment knob.
+1. Focus the laser. Jog the laser to a position above the material is under the laser, and adjust the workbed height using the Laser Focus Guide. (For the current lens, that is 16mm between the laser head and the material. The focal distance is determined by a ramp test.)
 1. From Lightburn, use the Trace button to have it move the laser head around the cut or engraving perimeter without powering the laser. Re-align the material as needed.
 1. Close the cover, and ensure the water chiller and exhaust are both running.
 1. Click "Start" in lightburn 
