@@ -32,7 +32,7 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 {% message(header="Launch Special", class="is-info") %}
     <p>To celebrate the launch, for the month of June, Starter and Maker memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
-    <p>Also, through June 16, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
+    <p>Also, for the month of June, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
 {% end %}
 
 If you want to be a regular part of our maker community, decide which membership is right for you.
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="plan-item">Access to space during open hours</div>
             <div class="plan-item">No access to woodshop</div>
             <div class="plan-item">10% discount on classes</div>
-            <div class="plan-item">Limited machine time for:
+            <div class="plan-item">Limited CNC machine time for:
                 <ul>
                     <li>3D printer: 40 hrs/mo</li>
                     <li>Laser cutter: 4 hrs/mo</li>
