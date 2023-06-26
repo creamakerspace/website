@@ -7,11 +7,12 @@ banner = "/images/woodwork-3.jpg"
 
 
 {% message(header="What to expect") %}
-We just launched!
+We are a brand new makerspace, so our community is still in the early stages of growing.
 <br><br>
-Once we get into a cadence of things, we'll run an Open House every Tuesday night from 6-9pm, open to the public for free with no membership or day pass required.
+Simply stop by during our <a href="/faq#what-days-are-you-open">Open Hours</a> for a 10 minute tour of the space with no pressure to sign up or purchase anything. We'll walk you through the space, show you the equipment, and answer any questions.
 <br><br>
-But as a brand new makerspace, we are still working to grow that initial community. For now, our focus is giving tours and training people on equipment. Simply stop by during our <a href="/faq#what-days-are-you-open">Open Hours</a> for a brief tour.
+If you have a project you want to start working on, we'll get you to sign our <a href="/policies">waiver and rules</a>, collect payment, and you can start working on your project in the space.
+If you want to use equipment that requires training (e.g. saws and CNC equipment), we are still usually able to accomodate drop-in on-demand training.
 {% end %}
 
 
@@ -31,8 +32,8 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 ### Membership Plans
 
 {% message(header="Launch Special", class="is-info") %}
-    <p>To celebrate the launch, for the month of June, Starter and Maker memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
-    <p>Also, for the month of June, we will be providing equipment certification classes to members for free! (Class availability is limited. Inquire in-person for details.)</p>
+    <p>For the month of June, Starter and Maker memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
+    <p>Also, for the month of June, we will be providing <b>equipment certification classes to members for free</b>! (Class availability is limited. Inquire in-person for details.)</p>
 {% end %}
 
 If you want to be a regular part of our maker community, decide which membership is right for you.
@@ -72,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">55</span></span>/month
             <div>
-                <span class="monthly has-text-weight-bold has-text-info">Launch Special: Normally $65/mo</span>
+                <span class="monthly has-text-weight-bold has-text-info">June Special: Normally $65/mo</span>
                 <span class="annual">($660/year)</span>
             </div>
         </div>
@@ -110,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="plan-price-amount">
                 <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">100</span></span>/month
             <div>
-                <span class="monthly has-text-weight-bold has-text-info">Launch Special: Normally $115/mo</span>
+                <span class="monthly has-text-weight-bold has-text-info">June Special: Normally $115/mo</span>
                 <span class="annual">($1,200/year)</span>
             </div>
         </div>
