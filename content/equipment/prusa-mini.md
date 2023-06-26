@@ -1,6 +1,6 @@
 +++
 title = "Prusa MINI+ 3D Printer"
-updated = "2023-02-17"
+updated = "2023-06-25"
 template = "sop.html"
 description = "3D printer for printing plastic objects."
 weight = 5000
@@ -74,7 +74,7 @@ Typical uses: covers, protective cases, prototypes, replacement parts, toys & fi
 
 ### Printing a model
 
-You can obtain models from online sites (e.g. [Printables](https://www.printables.com/), [Thingiverse](https://www.thingiverse.com/)) or you can create them on your own with a 3D editor (e.g. [Tinkercad](https://www.tinkercad.com/), [Blender](https://www.blender.org/)).
+You can obtain models from online sites (e.g. [Printables](https://www.printables.com/), [Thingiverse](https://www.thingiverse.com/)) or you can create them on your own with a 3D editor (e.g. [Tinkercad](https://www.tinkercad.com/), [OnShape](https://www.onshape.com/), [Blender](https://www.blender.org/)).
 
 <article class="message is-danger">
   <div class="message-body">
@@ -92,7 +92,7 @@ Take your 3D model and convert ("slice") it to GCode using software like [PrusaS
 1. Using the 3D printer control panel, select the model you wish to print.
 1. The printer will perform Mesh Bed Leveling, preheat the nozzle, and print a skirt around the object before starting to print your object.
 1. Pay close attention to the quality of the first layer. The plastic should stick to the steel sheet. If the nozzle is to high, try to lower it with the Live Adjust Z function in the Tune menu while printing, or stop the print, clean the sheet, re-run First Layer Calibration, and restart your print.
-1. Allow printing to continue utnil complete. Printing may take several hours.
+1. Allow printing to continue until complete. Printing may take several hours.
 
 ### Removing the model
 
