@@ -31,7 +31,7 @@
     {% if section.extra.announcement %}
     <div class="announce p-2">
         <p class="has-text-centered">
-            {{ section.extra.announcement }}
+            {{ section.extra.announcement | safe }}
         </p>
     </div>
     {% endif %}
