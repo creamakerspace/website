@@ -6,14 +6,6 @@ banner = "/images/woodwork-3.jpg"
 +++
 
 
-{% message(header="What to expect") %}
-We are a brand new makerspace, so our community is still in the early stages of growing.
-<br><br>
-Simply stop by during our <a href="/faq#what-days-are-you-open">Open Hours</a> for a 10 minute tour of the space with no pressure to sign up or purchase anything. We'll walk you through the space, show you the equipment, and answer any questions.
-<br><br>
-If you have a project you want to start working on, we'll get you to sign our <a href="/policies">waiver and rules</a>, collect payment, and you can start working on your project in the space.
-If you want to use equipment that requires training (e.g. saws and CNC equipment), we are still usually able to accomodate drop-in on-demand training.
-{% end %}
 
 
 <!--
@@ -197,6 +189,11 @@ We emphasize membership because our priority is building an active community of 
 
 Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a [machine time cost](/faq/#what-is-machine-time-cost).
 
+### Open House Night
+
+Coming soon: We'll be introducing a weekly open house night soon. Signup for the newsletter for updates on when that starts.
+
+<a href="{{ newsletter_url() }}" class="cta button is-small is-primary is-rounded">Subscribe to the newsletter</a>
 
 <!--
 ### Sponsorships

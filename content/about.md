@@ -21,4 +21,4 @@ We are DIYers, inventors, dreamers, and doers full of intellectual curiosity acr
 We are {{ map_link(text="located") }} just a few minutes away from Home Depot, Ikea, and even RE·PC (for recycled electronics). So grab some materials, and start a new project in our space!
 
 
-If you have any questions, or want to schedule a tour, send us an email: {{ link(email="hi@creamakerspace.com") }}.
+If you have any questions, send us an email: {{ link(email="hi@creamakerspace.com") }}.

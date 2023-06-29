@@ -11,8 +11,8 @@ image = "images/logo-share.png"
 [extra.hero]
 header = "Now Open"
 text = "Special launch discounts for joining in June!"
-link_text = "Become a Member"
-link = "/join"
+link_text = "Schedule a tour"
+link = "https://calendly.com/creamakerspace/tour"
 
 [[extra.experiences]]
 header = "Take a class"
