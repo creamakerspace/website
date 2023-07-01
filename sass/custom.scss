@@ -12,7 +12,7 @@
   padding: 0.5em !important;
 }
 
-.plan-price {
+.pricing-plan {
   .monthly {
     display: none;
   }
@@ -22,7 +22,7 @@
       display: none;
     }
     .monthly {
-      display: inline
+      display: inline-block;
     }
   }
 }

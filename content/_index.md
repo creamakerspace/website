@@ -9,8 +9,8 @@ banner = "images/woodwork-3.jpg"
 image = "images/logo-share.png"
 
 [extra.hero]
-header = "Now Open"
-text = "Special launch discounts for joining in June!"
+header = "Makerspace in Renton"
+text = "Shared space and equipment for your projects"
 link_text = "Schedule a tour"
 link = "https://calendly.com/creamakerspace/tour"
 

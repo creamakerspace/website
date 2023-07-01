@@ -23,11 +23,6 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 ### Membership Plans
 
-{% message(header="Launch Special", class="is-info") %}
-    <p>For the month of June, Starter and Maker memberships subscriptions will get the annual pricing discount (for up to 1 year).</p>
-    <p>Also, for the month of June, we will be providing <b>equipment certification classes to members for free</b>! (Class availability is limited. Inquire in-person for details.)</p>
-{% end %}
-
 If you want to be a regular part of our maker community, decide which membership is right for you.
 
 <script>
@@ -37,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     annualToggle.checked = false;
 
     function updatePriceView() {
-        const $priceEls = document.querySelectorAll('.plan-price');
+        const $priceEls = document.querySelectorAll('.pricing-plan');
         // console.log(el);
         $priceEls.forEach(el => {
             if(annualToggle.checked) {
@@ -63,9 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Starter</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">55</span></span>/month
+                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">65</span></span>/month
             <div>
-                <span class="monthly has-text-weight-bold has-text-info">June Special: Normally $65/mo</span>
                 <span class="annual">($660/year)</span>
             </div>
         </div>
@@ -92,7 +86,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/28o01mdJScjmbo48ww" class="button is-fullwidth is-uppercase" target="_blank">
+            <a href="https://buy.stripe.com/3cs4hCfS04QU1Nu28b" class="monthly button is-fullwidth is-uppercase" target="_blank">
+                Choose Starter
+            </a>
+            <a href="https://buy.stripe.com/6oE6pK21a5UY9fWdQV" class="annual button is-fullwidth is-uppercase" target="_blank">
                 Choose Starter
             </a>
         </div>
@@ -101,9 +98,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Maker</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">100</span></span>/month
+                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">115</span></span>/month
             <div>
-                <span class="monthly has-text-weight-bold has-text-info">June Special: Normally $115/mo</span>
                 <span class="annual">($1,200/year)</span>
             </div>
         </div>
@@ -128,7 +124,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/6oE01m35eabe0JqcMN" class="button is-fullwidth is-uppercase">
+            <a href="https://buy.stripe.com/aEU7tO49ifvy2Ry4gi" class="monthly button is-fullwidth is-uppercase">
+                Choose Maker
+            </a>
+            <a href="https://buy.stripe.com/aEU4hC5dm6Z2ak05ko" class="annual button is-fullwidth is-uppercase">
                 Choose Maker
             </a>
         </div>
