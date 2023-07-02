@@ -30,13 +30,14 @@ A full woodshop to accomodate a large range of woodworking projects.
 
  
 {% card_col(header="Fabrication Lab") %}
-Turn your digital ideas into physical creations.
+Turn your ideas into physical creations.
 
  - Laser cutter/engraver
  - 3D printer
  - Sublimation printer
  - Ink jet printer
  - Heat press
+ - Pyrography (wood burning) kit
  - Various hand & power tools
 {% end %}
 
