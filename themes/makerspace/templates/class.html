@@ -1,0 +1,33 @@
+{% import "macros/macros.html" as macros %}
+{% extends "base.html" %}
+{% block content %}
+
+{% set banner = page.extra.banner | default(value=false) %}
+{{ macros::banner(img=banner) }}
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-reversed-mobile is-reversed-print">
+                <div class="column is-two-thirds full-width-print">
+                    <div class="content">
+                        {{ page.content | safe }}
+                    </div>
+                </div>
+                <div class="column is-one-third full-width-print is-size-4">
+                    <div><img src="{{page.extra.image}}"></div>
+
+                    {% if page.extra.details %}
+                    <dl class="py-5">
+                        {% for key, value  in page.extra.details %}
+                        <dt>{{ key }}</dt>
+                        <dl>{{ value }}</dl>
+                        {% endfor %}
+                    </dl>
+                        {% endif %}
+                    <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script><a style="float:none; " id="Setmore_button_iframe" class="button is-primary is-size-4" href="{{page.extra.booking_link}}">Book now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock content %}
