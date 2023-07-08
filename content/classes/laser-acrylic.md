@@ -2,7 +2,7 @@
 title = "Laser: Edge Lit Acrylic"
 updated = "2023-07-07"
 template = "class.html"
-weight = 10
+weight = 20
 
 [extra]
 image = "/images/classes/laser-edge-lit.webp"

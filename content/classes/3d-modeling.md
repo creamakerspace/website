@@ -2,7 +2,7 @@
 title = "Intro to 3D Modeling"
 updated = "2023-07-07"
 template = "class.html"
-weight = 90
+weight = 91
 
 [extra]
 image = "/images/classes/3d-modeling.webp"

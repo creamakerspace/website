@@ -2,7 +2,7 @@
 title = "Woodshop 101: Cutting & Shaping"
 updated = "2023-07-07"
 template = "class.html"
-weight = 10
+weight = 40
 
 [extra]
 image = "/images/classes/sawstop.webp"
