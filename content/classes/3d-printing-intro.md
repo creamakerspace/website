@@ -2,7 +2,7 @@
 title = "Intro to 3D Printing"
 updated = "2023-07-07"
 template = "class.html"
-weight = 10
+weight = 90
 
 [extra]
 image = "/images/classes/3d-printing.webp"
@@ -30,7 +30,9 @@ Upon completion of this class, you'll:
 - be capable of printing thousands of freely available 3D models
 - be certified to independently use the 3D printer for your future projects
 
-Note: this class will *NOT* go into detail on designing your own models. There is a separate class for 3D model design.
+Notes:
+- This class will *NOT* go into detail on designing your own models. There is a separate class for [3D model design](3d-modeling).
+- 3D printing often takes hours. We will start a 3D print, but may not see it finish during the class.
 
 **Who it's for**: Anyone aged 8+ (youth 8-14 must have a guardian present, youth 8-17 must have a guardian co-sign the liability waiver). No prior experience is necessary.
 
