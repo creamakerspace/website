@@ -17,6 +17,9 @@ Unleash your creativity and learn the art of sign making! This workshop will pro
 
 <!-- more -->
 
+{{ images(src=["classes/cnc-sign.webp", "classes/cnc-sign-painted.webp"]) }}
+
+
 The CNC router is possibly the most intimidating machine in our makerspace, and yet the most exciting to watch, and we'll get you to the point where you feel comfortable operating it. This a hands-on class where you will design a sign and operate the CNC router to engrave your design into acrylic. We'll guide you every step of the way, but you will be in the driver's seat for making your sign.
 
 You will learn:
@@ -31,7 +34,9 @@ Upon completion of this class, you'll:
 - have made a custom solid wood sign to take home
 - be certified to independently use the CNC router for your future projects
 
-Note: This class will *NOT* dive very deep into design. We'll provide enough of an introduction to incorporate text, basic shapes, and existing artwork into your sign.
+Notes:
+- This class will *NOT* dive very deep into design. We'll provide enough of an introduction to incorporate text, basic shapes, and existing artwork into your sign.
+- We won't paint or apply a finish to the sign during this class, but we can discuss options with you, and you are welcome stick around after the class to finish your sign (though, we have a very limited selection of finishing products).
 
 **Who it's for**: Anyone aged 15+ (youth 15-17 must have a guardian present).
 No prior experience is necessary, although previous experience with design software is useful for
@@ -43,3 +48,4 @@ creating more complex designs.
 - Dress accordingly for a woodshop (closed-toe shoes required, tie back long hair, and avoid loose clothing/accessories that may get caught by equipment).
 - Optionally, you may bring your own personal safety equipment (eye & ear protection); we provide this if you don't have your own.
 - Optionally, you may bring a laptop for working on your sign design.
+- Optionally, you may bring materials for finishing for your sign (e.g. paint, stain, finish).

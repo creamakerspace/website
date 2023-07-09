@@ -14,7 +14,7 @@ booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4e
 
 +++
 
-Ready to move beyond finding 3D models and start making them yourself? This class will introduce you to the basic concepts and tools for 3D modeling with OnShape.
+Ready to move beyond finding models for 3D printing and start making them yourself? This class will introduce you to the basic concepts and tools for 3D modeling with OnShape.
 
 <!-- more -->
 
