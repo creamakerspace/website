@@ -13,17 +13,17 @@ booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4e
 "Duration" = "2 hours"
 +++
 
-This class will provide you with an introduction to many of the tools in the woodshop. We'll compare and contrast the various saws in the shop, and we'll discuss sanding, routing, and planing. And of course, we'll do this all hands-on in the shop.
+This class will provide you with an introduction to many of the bench tools in the woodshop. We'll compare and contrast the various saws in the shop, and we'll discuss sanding, routing, and planing. And of course, we'll do this all hands-on in the shop.
 
 <!-- more -->
 
-Cutting and shaping wood is foundational to nearly all woodworking projects. In this hands-on class, we'll teach you how to safely operate the saws. You'll  you how to operate this equipment safely. This a hands-on class where we will work with . We'll guide you every step of the way, but you will be in the driver's seat for making your sign.
+Cutting and shaping wood is foundational to nearly all woodworking projects. In this hands-on class, we'll help you learn to use the major equipment of the woodshop safely. This a hands-on class where we will discuss, demonstrate, and then give you a chance to operate each of the following pieces of equipment:
 
-You will learn how to safely operate the following equipment:
-- SawStop table saw
+- Table saw
 - Miter saw
 - Band saw
 - Circular saw
+- Bench planer
 - Router table
 - Sanders
 
