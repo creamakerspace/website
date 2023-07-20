@@ -24,14 +24,16 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 
 ### What is machine time cost?
 
-To allow non-member access to the space and to provide a lower-cost Starter plan, the following equipment has an additional cost based on machine runtime:
+For members of the Maker tier, there is no machine time cost.
+
+For members of the Starter tier, the plan includes a reasonable allotment of machine time before machine time costs apply. Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time cost.
+
+For non-members, the following equipment has an additional cost based on machine runtime:
 
 - Laser Cutter: $10 per 15 min
 - 3D Printer: $4 per hour
 - CNC Router: $15 per 30 min
  
-The Starter plan includes a reasonable allotment of machine time before machine time costs apply. Upgrade to the Maker plan for unlimited machine time where we don't charge any machine time cost.
-
 These costs assume you are certified to use the equipment. If not, see the Guided Usage Costs.
 
 ### What is the "guided usage cost?"
