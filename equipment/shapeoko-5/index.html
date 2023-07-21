@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shapeoko 5 CNC Router | Crea Makerspace</title>
     <meta property="og:title" content="Shapeoko 5 CNC Router | Crea Makerspace" />
-    <link rel="canonical" href="https://creamakerspace.com/equipment/shapeoko-5-pro/" />
-    <meta property="og:url" content="https://creamakerspace.com/equipment/shapeoko-5-pro/" />
+    <link rel="canonical" href="https://creamakerspace.com/equipment/shapeoko-5/" />
+    <meta property="og:url" content="https://creamakerspace.com/equipment/shapeoko-5/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:image" content="https://creamakerspace.com/images/equipment/shapeoko-5-pro.webp" />
     <meta property="og:description" content="CNC Router for cutting and engraving wood, most plastics, and some metals." />
     <meta property="og:site_name" content="Crea Makerspace" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:updated_time" content="2022-10-21" />    
+    <meta property="og:updated_time" content="2023-07-20" />    
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -59,7 +59,7 @@
             var $qrcodeEl = document.getElementById("qrcode");
             if($qrcodeEl) {
                 var qrc = new QRCode($qrcodeEl, {
-                    text: "https://creamakerspace.com/equipment/shapeoko-5-pro/",
+                    text: "https://creamakerspace.com/equipment/shapeoko-5/",
                     width: 135,
                     height: 135
                 });
@@ -171,7 +171,7 @@
             </h1>
             
             <p class="subtitle is-uppercase is-size-6">
-                Last updated: <span class="">October 21, 2022</span>
+                Last updated: <span class="">July 20, 2023</span>
             </p>
             
         </div>
@@ -185,7 +185,90 @@
                 <div class="column is-two-thirds full-width-print">
                     <div class="content">
                         <p><img src="/images/equipment/shapeoko-5-pro.webp" alt="" /></p>
+<p>The Shapeoko 5 CNC Router is a versatile and precise tool used for computer-controlled cutting and carving of various materials.</p>
+<h2 id="risks">Risks</h2>
 <ul>
+<li>Risk of injury due to moving parts, sharp cutting tools, or material ejection.</li>
+<li>Electrical hazards from the power source and components.</li>
+<li>Possibility of damaging the machine or workpiece due to incorrect setup or operation.</li>
+</ul>
+<h2 id="glossary">Glossary</h2>
+<ul>
+<li>CNC Router: A computer numerical control machine that uses rotating cutting tools to remove material from a workpiece.</li>
+<li>G-Code: A programming language used to control CNC machines, specifying toolpaths and operations.</li>
+</ul>
+<h2 id="materials">Materials</h2>
+<p>The materials supported is determined primarily by the limitations of a specific endmill or router bit. In general, the router can be used with:</p>
+<ul>
+<li>All types of wood</li>
+<li>Most plastics (ABS, Acrylic, Polycarbonate, Delrin, HDPE, PEEK, PVC)</li>
+<li>Some alloys of aluminum, brass, and copper</li>
+</ul>
+<h2 id="procedures">Procedures</h2>
+<h3 id="material-preparation-and-workholding">Material Preparation and Workholding</h3>
+<ol>
+<li>Measure your material dimensions. Ensure your thickness measures are precise (and check for variances in thickness at different parts of your material).</li>
+<li>Fasten your material securely to the CNC Router's bed.</li>
+</ol>
+<h3 id="generating-toolpaths-and-g-code">Generating Toolpaths and G-code</h3>
+<ol>
+<li>Create a new project in Carbide Create using your material measurements. Take note of the origin point (circle symbol, usually the lower left corner).</li>
+<li>Create or import your design. </li>
+<li>Add tabs as necessary to through cuts that could cause the piece to move during the cut.</li>
+<li>Generate toolpaths for each layer of your design
+<ol>
+<li>Choose a toolpath type (e.g. Contour, Pocket, VCarve)</li>
+<li>Choose a tool, setting the cutting parameters, such as feed rates, plunge rates (recommend using the default for the tool)</li>
+<li>Set the cutting depth</li>
+<li>Order your cuts: through cuts are usually last, and order them to minimize tool changes.</li>
+</ol>
+</li>
+<li>View the simulation and ensure it matches your expectations</li>
+<li>Generate the G-code in Carbide Create and save it.</li>
+</ol>
+<h3 id="initializing-cnc-router-for-cutting">Initializing CNC Router for Cutting</h3>
+<ol>
+<li>Power on the CNC router (both the main power and the controller box)</li>
+<li>Ensure the workbed is clear of body parts, clothing, or other objects that could get in the way of the moving parts </li>
+<li>Open Carbide Motion and connect to the router</li>
+<li>Choose Initialize Router. This will move the router head and measure the current bit</li>
+<li>Leaving the bit at least an inch above the workpiece, use the Jog controls to move it to the origin point from your design (usually the bottom left corner)</li>
+<li>Align the center of the bit with the corner of your workpiece. Adjust the &quot;step&quot; to move the router in smaller increments. Also use the Z control buttons to lower the router bit until it barely touches your workpiece. As a guide, it is useful to place a piece of paper on the material, and stop adjusting the Z as soon as you can't move the paper freely.</li>
+<li>Click &quot;Zero All&quot;. This is now the zero point that will match the origin from your design.</li>
+<li>Use Z+ to move the bit away from the material again</li>
+</ol>
+<h3 id="cutting-and-engraving-you">Cutting and Engraving you</h3>
+<ol>
+<li>Choose the appropriate cutting tool for the job, making sure it is sharp and clean.</li>
+<li>Install the cutting tool into the CNC Router's collet, following the manufacturer's instructions for proper tightening.</li>
+<li>Set the tool's origin and zero position accurately, based on the design and material dimensions.</li>
+</ol>
+<h3 id="cnc-router-operation">CNC Router Operation</h3>
+<ol>
+<li>Load the saved G-code into Carbide Motion</li>
+<li>Click Start.</li>
+<li>When prompted, insert the tool (bit or endmill) requested. After inserting a new tool and clicking continue, the CNC Router will re-measure the tool so you don't have to re-zero the Z axis.</li>
+<li>When prompted to turn on the router, turn on both the router and the shop vacuum for dust collection. Then press continue, and the cutting will start. If your toolpath contained tool changes, Carbide Motion will prompt you to turn off the router, change the tool, and turn it back on when needed.</li>
+</ol>
+<article class="message is-warning">
+  <div class="message-body">
+<p>Do NOT leave the CNC router unattended while running. You may pause the cutting in the Carbide Create software if you must step away for a moment.</p>
+<p>Keep your body and clothing clear of the workspace, and keep the workbed free of other obstructions.</p>
+<p>Press the Emergency Stop button if you need to immediately power down the entire machine.</p>
+</div>
+</article>
+<h3 id="finishing">Finishing</h3>
+<ol>
+<li>When the cutting is complete, Carbide Motion will prompt you to turn off the router. Once confirmed, it will move the router to the back corner.</li>
+<li>Once the moving parts come to a stop, you can remove your material.</li>
+<li>Turn the machine and controller off.</li>
+</ol>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://my.carbide3d.com/gettingstarted/shapeoko5pro/">Carbide 3D Shapeoko 5 Resources</a></li>
+<li><a href="https://my.carbide3d.com/running-a-shapeoko-course/">Carbide 3D Shapeoko Operation Videos</a></li>
+<li><a href="https://my.carbide3d.com/carbide-create-course/">Carbide Create Videos</a></li>
+<li><a href="https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/">Shapeoko GitBook</a></li>
 <li><a href="https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/cutters">Cutters &amp; Collets Guide</a> </li>
 </ul>
 
@@ -200,10 +283,68 @@
                         <dl>48&quot; x 48&quot; x 4&quot;</dl>
                         
                         <dt>Supported materials</dt>
-                        <dl>All types of wood, most plastics (ABS, Acrylic, Polycarbonate, Delrin, HDPE, PEEK, PVC), and some alloys of aluminum, brass, and copper</dl>
+                        <dl>All types of wood, most plastics, and some alloys of aluminum, brass, and copper</dl>
                         
                     </dl>
                         
+                    
+                    <hr>
+                    <ul class="toc pt-3 no-print">
+                        
+                        <li>
+                            <a href="https://creamakerspace.com/equipment/shapeoko-5/#risks" class="has-text-weight-bold">Risks</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://creamakerspace.com/equipment/shapeoko-5/#glossary" class="has-text-weight-bold">Glossary</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://creamakerspace.com/equipment/shapeoko-5/#materials" class="has-text-weight-bold">Materials</a>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://creamakerspace.com/equipment/shapeoko-5/#procedures" class="has-text-weight-bold">Procedures</a>
+                            
+                            <ul class="pl-5">
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#material-preparation-and-workholding">Material Preparation and Workholding</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#generating-toolpaths-and-g-code">Generating Toolpaths and G-code</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#initializing-cnc-router-for-cutting">Initializing CNC Router for Cutting</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#cutting-and-engraving-you">Cutting and Engraving you</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#cnc-router-operation">CNC Router Operation</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="https://creamakerspace.com/equipment/shapeoko-5/#finishing">Finishing</a>
+                                </li>
+                                
+                            </ul>
+                            
+                        </li>
+                        
+                        <li>
+                            <a href="https://creamakerspace.com/equipment/shapeoko-5/#references" class="has-text-weight-bold">References</a>
+                            
+                        </li>
+                        
+                    </ul>
                     
                 </div>
             </div>
