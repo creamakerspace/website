@@ -1,6 +1,6 @@
 +++
 title = "DeWalt DW735X Planer"
-updated = "2023-03-04"
+updated = "2023-07-20"
 template = "sop.html"
 description = "13\" thickness planer for dimensioning wood and achieving smooth surfaces"
 weight = 1200
