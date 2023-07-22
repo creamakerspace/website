@@ -25,7 +25,7 @@ A full woodshop to accomodate a large range of woodworking projects.
  - Circular saw
  - Orbital sander
  - Plunge router
- - Various hand & power tools
+ - [Various hand & power tools](/faq#what-hand-power-tools-are-available)
 {% end %}
 
  
@@ -38,7 +38,7 @@ Turn your ideas into physical creations.
  - Ink jet printer
  - Heat press
  - Pyrography (wood burning) kit
- - Various hand & power tools
+ - [Various hand & power tools](/faq#what-hand-power-tools-are-available)
 {% end %}
 
 

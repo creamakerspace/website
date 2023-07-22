@@ -55,6 +55,19 @@ If a piece of equipment is in high demand, we'll consider acquiring additional e
 
 If you are looking for more substantial or exclusive access to equipment, contact us to discuss how we might accomodate your scenario.
 
+### What hand & power tools are available?
+
+- Orbital sander, belt sander, circular saw, jig saw, pull saw, hack saw, & saw guide (sanders and saws require woodshop access)
+- Drills, impact driver, brad nailer, narrow crown stapler, T50 staplers, rotary tool, hot glue guns, & heat gun.
+- Clamps, wrenches, utility knives, hammers, tape measures, levels, rubber mallet, & squares. 
+- Chisels, screwdrivers, pliers, allen wrenches, socket set, & wrenches.
+- Assortments of drill bits, driver bits, router bits, & hole saw bits. 
+
+We are regularly evaluating what additional tools we should make available, so feedback on tools is always welcome. 
+
+Additionally, you are welcome to bring your own tools to use for your projects.
+
+
 ### Can I reserve a piece of equipment?
 
 No. We currently don't allow reserving equipment in advance.
