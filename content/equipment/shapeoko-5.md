@@ -1,6 +1,6 @@
 +++
 title = "Shapeoko 5 CNC Router"
-updated = "2023-07-20"
+updated = "2023-07-25"
 template = "sop.html"
 description = "CNC Router for cutting and engraving wood, most plastics, and some metals."
 weight = 500
@@ -66,11 +66,6 @@ The materials supported is determined primarily by the limitations of a specific
 1. Align the center of the bit with the corner of your workpiece. Adjust the "step" to move the router in smaller increments. Also use the Z control buttons to lower the router bit until it barely touches your workpiece. As a guide, it is useful to place a piece of paper on the material, and stop adjusting the Z as soon as you can't move the paper freely.
 1. Click "Zero All". This is now the zero point that will match the origin from your design.
 1. Use Z+ to move the bit away from the material again
-
-### Cutting and Engraving you 
-1. Choose the appropriate cutting tool for the job, making sure it is sharp and clean.
-2. Install the cutting tool into the CNC Router's collet, following the manufacturer's instructions for proper tightening.
-3. Set the tool's origin and zero position accurately, based on the design and material dimensions.
 
 ### CNC Router Operation
 1. Load the saved G-code into Carbide Motion
