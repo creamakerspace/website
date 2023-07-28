@@ -1,6 +1,6 @@
 +++
 title = "CNC Router: Sign Making"
-updated = "2023-07-07"
+updated = "2023-07-28"
 template = "class.html"
 weight = 30
 
@@ -9,7 +9,7 @@ image = "/images/classes/cnc-routing.webp"
 booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/9bf2a46d-a367-49ec-99da-5674f07b9f9e"
 
 [extra.details]
-"Non-member Price" = "$95"
+"Non-member Price" = "$80"
 "Duration" = "2 hours"
 +++
 
@@ -35,7 +35,7 @@ Upon completion of this class, you'll:
 - be certified to independently use the CNC router for your future projects
 
 Notes:
-- This class will *NOT* dive very deep into design. We'll provide enough of an introduction to incorporate text, basic shapes, and existing artwork into your sign.
+- This class will *NOT* dive very deep into design. We'll provide enough of an introduction to incorporate text, basic shapes, and existing artwork into your sign. We'll be introducing a follow-on class to dive deeper into 2.5 and even 3D design for machining.
 - We won't paint or apply a finish to the sign during this class, but we can discuss options with you, and you are welcome stick around after the class to finish your sign (though, we have a very limited selection of finishing products).
 
 **Who it's for**: Anyone aged 15+ (youth 15-17 must have a guardian present).
