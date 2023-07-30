@@ -6,7 +6,7 @@ sort_by = "weight"
 <article class="message is-info">
   <div class="message-body">
 
-**Free Art & Robots class on Aug 5** using discount code during booking: **FREE-ROBOTS**
+**[Free Art & Robots class](https://bookwhen.com/creamakerspace/e/ev-sjiv-20230805140000) on Aug 5** using discount code during booking: **FREE-ROBOTS**
 
 Availability is limited. Follow us on <a href="https://facebook.com/CreaMakerspace">Facebook</a> or <a href="https://instagram.com/CreaMakerspace">Instagram</a> for future event promotions.
 
