@@ -1,16 +1,16 @@
 +++
 title = "Woodshop 101: Cutting & Shaping"
-updated = "2023-07-07"
+updated = "2023-07-29"
 template = "class.html"
 weight = 40
 
 [extra]
+redirect = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
 image = "/images/classes/sawstop.webp"
-booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/b70a58a5-e500-4a09-8370-a4caf666c4f5"
+booking_link = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
 
 [extra.details]
-"Non-member Price" = "$65"
-"Duration" = "2 hours"
+
 +++
 
 This class will provide you with an introduction to many of the bench tools in the woodshop. We'll compare and contrast the various saws in the shop, and we'll discuss sanding, routing, and planing. And of course, we'll do this all hands-on in the shop.

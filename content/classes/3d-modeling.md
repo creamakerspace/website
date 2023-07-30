@@ -1,16 +1,15 @@
 +++
 title = "Intro to 3D Modeling"
-updated = "2023-07-28"
+updated = "2023-07-29"
 template = "class.html"
 weight = 91
 
 [extra]
+redirect = "https://bookwhen.com/creamakerspace?entry=825rnsfzng4v"
 image = "/images/classes/3d-modeling.webp"
-booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/29429c54-258d-4863-aa90-59b64f1ec53e"
+booking_link = "https://bookwhen.com/creamakerspace?entry=825rnsfzng4v"
 
 [extra.details]
-"Price" = "$60"
-"Duration" = "120 min"
 
 +++
 

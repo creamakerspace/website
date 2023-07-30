@@ -1,16 +1,15 @@
 +++
 title = "Intro to 3D Printing"
-updated = "2023-07-07"
+updated = "2023-07-29"
 template = "class.html"
 weight = 90
 
 [extra]
+redirect = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
 image = "/images/classes/3d-printing.webp"
-booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/15ea8771-3b7e-4b41-9822-d8f07bccd4bf"
+booking_link = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
 
 [extra.details]
-"Price" = "$50"
-"Duration" = "60 min"
 
 +++
 

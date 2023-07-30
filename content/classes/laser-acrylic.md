@@ -1,16 +1,15 @@
 +++
 title = "Laser: Edge Lit Acrylic"
-updated = "2023-07-07"
+updated = "2023-07-29"
 template = "class.html"
 weight = 20
 
 [extra]
+redirect = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
 image = "/images/classes/laser-edge-lit.webp"
-booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/9db6d709-9527-42d2-8a5a-9c2872670206"
+booking_link = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
 
 [extra.details]
-"Non-member Price" = "$75"
-"Duration" = "2 hours"
 
 +++
 

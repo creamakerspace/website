@@ -1,16 +1,16 @@
 +++
 title = "CNC Router: Sign Making"
-updated = "2023-07-28"
+updated = "2023-07-29"
 template = "class.html"
 weight = 30
 
 [extra]
+redirect = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
 image = "/images/classes/cnc-routing.webp"
-booking_link = "https://booking.setmore.com/scheduleappointment/15188ed7-131a-4efb-9840-bb0605fd250c/class/9bf2a46d-a367-49ec-99da-5674f07b9f9e"
+booking_link = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
 
 [extra.details]
-"Non-member Price" = "$80"
-"Duration" = "2 hours"
+
 +++
 
 Unleash your creativity and learn the art of sign making! This workshop will provide a comprehensive introduction to the Shapeoko 5 CNC router. We'll guide you through the end-to-end process of designing a custom sign and teach you how to safely operate the CNC router!
