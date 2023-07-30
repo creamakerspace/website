@@ -19,6 +19,7 @@ banner = "/images/woodwork-3.jpg"
 <!-- https://github.com/vkurko/calendar -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
 <div id="calendar"></div>
 
 
@@ -26,32 +27,83 @@ banner = "/images/woodwork-3.jpg"
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // Functions to open and close a modal
-  function openModal($el) {
-    $el.classList.add('is-active');
-  }
-
-  function closeModal($el) {
-    $el.classList.remove('is-active');
-  }
-
-  // Add a click event on various child elements to close the parent modal
-  (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
-    const $target = $close.closest('.modal');
-    $close.addEventListener('click', () => {
-      closeModal($target);
-      let el = document.getElementById('event-iframe');
-      el.src = 'about:blank'
-    });
-  });
-
-  // Add a keyboard event to close all modals
-  document.addEventListener('keydown', (event) => {
-    if (event.code === 'Escape') {
-      closeAllModals();
+    // Functions to open and close a modal
+    let modal = document.getElementById('event-modal')
+    function openModal(iFrameSrc) {
+        let el = document.getElementById('event-iframe');
+        el.src = iFrameSrc;
+        modal.classList.add('is-active');
     }
-  });
+    function closeModal($el) {
+        modal.classList.remove('is-active');
+        let el = document.getElementById('event-iframe');
+        el.src = 'about:blank'
+    }
 
+    // Add a click event on various child elements to close the parent modal
+    (document.querySelectorAll('.modal-background, .modal-close') || []).forEach(($close) => {
+        $close.addEventListener('click', () => {
+            closeModal();
+        });
+    });
+
+    // Add a keyboard event to close the modal
+    document.addEventListener('keydown', (event) => {
+        if (event.code === 'Escape') {
+            closeModal();
+        }
+    });
+
+
+    function getMondays() {
+        let monday = dayjs().day(1);
+        let mondays = [monday.format('YYYY-MM-DD')];
+
+        for (let i = 0; i < 20; i++) {
+            monday = monday.add(7, 'day');
+            mondays.push(monday.format('YYYY-MM-DD'));
+        }
+
+        return mondays;
+    }    
+
+
+    // Returns array of Events for days we're close
+    // This should match the text on: /faq.md#what-days-are-you-open
+    function closedEvents() {
+        let mondays = getMondays();
+        let closed = mondays.map((monday) => {
+            return {
+                start: monday,
+                end: monday,
+                allDay: true,
+                backgroundColor: "#aaa",
+                title: "Closed",
+            };
+        });
+
+        let vacation = [
+            { start: '2023-11-23', title: 'Closed (Thanksgiving)' },
+            { start: '2023-12-24', title: 'Closed (Christmas Eve)' },
+            { start: '2023-12-31', title: 'Closed (New Year\'s Eve)' },
+            { start: '2024-03-31', title: 'Closed (Easter)' },
+            { start: '2024-04-07', end: '2024-04-14', title: 'Closed (Founder Vacation)' }
+        ];
+        closed = vacation.map((d) => {
+            return {
+                start: d.start,
+                end: dayjs(d.end || d.start).add(1, 'day').format('YYYY-MM-DD'),
+                allDay: true,
+                title: d.title,
+                backgroundColor: "#aaa",
+            }
+        }).concat(closed);
+
+        return closed;
+    }
+
+
+    // Configure EventCalendar; initializes with empty event list
     let ec = new EventCalendar(document.getElementById('calendar'), {
         view: 'timeGridWeek',
         height: '600px',
@@ -63,39 +115,42 @@ document.addEventListener('DOMContentLoaded', () => {
         nowIndicator: true,
         scrollTime: "11:30:00",
         displayEventEnd: false,
-        // eventContent: (info) => info.event.title,
+        eventBackgroundColor: "#006494",
+        // highlightedDates: ["2023-07-31"],
         eventClick: (info) => {
-            let el = document.getElementById('event-iframe');
-            el.src = `https://bookwhen.com/creamakerspace/iframe/e/${info.event.id}`;
-            document.getElementById('event-modal').classList.add('is-active');
+            if(info.event.extendedProps.iframe) {
+                openModal(info.event.extendedProps.iframe);
+            }
         },
+        events: closedEvents()
     });
 
-  const username = "dtrivw1rbl4o9lp0yqyc868oqg7s";
-  let events = [];
-  fetch('https://api.bookwhen.com/v2/events', {
-    headers: {
-        'Authorization': 'Basic ' + btoa(username + ":")
-    }
-  }).then(function (response) {
+    const username = "dtrivw1rbl4o9lp0yqyc868oqg7s";
+    let events = [];
+    fetch('https://api.bookwhen.com/v2/events', {
+        headers: {
+            'Authorization': 'Basic ' + btoa(username + ":")
+        }
+    }).then(function (response) {
         if (response.ok) {
             return response.json();
         }
         return Promise.reject(response);
     }).then(function (response) {
         // This is the JSON from our response
-        console.log(response);
         events = response.data.map((evt) => {
-            return {id: evt.id, title: evt.attributes.title, start: evt.attributes.start_at, end: evt.attributes.end_at }
+            return {
+                id: evt.id,
+                title: evt.attributes.title,
+                start: evt.attributes.start_at,
+                end: evt.attributes.end_at,
+                extendedProps: { iframe: `https://bookwhen.com/creamakerspace/iframe/e/${evt.id}` }
+            }
         })
-        console.log(events);
-        ec.setOption('events', events);
+        ec.setOption('events', ec.getEvents().concat(events));
     }).catch(function (err) {
         console.warn('Failed to fetch event data.', err);
     });
-
-
-
 
 });
 </script>

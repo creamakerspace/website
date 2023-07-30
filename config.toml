@@ -55,6 +55,10 @@ link = "/join"
 text = "Equipment"
 link = "/equipment"
 
+[[extra.nav]]
+text = "Event Calendar"
+link = "/calendar"
+
 # [[extra.nav]]
 # text = "Makers"
 # link = "/makers"
