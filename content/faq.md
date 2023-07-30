@@ -22,6 +22,8 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 - Sun, Mar 31, 2024 (Easter)
 - Apr 7 - 14, 2024 (Founder Vacation)
 
+See also: the [Event Calendar](/calendar)
+
 ### What is machine time cost?
 
 For members of the Maker tier, there is no machine time cost.
@@ -80,13 +82,13 @@ Maybe. We do have an in-house professional graphic designer that may be able to 
 
 ### Can Crea build something for me?
 
-Probably not. Our focus is providing a space for you to build. You're welcome to ask, and we may even be able to refer you to a member who can, but we have very limited capacity for providing manufacturing services.
+Maybe, though our focus is providing a space for you to build. You're welcome to ask, and we may even be able to refer you to a member who can, but we have very limited capacity for providing manufacturing services.
 
 ### What materials are available at Crea?
 
 We try to stock some of the most common materials and supplies for convenience. Most notably, we do sell project plywood (for laser cutting) and filament (for 3D Printing), but in general, we anticipate makers will usually bring their own materials and supplies.
 
-Commonly stocked supplies include: wood glue, staples, nails, screws, tape, and circuit components. We don't charge for trivial quantities of supplies, but if your project uses a non-trivial amount, bring your own supplies, or plan to purchase some from us.
+Commonly stocked supplies include: wood glue, staples, nails, screws, tape, and circuit components (though exact selection varies). We don't charge for trivial quantities of supplies, but if your project uses a non-trivial amount, bring your own supplies, or plan to purchase some from us.
 
 We also have a collection of "community scraps" left by other members that are available for any projects being made in the space.
 
@@ -110,17 +112,15 @@ or reach out to us to help you make the change.
 
 ### Can I volunteer in the makerspace?
 
-Our goal is to build a sustainable organization that doesn't require extensive volunteering to survive, and as we grow, we intend to hire staff to target specific gaps.
+Our goal is to build a sustainable organization that doesn't require burning out volunteers to survive, and as we grow, we intend to hire staff to target specific gaps.
 
 That said, we still welcome and appreciate volunteer efforts from our members, whether it's re-calibrating the laser, double-checking the spacing of the SawStop brake cartridge, or adding art within the space. But please know that we are not currently able to compensate volunteer work (both for our own financial limiations and to remain compliant with [L&I law regarding volunteers](https://www.lni.wa.gov/insurance/insurance-requirements/volunteers/))
 
 ### Can I teach a class?
 
-As a collaborative community, we welcome and encourage ad-hoc, informal teaching and collaboration arrangements between members and their guests (as allowed by membership plans).
+As a collaborative community, we welcome and encourage ad-hoc, informal teaching and collaboration arrangements between members and their guests (within the limits of their membership plans).
 
-We may also be able to accomodate and assiste with coordinating uncompensated volunteer teaching beyond the scope of members and their guests on a case-by-case basis.
-
-We are looking into providing a more formal program for individuals to share their own skills and even get paid for it. However, as a small business, we do have to structure it to be compliant with policies from Washington State's Department of Labor & Industry (most notably, through an employee or registered independent contractor).
+We are also starting a program for individuals to teach formal classes and even get paid for it. As a small business, at this time, we can only offer this to individuals who can teach as Indepenent Contractors in compliance with policies from Washington State's Department of Labor & Industry (e.g. registered with Dept of Revenue). Ask us for the application form for more details.
 
 ### Is Crea a non-profit?
 
