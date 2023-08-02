@@ -29,11 +29,24 @@
     </section>
 
     {% if section.extra.announcement %}
-    <div class="announce p-2">
+   <!--  <div class="announce p-2">
         <p class="has-text-centered">
             {{ section.extra.announcement | safe }}
         </p>
-    </div>
+    </div> -->
+
+    <section class="container section pb-0">
+        <article class="message is-info">
+            {% if section.extra.announcement_header %}
+            <div class="message-header">
+                <p>{{ section.extra.announcement_header }}</p>
+            </div>
+            {% endif %}
+            <div class="message-body">
+                {{ section.extra.announcement | safe }}
+            </div>
+        </article>
+    </section>
     {% endif %}
 
 
