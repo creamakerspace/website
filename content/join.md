@@ -184,9 +184,13 @@ Disclaimers:
 
 ### Day Pass
 
-We emphasize membership because our priority is building an active community of makers. That said, we recognize that some may have interest in using the space infrequently. For one-off utilization of the space (outside of Open House night), we charge a fixed rate of <span class="has-text-danger">$20 for the day</span>.
+Our priority is building an active community of makers, and we believe the membership is the best experience for that. It provides the flexibility to come and go as you please regardless of project size, with less pressure to finish the project during a single day pass, especially when sharing equipment.
 
-Some equipment still requires completion of a training class (or paying for an operator). And some equipment has a [machine time cost](/faq/#what-is-machine-time-cost).
+That said, we do currently allow one-off utilization of the space for a fixed rate of **$20 for the day**. [Policies](/policies) still apply (including equipment sharing). Some equipment still requires completion of a training class (or paying for an operator). And  CNC equipment has an additional cost for non-members:
+
+- Laser Cutter: $10 per 15 min
+- 3D Printer: $4 per hour
+- CNC Router: $15 per 30 min
 
 ### Open House Night
 
