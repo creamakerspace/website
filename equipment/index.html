@@ -23,6 +23,12 @@
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>
+        if(document.cookie.indexOf('disable_goatcounter=') !== -1) {
+            window.goatcounter = { no_onload: true };
+            console.warn("goatcounter disabled by cookie");
+        }
+    </script>
     <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
