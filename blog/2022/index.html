@@ -24,9 +24,28 @@
     <link rel="stylesheet" type="text/css" href="/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script>
-        if(document.cookie.indexOf('disable_goatcounter=') !== -1) {
+        function isGoatCounterEnabled() {
+            return localStorage.getItem("disableGoatCounter") === null;
+        }
+        if(!isGoatCounterEnabled()) {
             window.goatcounter = { no_onload: true };
-            console.warn("goatcounter disabled by cookie");
+            console.warn("goatcounter disabled by local storage");
+        }
+
+        function toggleGoatCounter() {
+            if(isGoatCounterEnabled()) {
+                disableGoatCounter()
+            } else {
+                enableGoatCounter()
+            }
+        }
+        function disableGoatCounter() {
+            localStorage.setItem("disableGoatCounter", true)
+            alert("GoatCounter disabled");
+        }
+        function enableGoatCounter() {
+            localStorage.removeItem("disableGoatCounter");
+            alert("GoatCounter enabled");
         }
     </script>
     <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -196,39 +215,6 @@
     
     <div class="card-image">
         <figure class="image is-4by3">
-            <a href="https://creamakerspace.com/blog/2022/founder-story/"><img src="/images/2022/laser-cut-catan.jpg" alt="Placeholder image">
-            </a>
-        </figure>
-    </div>
-    <div class="card-content p-3">
-        <div class="media">
-            <div class="media-content has-text-centered">
-                <a href="https://creamakerspace.com/blog/2022/founder-story/" class="title is-6 has-text-primary">Founder&#x27;s Story</a>
-            </div>
-        </div>
-
-        <div class="content">
-            <p>One year ago, I had no thoughts of starting a makerspace. But now I've quit my job as an engineering manager to make it happen. </p>
-
-            
-        </div>
-        <div class="has-text-right pt-2">
-            <a href="https://creamakerspace.com/blog/2022/founder-story/" class="has-text-weight-bold has-text-primary">Read More</a>
-        </div>
-    </div>
-</div>
-
-                
-            </div>
-
-            
-            <div class="column is-one-third">
-                
-                
-<div class="card">
-    
-    <div class="card-image">
-        <figure class="image is-4by3">
             <a href="https://creamakerspace.com/blog/2022/swag/"><img src="/images/2022/hoodie-front.webp" alt="Placeholder image">
             </a>
         </figure>
@@ -278,6 +264,39 @@
         </div>
         <div class="has-text-right pt-2">
             <a href="https://creamakerspace.com/blog/2022/launch-website/" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://creamakerspace.com/blog/2022/founder-story/"><img src="/images/2022/laser-cut-catan.jpg" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://creamakerspace.com/blog/2022/founder-story/" class="title is-6 has-text-primary">Founder&#x27;s Story</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>One year ago, I had no thoughts of starting a makerspace. But now I've quit my job as an engineering manager to make it happen. </p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://creamakerspace.com/blog/2022/founder-story/" class="has-text-weight-bold has-text-primary">Read More</a>
         </div>
     </div>
 </div>
@@ -386,7 +405,7 @@
 </footer>
 <div class="layer copyright py-3">
     <div class="container level">
-        <div class="level-left">
+        <div class="level-left" onclick="gc=(typeof gc === 'undefined')?1:gc+1;if(gc===5){toggleGoatCounter();}">
             
             &copy; Crea Makerspace 2023
             

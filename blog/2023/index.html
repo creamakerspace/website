@@ -24,9 +24,28 @@
     <link rel="stylesheet" type="text/css" href="/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script>
-        if(document.cookie.indexOf('disable_goatcounter=') !== -1) {
+        function isGoatCounterEnabled() {
+            return localStorage.getItem("disableGoatCounter") === null;
+        }
+        if(!isGoatCounterEnabled()) {
             window.goatcounter = { no_onload: true };
-            console.warn("goatcounter disabled by cookie");
+            console.warn("goatcounter disabled by local storage");
+        }
+
+        function toggleGoatCounter() {
+            if(isGoatCounterEnabled()) {
+                disableGoatCounter()
+            } else {
+                enableGoatCounter()
+            }
+        }
+        function disableGoatCounter() {
+            localStorage.setItem("disableGoatCounter", true)
+            alert("GoatCounter disabled");
+        }
+        function enableGoatCounter() {
+            localStorage.removeItem("disableGoatCounter");
+            alert("GoatCounter enabled");
         }
     </script>
     <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -196,103 +215,6 @@
     
     <div class="card-image">
         <figure class="image is-4by3">
-            <a href="https://creamakerspace.com/blog/2023/laser-arrived/"><img src="/images/2023/laser-unboxed.webp" alt="Placeholder image">
-            </a>
-        </figure>
-    </div>
-    <div class="card-content p-3">
-        <div class="media">
-            <div class="media-content has-text-centered">
-                <a href="https://creamakerspace.com/blog/2023/laser-arrived/" class="title is-6 has-text-primary">The laser has arrived</a>
-            </div>
-        </div>
-
-        <div class="content">
-            Pew pew pew... Oh, right... not that kind of laser. We now have a laser cutter/engraver!
-            
-        </div>
-        <div class="has-text-right pt-2">
-            <a href="https://creamakerspace.com/blog/2023/laser-arrived/" class="has-text-weight-bold has-text-primary">Read More</a>
-        </div>
-    </div>
-</div>
-
-                
-            </div>
-
-            
-            <div class="column is-one-third">
-                
-                
-<div class="card">
-    
-    <div class="card-image">
-        <figure class="image is-4by3">
-            <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/"><img src="/images/2023/prelaunch-entry.jpg" alt="Placeholder image">
-            </a>
-        </figure>
-    </div>
-    <div class="card-content p-3">
-        <div class="media">
-            <div class="media-content has-text-centered">
-                <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/" class="title is-6 has-text-primary">Crea Has a Location</a>
-            </div>
-        </div>
-
-        <div class="content">
-            <p>Exciting update: Crea officially has a location in Renton!</p>
-
-            
-        </div>
-        <div class="has-text-right pt-2">
-            <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/" class="has-text-weight-bold has-text-primary">Read More</a>
-        </div>
-    </div>
-</div>
-
-                
-            </div>
-
-            
-            <div class="column is-one-third">
-                
-                
-<div class="card">
-    
-    <div class="card-image">
-        <figure class="image is-4by3">
-            <a href="https://creamakerspace.com/blog/2023/classes-launch/"><img src="/images/2023/classes-edge-lit.webp" alt="Placeholder image">
-            </a>
-        </figure>
-    </div>
-    <div class="card-content p-3">
-        <div class="media">
-            <div class="media-content has-text-centered">
-                <a href="https://creamakerspace.com/blog/2023/classes-launch/" class="title is-6 has-text-primary">Now Offerring Classes</a>
-            </div>
-        </div>
-
-        <div class="content">
-            We've launched several classes ranging from 3D printing to laser cutting to woodworking.
-            
-        </div>
-        <div class="has-text-right pt-2">
-            <a href="https://creamakerspace.com/blog/2023/classes-launch/" class="has-text-weight-bold has-text-primary">Read More</a>
-        </div>
-    </div>
-</div>
-
-                
-            </div>
-
-            
-            <div class="column is-one-third">
-                
-                
-<div class="card">
-    
-    <div class="card-image">
-        <figure class="image is-4by3">
             <a href="https://creamakerspace.com/blog/2023/launch/"><img src="/images/2023/launch-entry.webp" alt="Placeholder image">
             </a>
         </figure>
@@ -344,6 +266,103 @@
         </div>
         <div class="has-text-right pt-2">
             <a href="https://creamakerspace.com/blog/2023/behind-the-scenes/" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://creamakerspace.com/blog/2023/classes-launch/"><img src="/images/2023/classes-edge-lit.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://creamakerspace.com/blog/2023/classes-launch/" class="title is-6 has-text-primary">Now Offerring Classes</a>
+            </div>
+        </div>
+
+        <div class="content">
+            We've launched several classes ranging from 3D printing to laser cutting to woodworking.
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://creamakerspace.com/blog/2023/classes-launch/" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/"><img src="/images/2023/prelaunch-entry.jpg" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/" class="title is-6 has-text-primary">Crea Has a Location</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Exciting update: Crea officially has a location in Renton!</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://creamakerspace.com/blog/2023/crea-has-a-location/" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://creamakerspace.com/blog/2023/laser-arrived/"><img src="/images/2023/laser-unboxed.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://creamakerspace.com/blog/2023/laser-arrived/" class="title is-6 has-text-primary">The laser has arrived</a>
+            </div>
+        </div>
+
+        <div class="content">
+            Pew pew pew... Oh, right... not that kind of laser. We now have a laser cutter/engraver!
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://creamakerspace.com/blog/2023/laser-arrived/" class="has-text-weight-bold has-text-primary">Read More</a>
         </div>
     </div>
 </div>
@@ -452,7 +471,7 @@
 </footer>
 <div class="layer copyright py-3">
     <div class="container level">
-        <div class="level-left">
+        <div class="level-left" onclick="gc=(typeof gc === 'undefined')?1:gc+1;if(gc===5){toggleGoatCounter();}">
             
             &copy; Crea Makerspace 2023
             

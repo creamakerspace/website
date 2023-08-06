@@ -24,9 +24,28 @@
     <link rel="stylesheet" type="text/css" href="/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script>
-        if(document.cookie.indexOf('disable_goatcounter=') !== -1) {
+        function isGoatCounterEnabled() {
+            return localStorage.getItem("disableGoatCounter") === null;
+        }
+        if(!isGoatCounterEnabled()) {
             window.goatcounter = { no_onload: true };
-            console.warn("goatcounter disabled by cookie");
+            console.warn("goatcounter disabled by local storage");
+        }
+
+        function toggleGoatCounter() {
+            if(isGoatCounterEnabled()) {
+                disableGoatCounter()
+            } else {
+                enableGoatCounter()
+            }
+        }
+        function disableGoatCounter() {
+            localStorage.setItem("disableGoatCounter", true)
+            alert("GoatCounter disabled");
+        }
+        function enableGoatCounter() {
+            localStorage.removeItem("disableGoatCounter");
+            alert("GoatCounter enabled");
         }
     </script>
     <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -426,7 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </footer>
 <div class="layer copyright py-3">
     <div class="container level">
-        <div class="level-left">
+        <div class="level-left" onclick="gc=(typeof gc === 'undefined')?1:gc+1;if(gc===5){toggleGoatCounter();}">
             
             &copy; Crea Makerspace 2023
             
