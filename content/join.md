@@ -73,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li>3D printer: 40 hrs/mo</li>
                     <li>Laser cutter: 4 hrs/mo</li>
                 </ul>
-                <p>After these limits, <a href="/faq#what-is-machine-time-cost">machine time costs</a> apply.<br>Upgrade to Maker Plan for unlimited machine time.</p>
             </div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
@@ -107,10 +106,10 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-items">
             <div class="plan-item">Access to space during open hours</div>
             <div class="plan-item has-text-primary has-text-weight-bold">Access to woodshop</div>
-            <div class="plan-item">20% discount on classes</div>
+            <div class="plan-item">20% discount on classes<br>One-time FREE woodshop class</div>
             <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
             <div class="plan-item">50% off day pass for 1 guest per day</div>
-            <div class="plan-item">10% discount on membership for family</div>
+            <div class="plan-item">20% discount on membership for family</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
                     <li>3D printer</li>
@@ -172,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="is-size-7 pt-5">
 
-Disclaimers:
+Notes:
 - Some equipment requires completion of training class.
 - Some equipment has a fee based on machine time usage except for members on plans with unlimited machine time.
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
