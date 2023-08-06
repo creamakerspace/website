@@ -26,6 +26,7 @@ contact_email_html = "hi@crea<span>makerspace</span>.com"
 address = "1000 SW 34th St, Suite C, Renton, WA 98057"
 address_short = "1000 SW 34th St, Suite C"
 
+
 # analytics
 goatcounter = "https://crea.goatcounter.com/count"
 
@@ -36,15 +37,15 @@ instagram = "https://www.instagram.com/CreaMakerspace/"
 # discourse = ""
 
 [[extra.nav]]
-text = "Take a Class"
+text = "Classes"
 link = "/classes"
 
 [[extra.nav]]
-text = "Bring a Group"
+text = "Groups"
 link = "/groups"
 
 [[extra.nav]]
-text = "Join our Community"
+text = "Membership"
 link = "/join"
 
 # [[extra.nav]]
