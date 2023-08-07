@@ -99,6 +99,7 @@ dt::after {
   .hero-foot {
     padding: 0px !important;
   }
+
 }
 
 @media screen {
@@ -114,6 +115,11 @@ dt::after {
     right: 0px;
     top: 0px;
   }
+
+  // Prevent title from intersecting qrcode
+  .title {
+    max-width: 600px;
+  }  
 }
 
 
