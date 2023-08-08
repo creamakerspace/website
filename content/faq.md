@@ -24,16 +24,6 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 
 See also: the [Event Calendar](/calendar)
 
-
-### What is the "guided usage cost?"
-
-If you are not Crea-certified to operate a piece of equipment, you'll need a Crea staff member to operate it on your behalf which carries the following costs:
-
-- 3D Printer: $20 setup plus $5 per hour of print time
-- Laser Cutter: $25 per 15 min
-- CNC Router: $50 per 30 min
-- General Equipment Operation: $25 per 15 min
-
 ### What is "unlimited" machine time?
 
 Unlimited machine time means there is no machine time cost.

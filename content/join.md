@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="plan-item has-text-primary has-text-weight-bold">Access to woodshop</div>
             <div class="plan-item">20% discount on classes<br>One-time FREE woodshop class</div>
             <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
-            <div class="plan-item">50% off day pass for 1 guest per day</div>
+            <div class="plan-item">$10 day pass for a guest</div>
             <div class="plan-item">20% discount on membership for family</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
@@ -172,8 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <div class="is-size-7 pt-5">
 
 Notes:
-- Some equipment requires completion of training class.
-- Some equipment has a fee based on machine time usage except for members on plans with unlimited machine time.
+- Some equipment requires completion of [training class]((https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000)).
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account.
@@ -185,11 +184,14 @@ Notes:
 
 Our priority is building an active community of makers, and we believe the membership is the best experience for that. It provides the flexibility to come and go as you please regardless of project size, with less pressure to finish the project during a single day pass, especially when sharing equipment.
 
-That said, we do currently allow one-off utilization of the space for a fixed rate of **$20 for the day**. [Policies](/policies) still apply (including equipment sharing). Some equipment still requires completion of a training class (or paying for an operator). And  CNC equipment has an additional cost for non-members:
+That said, we do currently allow one-off utilization of the space for a fixed rate of **$20 for the day**. [Policies](/policies) still apply (including equipment sharing). Some equipment still requires completion of a [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000) (or paying for an operator). CNC equipment has an additional cost for non-members:
 
-- Laser Cutter: $10 per 15 min
-- 3D Printer: $4 per hour
-- CNC Router: $15 per 30 min
+| Equipment       | Self Usage (machine time) | Guided Usage (staff time)
+| --------------- | ------------------------- | ------------
+| Laser Cutter    | $10 per 15 min            | $25 per 15 min
+| 3D Printer      | $4 per hour               | $20 setup plus $5 per hour of print time
+| CNC Router      | $15 per 30 min            | $50 per 30 min
+| Other Equipment | Included                  | $25 per 15 min
 
 ### Open House Night
 
