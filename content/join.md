@@ -85,10 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/3cs4hCfS04QU1Nu28b" class="monthly button is-fullwidth is-uppercase" target="_blank">
+            <a href="https://buy.stripe.com/3cs4hCfS04QU1Nu28b" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
                 Choose Starter
             </a>
-            <a href="https://buy.stripe.com/6oE6pK21a5UY9fWdQV" class="annual button is-fullwidth is-uppercase" target="_blank">
+            <a href="https://buy.stripe.com/6oE6pK21a5UY9fWdQV" class="annual button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-year">
                 Choose Starter
             </a>
         </div>
@@ -123,10 +123,10 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/aEU7tO49ifvy2Ry4gi" class="monthly button is-fullwidth is-uppercase">
+            <a href="https://buy.stripe.com/aEU7tO49ifvy2Ry4gi" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
                 Choose Maker
             </a>
-            <a href="https://buy.stripe.com/aEU4hC5dm6Z2ak05ko" class="annual button is-fullwidth is-uppercase">
+            <a href="https://buy.stripe.com/aEU4hC5dm6Z2ak05ko" class="annual button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-year">
                 Choose Maker
             </a>
         </div>
@@ -162,7 +162,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-footer">
             <a href="#" data-email="c3VwcG9ydEBjcmVhbWFrZXJzcGFjZS5jb20/c3ViamVjdD1Qcm8gTWVtYmVyc2hpcCBJbnF1aXJ5"
                data-email-html="Contact Us"
-               class="button is-fullwidth is-uppercase">
+               class="button is-fullwidth is-uppercase"
+               data-goatcounter-click="join-pro">
                 Contact Us
             </a>
         </div>
