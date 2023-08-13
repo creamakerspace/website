@@ -12,21 +12,6 @@
   padding: 0.5em !important;
 }
 
-.pricing-plan {
-  .monthly {
-    display: none;
-  }
-
-  &.is-monthly {
-    .annual {
-      display: none;
-    }
-    .monthly {
-      display: inline-block;
-    }
-  }
-}
-
 
 a.email-link {
   &,

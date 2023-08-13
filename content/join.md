@@ -7,7 +7,6 @@ banner = "/images/woodwork-3.jpg"
 
 
 
-
 <!--
 ### Open House Tuesdays
 
@@ -25,43 +24,13 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 If you want to be a regular part of our maker community, decide which membership is right for you.
 
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const annualToggle = document.getElementById('annualToggle');
-    // browser refresh can leave toggle in previous state, requiring refresh
-    annualToggle.checked = false;
 
-    function updatePriceView() {
-        const $priceEls = document.querySelectorAll('.pricing-plan');
-        // console.log(el);
-        $priceEls.forEach(el => {
-            if(annualToggle.checked) {
-                el.classList.remove('is-monthly');
-            } else {
-                el.classList.add('is-monthly');
-            }
-        });        
-    }
-
-    annualToggle.addEventListener('change', updatePriceView);
-    updatePriceView()
-});
-</script>
-
-<div class="field has-text-centered p-5">
-  <input id="annualToggle" type="checkbox" name="annualToggle" class="switch is-rtl">
-  <label for="annualToggle">Show prices when paid annually</label>
-</div>
-
-<div class="pricing-table pb-5">
+<div class="pricing-table py-5">
     <div class="pricing-plan">
         <div class="plan-header is-uppercase">Starter</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">55</span><span class="monthly">65</span></span>/month
-            <div>
-                <span class="annual">($660/year)</span>
-            </div>
+                <span class="plan-price-currency">$</span><span class="monthly">55</span></span>/month
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for casual tinkering</p>
         <div class="plan-items">
@@ -85,10 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/3cs4hCfS04QU1Nu28b" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
-                Choose Starter
-            </a>
-            <a href="https://buy.stripe.com/6oE6pK21a5UY9fWdQV" class="annual button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-year">
+            <a href="https://buy.stripe.com/00g9BW35e1EIgIo5kq" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
                 Choose Starter
             </a>
         </div>
@@ -97,10 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Maker</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">100</span><span class="monthly">115</span></span>/month
-            <div>
-                <span class="annual">($1,200/year)</span>
-            </div>
+                <span class="plan-price-currency">$</span><span class="monthly">100</span></span>/month
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for hobbyists and DIYers</p>
         <div class="plan-items">
@@ -123,10 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/aEU7tO49ifvy2Ry4gi" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
-                Choose Maker
-            </a>
-            <a href="https://buy.stripe.com/aEU4hC5dm6Z2ak05ko" class="annual button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-year">
+            <a href="https://buy.stripe.com/3cs01mbBK6Z23VC5kr" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
                 Choose Maker
             </a>
         </div>
@@ -135,8 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="plan-header is-uppercase">Pro</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="annual">225</span><span class="monthly">250</span></span>/month
-            <div class="annual">($2,700/year)</div>
+                <span class="plan-price-currency">$</span><span class="monthly">250</span></span>/month
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for inventors and entrepreneurs</p>
         <div class="plan-items">
@@ -170,16 +129,31 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
 </div>
 
+{% message(header="Referral Bonus", class="is-info mt-6") %}
+
+Help our maker community grow, and we'll apply a credit toward your next monthly renewal!
+Members will receive a credit for each referral that becomes a new member:
+
+<ul>
+<li>$50 credit if your referral signs up for the Maker Membership plan</li>
+<li>$20 credit if your referral signs up for the Starter Membership plan</li>
+</ul>
+
+{% end %}
+
 <div class="is-size-7 pt-5">
 
 Notes:
-- Some equipment requires completion of [training class]((https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000)).
+- Some equipment requires completion of [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000).
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account.
-- All plans default to automatic renewal, but you can cancel or change your plan at any time with no hassle.
+- All plans automatically renew each month, but you can cancel or change your plan at any time with no hassle.
+- Referral bonus can only be claimed by existing members who refer a first-time member (and can't be stacked with the family discount).
 
 </div>
+
+<hr>
 
 ### Day Pass
 
