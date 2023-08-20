@@ -36,8 +36,8 @@ If you are looking for more substantial or exclusive access to equipment, contac
 
 ### What hand & power tools are available?
 
-- Orbital sander, belt sander, circular saw, jig saw, pull saw, hack saw, & saw guide (sanders and saws require woodshop access)
-- Drills, impact driver, brad nailer, narrow crown stapler, T50 staplers, rotary tool, hot glue guns, & heat gun.
+- Jack plane, orbital sander, belt sander, circular saw, jig saw, pull saw, hack saw, & saw guide.
+- Drills, impact driver, brad nailer, narrow crown (18ga) stapler, T50 staplers, rotary tool, hot glue guns, & heat gun.
 - Clamps, wrenches, utility knives, hammers, tape measures, levels, rubber mallet, & squares. 
 - Chisels, screwdrivers, pliers, allen wrenches, socket set, & wrenches.
 - Assortments of drill bits, driver bits, router bits, & hole saw bits. 
@@ -65,7 +65,7 @@ Maybe, though our focus is providing a space for you to build. You're welcome to
 
 We try to stock some of the most common materials and supplies for convenience. Most notably, we do sell project plywood (for laser cutting) and filament (for 3D Printing), but in general, we anticipate makers will usually bring their own materials and supplies.
 
-Commonly stocked supplies include: wood glue, staples, nails, screws, tape, and circuit components (though exact selection varies). We don't charge for trivial quantities of supplies, but if your project uses a non-trivial amount, bring your own supplies, or plan to purchase some from us.
+Commonly stocked supplies include: wood glue, staples, nails, screws, tape, and circuit components (though exact selection and sizes vary). We don't charge for trivial quantities of supplies, but if your project uses a non-trivial amount, bring your own supplies, or plan to purchase some from us.
 
 We also have a collection of "community scraps" left by other members that are available for any projects being made in the space.
 
