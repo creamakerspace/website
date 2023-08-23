@@ -22,6 +22,10 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 ### Membership Plans
 
+{% message(header="New Member Promotion", class="is-warning") %}
+    Sign up online with promotion code NEWMEMBER for <b>50% off your first month of membership</b>.
+{% end %}
+
 If you want to be a regular part of our maker community, decide which membership is right for you.
 
 
