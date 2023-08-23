@@ -3,7 +3,7 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
-
+<!--
 <article class="message is-info">
   <div class="message-body">
 
@@ -13,7 +13,7 @@ Availability is limited. Must RSVP. Follow us on <a href="https://facebook.com/C
 
   </div>
 </article>
-
+-->
 
 We'd love to teach you how to make something and/or how to safely operate any of our shared equipment!
 
