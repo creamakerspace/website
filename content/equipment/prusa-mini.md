@@ -1,13 +1,12 @@
 +++
 title = "Prusa MINI+ 3D Printer"
-updated = "2023-06-25"
+updated = "2023-08-23"
 template = "sop.html"
 description = "3D printer for printing plastic objects."
 weight = 5000
 
 [extra]
 image = "/images/equipment/prusa-mini.webp"
-requires_training = true
 tags = "cnc fablab"
 
 [extra.specs]
