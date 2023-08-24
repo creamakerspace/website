@@ -22,19 +22,19 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 
 ### Membership Plans
 
+To get the full value out of our makerspace, choose the membership that is right for you.
+
 {% message(header="New Member Promotion", class="is-warning") %}
-    Sign up online with promotion code NEWMEMBER for <b>50% off your first month of membership</b>.
+    Sign up online with promotion code NEWMEMBER for <b>50% off your first month of membership</b>. Code valid for first-time members on the Starter and Maker plans.
 {% end %}
-
-If you want to be a regular part of our maker community, decide which membership is right for you.
-
 
 <div class="pricing-table py-5">
     <div class="pricing-plan">
         <div class="plan-header is-uppercase">Starter</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="monthly">55</span></span>/month
+                <span class="plan-price-currency">$</span><span class="monthly">27<sup class="is-size-6">.50</sup></span></span></span> first month
+                <div class="is-size-6">Renews monthly for <b>$55/month</b></div>
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for casual tinkering</p>
         <div class="plan-items">
@@ -58,7 +58,7 @@ If you want to be a regular part of our maker community, decide which membership
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/00g9BW35e1EIgIo5kq" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
+            <a href="https://buy.stripe.com/00g9BW35e1EIgIo5kq?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
                 Choose Starter
             </a>
         </div>
@@ -67,13 +67,14 @@ If you want to be a regular part of our maker community, decide which membership
         <div class="plan-header is-uppercase">Maker</div>
         <div class="plan-price">
             <span class="plan-price-amount">
-                <span class="plan-price-currency">$</span><span class="monthly">100</span></span>/month
+                <span class="plan-price-currency">$</span><span class="monthly">50</span></span> first month
+                <div class="is-size-6">Renews monthly for <b>$100/month</b></div>
         </div>
         <p class="px-2 has-text-centered is-italic">Perfect for hobbyists and DIYers</p>
         <div class="plan-items">
             <div class="plan-item">Access to space during open hours</div>
             <div class="plan-item has-text-primary has-text-weight-bold">Access to woodshop</div>
-            <div class="plan-item">20% discount on classes<br>One-time FREE woodshop class</div>
+            <div class="plan-item">20% discount on classes<br>One-time <a href="https://bookwhen.com/creamakerspace?entries=v12sgjao19la#focus=ev-sx4v-20230823170000">FREE woodshop class</a></div>
             <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
             <div class="plan-item">$10 day pass for a guest</div>
             <div class="plan-item">20% discount on membership for family</div>
@@ -90,7 +91,7 @@ If you want to be a regular part of our maker community, decide which membership
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/3cs01mbBK6Z23VC5kr" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
+            <a href="https://buy.stripe.com/3cs01mbBK6Z23VC5kr?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
                 Choose Maker
             </a>
         </div>
@@ -152,7 +153,7 @@ Notes:
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account.
-- All plans automatically renew each month, but you can cancel or change your plan at any time with no hassle.
+- All plans automatically renew each month, but you can <a href="faq#how-do-i-cancel-my-membership">cancel</a> or change your plan at any time with no hassle.
 - Referral bonus can only be claimed by existing members who refer a first-time member (and can't be stacked with the family discount).
 
 </div>
@@ -161,7 +162,7 @@ Notes:
 
 ### Day Pass
 
-Our priority is building an active community of makers, and we believe the membership is the best experience for that. It provides the flexibility to come and go as you please regardless of project size, with less pressure to finish the project during a single day pass, especially when sharing equipment.
+Our priority is building an active community of makers, and we believe the membership is the best experience for that.
 
 That said, we do currently allow one-off utilization of the space for a fixed rate of **$20 for the day**. [Policies](/policies) still apply (including equipment sharing). Some equipment still requires completion of a [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000) (or paying for an operator). CNC equipment has an additional cost for non-members:
 
