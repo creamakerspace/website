@@ -8,7 +8,7 @@ banner = "/images/woodwork-3.jpg"
 <div class="columns">
 
 <div class="column">
-{% icon_card(header="1. Schedule a tour", link="https://calendly.com/creamakerspace/", icon="fa-solid fa-calendar-check") %}
+{% icon_card(header="1. Schedule a tour", link="https://calendly.com/creamakerspace/meet", icon="fa-solid fa-calendar-check") %}
 We typically spend about 15 minutes walking through the space answering any questions you have. There is no pressure to purchase or signup for anything.
 {% end %}
 </div>
