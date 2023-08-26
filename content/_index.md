@@ -25,11 +25,11 @@ link = "/classes"
 header = "Bring a group"
 description = "Build something different alongside people you already know and love. We'll help you create an unforgettable team-building event."
 image = "/images/teamwork.jpg"
-# link = "/groups"
+link = "/groups"
 
 [[extra.experiences]]
-header = "Join our community"
-description = "Whether you are a seasoned maker or just an occasional tinkerer, we want to make it possible to be a part of the Crea's maker community. We have memberships, single day usage, and even free open house nights."
+header = "Become a member"
+description = "Become a member to use our makerspace and equipment to work on your own projects. You'll also get to work alongside other DIYers, inventors, dreamers, and doers full of intellectual curiosity."
 image = "/images/woodwork-3.jpg"
 link = "/join"
 
