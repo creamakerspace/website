@@ -1,6 +1,8 @@
 +++
 title = "Join Crea Community"
 template = "page.html"
+aliases = ["/pricing"]
+
 [extra]
 banner = "/images/woodwork-3.jpg"
 +++
