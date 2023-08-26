@@ -77,7 +77,6 @@ You can also ask us to cancel in-person, or send an email to {{ link(email="supp
 
 After cancellation, your membership still continues until the end of the current billing cycle.
 
-
 ### Can I get a refund?
 
 See our [Refund Policy](http://localhost:1111/policies#refund-policy)
@@ -86,6 +85,25 @@ See our [Refund Policy](http://localhost:1111/policies#refund-policy)
 
 You can change it yourself from the [Customer Portal](https://billing.stripe.com/p/login/4gw2aJasm65hgUw000)
 or reach out to us to help you make the change.
+
+### Can I use the space without a membership?
+
+We allow usage of the space for a fixed rate of **$20 for the day**. Non-members may not operate CNC equipment on their own (CNC router, laser cutter, and 3D printer). Additionally, some equipment still requires completion of a [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000) (notably the major saws in the woodshop). Non-members can pay for guided usage of select equipment (as staff availability allows):
+
+| Equipment       | Self Usage     | Guided Usage (staff time)
+| --------------- | ---------------| ------------
+| Laser Cutter    | Members-only   | $25 per 15 min
+| 3D Printer      | Members-only   | $20 setup plus $5 per hour of print time
+| CNC Router      | Members-only   | $50 per 30 min
+| Other Equipment | Included       | $25 per 15 min
+
+Our priority is building an active community of makers, and we believe membership is the best experience for that. Our current promotional pricing for the first month of membership is a significantly better value than the day pass in most scenarios.
+
+### Do I still need to take the certification class if I have significant experience?
+
+Stop by and tell us about your experience. Where experience is significant (e.g. professional cabinet maker), we may be able to do a more minimal verification of your skills, safety knowledge, and cover some makerspace-specific expectations to satisfy our certification.
+
+Occasional, hobby-level experience will not considered sufficient to shortcut our certification classes. Our insurance requires us to keep the bar high.
 
 ### Can I volunteer in the makerspace?
 

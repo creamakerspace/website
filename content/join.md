@@ -108,7 +108,7 @@ To get the full value out of our makerspace, choose the membership that is right
             <div class="plan-item">20% discount on classes<br>One-time <a href="https://bookwhen.com/creamakerspace?entries=v12sgjao19la#focus=ev-sx4v-20230823170000">FREE woodshop class</a></div>
             <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
             <div class="plan-item">$10 day pass for a guest</div>
-            <div class="plan-item">20% discount on membership for family</div>
+            <div class="plan-item">40% discount on membership for family</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
                     <li>3D printer</li>
@@ -140,7 +140,7 @@ To get the full value out of our makerspace, choose the membership that is right
             <div class="plan-item">20% discount on classes</div>
             <div class="plan-item has-text-primary has-text-weight-bold">Unlimited machine time</div>
             <div class="plan-item">1 free guest per day during open hours</div>
-            <div class="plan-item">20% discount on membership for family</div>
+            <div class="plan-item">40% discount on membership for family</div>
             <div class="plan-item">Promote your business on Crea's website</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
@@ -183,32 +183,21 @@ Notes:
 - Some equipment requires completion of [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000).
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
-- Family discounts limited to single billing account.
+- Family discounts limited to single billing account, for members of your household or immediate family.
 - All plans automatically renew each month, but you can <a href="faq#how-do-i-cancel-my-membership">cancel</a> or change your plan at any time with no hassle.
-- Referral bonus can only be claimed by existing members who refer a first-time member (and can't be stacked with the family discount).
+- Referral bonus can only be claimed by existing members who refer a first-time member (that is not part of a family plan).
+- Discounts don't stack. Pick one.
 
 </div>
 
 <hr>
 
-### Day Pass
+### Can I use the space without a membership?
 
-Our priority is building an active community of makers, and we believe the membership is the best experience for that.
+We offer a day pass for $20, but it is more limited than membership. If you're looking to "try out" the makerspace, it is usually more cost effective to take advantage of the 50% discount for your first month of membership, and simply cancel if you decide membership isn't right for you. For more details on the day pass, see our [FAQ: Can I use the space without a membership?](/faq#can-i-use-the-space-without-a-membership)
 
-That said, we do currently allow one-off utilization of the space for a fixed rate of **$20 for the day**. [Policies](/policies) still apply (including equipment sharing). Some equipment still requires completion of a [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000) (or paying for an operator). CNC equipment has an additional cost for non-members:
+Our priority is building an active community of makers, and we believe membership is the best experience for that.
 
-| Equipment       | Self Usage (machine time) | Guided Usage (staff time)
-| --------------- | ------------------------- | ------------
-| Laser Cutter    | $10 per 15 min            | $25 per 15 min
-| 3D Printer      | $4 per hour               | $20 setup plus $5 per hour of print time
-| CNC Router      | $15 per 30 min            | $50 per 30 min
-| Other Equipment | Included                  | $25 per 15 min
-
-### Open House Night
-
-Coming soon: We'll be introducing a weekly open house night soon. Signup for the newsletter for updates on when that starts.
-
-<a href="{{ newsletter_url() }}" class="cta button is-small is-primary is-rounded">Subscribe to the newsletter</a>
 
 <!--
 ### Sponsorships
@@ -217,8 +206,7 @@ If you're interested in making an investment in the maker community near Renton,
 
 Sponsor a "Maker" membership:
 
-<button class="button is-primary is-outlined">3 months: $345</button>
-<button class="button is-primary is-outlined">1 year: $1,200</button>
+<button class="button is-primary is-outlined">3 months: $300</button>
 
 We'll announce any sponsorship availability at events (e.g. Open House Tuesdays) and in our subsequent newsletter (sign up <a href="{{ newsletter_url() }}">here</a>). Applicants will be selected based on need and intended use.
 -->
