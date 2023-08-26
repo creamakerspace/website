@@ -13,7 +13,7 @@ image = "images/logo-share.png"
 header = "Your Dream Workshop"
 text = "Shared workshop and equipment in Renton"
 link_text = "Schedule a tour"
-link = "https://calendly.com/creamakerspace/tour"
+link = "https://calendly.com/creamakerspace/meet"
 
 [[extra.experiences]]
 header = "Take a class"
@@ -35,3 +35,17 @@ link = "/join"
 
 +++
 
+<section class="p-6 has-text-centered">
+    <h3 class="title is-3">Want to learn more?</h3>
+    <div class="content">
+        <p>It's best to see the space and equipment in person.</p>
+        <p>Let us walk you through the space and answer any questions.</p>
+        <p>It's free. We'll keep it short (10-15 min).</p>
+        <p>And we won't pressure you into any purchase.</p>
+    </div>
+    <p>
+        <a href="https://calendly.com/creamakerspace/meet" class="cta button is-small is-primary is-rounded">
+            Schedule a tour
+        </a>
+    </p>
+</section>
