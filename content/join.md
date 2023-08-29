@@ -78,6 +78,7 @@ To get the full value out of our makerspace, choose the membership that is right
                     <li>Laser cutter: 4 hrs/mo</li>
                 </ul>
             </div>
+            <div class="plan-item">40% discount on membership for family</div>
             <div class="plan-item">Use of tools and equipment
                 <ul>
                     <li>3D printer</li>
@@ -183,7 +184,7 @@ Notes:
 - Some equipment requires completion of [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000).
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
-- Family discounts limited to single billing account, for members of your household or immediate family.
+- Family discounts limited to single billing account, for members of your household or immediate family, and apply to lesser or equal plans.
 - All plans automatically renew each month, but you can <a href="faq#how-do-i-cancel-my-membership">cancel</a> or change your plan at any time with no hassle.
 - Referral bonus can only be claimed by existing members who refer a first-time member (that is not part of a family plan).
 - Discounts don't stack. Pick one.
