@@ -87,11 +87,11 @@ link = "/classes"
 
 [[extra.footer_nav]]
 text = "Groups"
-# link = "/groups"
+link = "/groups"
 
 [[extra.footer_nav]]
 text = "Membership"
-# link = "/community"
+link = "/join"
 
 # [[extra.footer_nav]]
 # text = "Partnership"
