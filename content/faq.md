@@ -99,7 +99,7 @@ We allow usage of the space for a fixed rate of **$20 for the day**. Non-members
 
 Our priority is building an active community of makers, and we believe membership is the best experience for that. Our current promotional pricing for the first month of membership is a significantly better value than the day pass in most scenarios.
 
-### Do I still need to take the certification class if I have significant experience?
+### Do I need to take the certification class if I have significant experience?
 
 Stop by and tell us about your experience. Where experience is significant (e.g. professional cabinet maker), we may be able to do a more minimal verification of your skills, safety knowledge, and cover some makerspace-specific expectations to satisfy our certification.
 
