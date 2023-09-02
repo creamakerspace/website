@@ -14,8 +14,6 @@ We're closed every Monday.
 While we hope to grow and hire staff to increase our availability, in the near term,
 we have manage a sustainable schedule. As such, Crea will also be closed these days:
 
-- Tue, June 27, 2023 (Founder Vacation)
-- Tue, July 4, 2023 (Independence Day)
 - Thu, Nov 23, 2023 (Thanksgiving)
 - Sun, Dec 24, 2023 (Christmas Eve)
 - Sun, Dec 31 (New Years Eve)
