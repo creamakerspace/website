@@ -49,7 +49,6 @@
     </section>
     {% endif %}
 
-
     <section class="container section">
         {{ experiences::list(experiences=section.extra.experiences) }}
     </section>
@@ -79,6 +78,8 @@
         </div>
     </section>
 
-    {{ section.content | safe }}
+    <section class="container section content">
+            {{ section.content | safe }}
+    </section>
 
 {% endblock content %}
