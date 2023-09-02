@@ -10,27 +10,20 @@ banner = "/images/woodwork-3.jpg"
 <div class="columns">
 
 <div class="column">
-{% icon_card(header="1. Schedule a tour", link="https://calendly.com/creamakerspace/meet", icon="fa-solid fa-calendar-check") %}
-We typically spend about 15 minutes walking through the space answering any questions you have. There is no pressure to purchase or signup for anything.
-{% end %}
-</div>
-
-
-<div class="column">
-{% icon_card(header="2. Signup for membership", link="#membership-plans", icon="fa-solid fa-right-to-bracket") %}
+{% icon_card(header="1. Signup for membership", link="#membership-plans", icon="fa-solid fa-right-to-bracket") %}
 When you're ready, choose the membership plan on this page that is right for you.
 {% end %}
 </div>
 
 <div class="column">
-{% icon_card(header="3. New member onboarding", link="https://calendly.com/creamakerspace/", icon="fa-solid fa-file-signature") %}
+{% icon_card(header="2. New member onboarding", link="https://calendly.com/creamakerspace/", icon="fa-solid fa-file-signature") %}
 Schedule an onboarding to sign our <a href="/policies">waiver and rules</a> and discuss details to ensure you are ready to use the space. After about 15 minutes, you can start using the space.
 {% end %}
 </div>
 
 <div class="column">
-{% icon_card(header="4. Book certification classes", link="https://bookwhen.com/creamakerspace?tags=certification", icon="fa-solid fa-school-circle-check") %}
-For any equipment you want to use that requires certification, you can book the relevant certification class. If class availability doesn't work for you, let us know, and we'll accomodate you. 
+{% icon_card(header="3. Book certification classes", link="https://bookwhen.com/creamakerspace?tags=certification", icon="fa-solid fa-school-circle-check") %}
+For any equipment you want to use that requires certification, you can book the relevant certification class. If class availability doesn't work for you, let us know, and we'll accomodate your schedule. 
 {% end %}
 </div>
 
