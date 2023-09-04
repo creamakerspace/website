@@ -7,8 +7,6 @@ path = "/renton-made"
 # aliases = ["/renton-made"]
 
 [extra]
-author = "Tony Nowell"
-author_link = "https://anowell.com"
 image = "/images/renton/rmac-4x3.webp"
 +++
 

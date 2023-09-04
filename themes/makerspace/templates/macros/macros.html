@@ -13,10 +13,11 @@
             {% if format == 'post' %}
             <p class="subtitle is-uppercase is-size-6">
                 <span class="">{{ page.date | date(format="%B %e, %Y") }}</span>
+                {% if page.extra.author %}
                 by
                 {% if page.extra.author_link %} <a href="{{ page.extra.author_link | safe }}">{% endif %}
                     {{ page.extra.author }}
-                {% if page.extra.author_link %} </a>{% endif %}
+                {% if page.extra.author_link %} </a>{% endif %}{% endif %}
             </p>
             {% elif format == 'last_updated' %}
             <p class="subtitle is-uppercase is-size-6">
