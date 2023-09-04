@@ -149,6 +149,13 @@
         <lastmod>2023-08-06</lastmod>
     </url>
     <url>
+        <loc>https://creamakerspace.com/es/</loc>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/es/hecho-en-renton/</loc>
+        <lastmod>2023-09-02</lastmod>
+    </url>
+    <url>
         <loc>https://creamakerspace.com/faq/</loc>
     </url>
     <url>
@@ -159,5 +166,9 @@
     </url>
     <url>
         <loc>https://creamakerspace.com/policies/</loc>
+    </url>
+    <url>
+        <loc>https://creamakerspace.com/renton-made/</loc>
+        <lastmod>2023-09-02</lastmod>
     </url>
 </urlset>
