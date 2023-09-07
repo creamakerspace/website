@@ -7,29 +7,6 @@ aliases = ["/pricing"]
 banner = "/images/woodwork-3.jpg"
 +++
 
-<div class="columns">
-
-<div class="column">
-{% icon_card(header="1. Signup for membership", link="#membership-plans", icon="fa-solid fa-right-to-bracket") %}
-When you're ready, choose the membership plan on this page that is right for you.
-{% end %}
-</div>
-
-<div class="column">
-{% icon_card(header="2. New member onboarding", link="https://calendly.com/creamakerspace/", icon="fa-solid fa-file-signature") %}
-Schedule an onboarding to sign our <a href="/policies">waiver and rules</a> and discuss details to ensure you are ready to use the space. After about 15 minutes, you can start using the space.
-{% end %}
-</div>
-
-<div class="column">
-{% icon_card(header="3. Book certification classes", link="https://bookwhen.com/creamakerspace?tags=certification", icon="fa-solid fa-school-circle-check") %}
-For any equipment you want to use that requires certification, you can book the relevant certification class. If class availability doesn't work for you, let us know, and we'll accomodate your schedule. 
-{% end %}
-</div>
-
-</div>
-
-
 
 <!--
 ### Open House Tuesdays
@@ -44,9 +21,9 @@ If you've never visited Crea before, we recommend visiting on Open House night.
 {% end %}
 -->
 
-### Membership Plans
+_Members get access to our makerspace and [equipment](/equipment) to work on their own projects._
 
-To get the full value out of our makerspace, choose the membership that is right for you.
+### Membership Plans
 
 {% message(header="New Member Promotion", class="is-warning") %}
     Sign up online with promotion code NEWMEMBER for <b>50% off your first month of membership</b>. Code valid for first-time members on the Starter and Maker plans.
