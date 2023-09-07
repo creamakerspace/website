@@ -33,7 +33,7 @@ Recipients are to use makerspace and budget to complete at least 1 project that 
 </div>
 
 <a href="https://calendly.com/creamakerspace/meet" class="button is-light is-large mt-6">Schedule a Tour</a>
-<a href="https://forms.gle/BZwDrfsvGi9BZAYe6" class="button is-primary is-large mt-6">Apply Now</a>
+<a href="https://forms.gle/BZwDrfsvGi9BZAYe6" class="button is-primary is-large mt-6" data-goatcounter-click="renton-made-apply">Apply Now</a>
 
 <div class="is-size-7">
 

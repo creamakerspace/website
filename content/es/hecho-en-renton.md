@@ -34,7 +34,7 @@ Los beneficiarios debe usar el makerspace y el presupuesto para completar al men
 </div>
 
 <a href="https://calendly.com/CreaMakerspace/meet" class="button ís-light is-large mt-6">Tomar un Tour</a>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSd9pU4vFjEybX-aAr-vpN1Wf8-QC7oqJ6KkQsvZWB6vedS3Aw/viewform?hl=es-419" class="button is-primary is-large mt-6">Enviar Solicitud</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd9pU4vFjEybX-aAr-vpN1Wf8-QC7oqJ6KkQsvZWB6vedS3Aw/viewform?hl=es-419" class="button is-primary is-large mt-6" data-goatcounter-click="renton-made-apply-es">Enviar Solicitud</a>
 
 <div class="is-size-7">
 
