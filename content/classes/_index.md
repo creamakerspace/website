@@ -18,3 +18,7 @@ Availability is limited. Must RSVP. Follow us on <a href="https://facebook.com/C
 We'd love to teach you how to make something and/or how to safely operate any of our shared equipment!
 
 Select a class below that interests you or browse the [**full class schedule**](https://bookwhen.com/creamakerspace).
+
+<script type="text/javascript">
+    window.location.href = "https://bookwhen.com/CreaMakerspace";
+</script>
