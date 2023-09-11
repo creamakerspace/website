@@ -1,6 +1,8 @@
 +++
 title = "Crea Classes"
 sort_by = "weight"
+
+redirect_to = "https://bookwhen.com/creamakerspace"
 +++
 
 <!--
