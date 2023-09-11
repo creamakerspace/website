@@ -1,6 +1,610 @@
-<!doctype html>
-<meta charset="utf-8">
-<link rel="canonical" href="https://creamakerspace.com/https://bookwhen.com/creamakerspace/">
-<meta http-equiv="refresh" content="0; url=https://creamakerspace.com/https://bookwhen.com/creamakerspace/">
-<title>Redirect</title>
-<p><a href="https://creamakerspace.com/https://bookwhen.com/creamakerspace/">Click here</a> to be redirected.</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crea Classes | Crea Makerspace</title>
+    <meta property="og:title" content="Crea Classes" />
+    <link rel="canonical" href="https://creamakerspace.com/classes/" />
+    <meta property="og:url" content="https://creamakerspace.com/classes/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://creamakerspace.com/images/logo-share.png" />
+    <meta property="og:description" content="Renton makerspace providing classes, events, and shared access to a collaborative space and equipment." />
+    <meta property="og:site_name" content="Crea Makerspace" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />    
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/custom.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>
+        function isGoatCounterEnabled() {
+            return localStorage.getItem("disableGoatCounter") === null;
+        }
+        if(!isGoatCounterEnabled()) {
+            window.goatcounter = { no_onload: true };
+            console.warn("goatcounter disabled by local storage");
+        }
+
+        function toggleGoatCounter() {
+            if(isGoatCounterEnabled()) {
+                disableGoatCounter()
+            } else {
+                enableGoatCounter()
+            }
+        }
+        function disableGoatCounter() {
+            localStorage.setItem("disableGoatCounter", true)
+            alert("GoatCounter disabled");
+        }
+        function enableGoatCounter() {
+            localStorage.removeItem("disableGoatCounter");
+            alert("GoatCounter enabled");
+        }
+    </script>
+    <script data-goatcounter="https://crea.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Enable navbar burgers to toggle menu visibility
+            const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+            // Linkify email in browser to reduce spam
+            const $emailLinks = document.querySelectorAll('[data-email]');
+            $emailLinks.forEach(el => {
+                const email = atob(el.dataset.email);
+                el.href = 'mailto:' + email;
+                try {
+                    const emailHtml = atob(el.dataset.emailHtml);
+                    el.innerHTML = emailHtml;
+                } catch {
+                    if(el.textContent.includes('placeholder')) {
+                        el.textContent = email;
+                    }
+                }
+            });
+
+            var $qrcodeEl = document.getElementById("qrcode");
+            if($qrcodeEl) {
+                var qrc = new QRCode($qrcodeEl, {
+                    text: "https://creamakerspace.com/classes/",
+                    width: 135,
+                    height: 135
+                });
+            }
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div class="level is-dark" id="connect-nav">
+    <div class="container">
+        <div class="level-right">
+            <p class="level-item has-text-centered px-5">
+                <a class="link icon-text" target="_blank" href="https://www.google.com/maps/place/1000 SW 34th St, Suite C, Renton, WA 98057,+Renton,+WA+98057">
+                    <span class="icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </span>
+                    <span>1000 SW 34th St, Suite C</span>
+                </a>
+            </p>
+            <p class="level-item has-text-centered">
+                
+                
+                <a class="link" href="https://www.instagram.com/CreaMakerspace/">
+                    <span class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                </a>
+                
+                
+                <a class="link" href="https://www.facebook.com/CreaMakerspace/">
+                    <span class="icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                </a>
+                
+                
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="/images/logo.png" alt="Logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu pt-5 pb-2">
+            <div class="navbar-end">
+                
+                <a href="/classes" class="navbar-item">Classes</a>
+                
+                <a href="/groups" class="navbar-item">Groups</a>
+                
+                <a href="/join" class="navbar-item">Membership</a>
+                
+
+                
+                
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link is-arrowless is-hidden-touch">
+                      <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <a class="navbar-link is-hidden-desktop">
+                        More
+                    </a>
+                      
+                    <div class="navbar-dropdown is-right">
+                        
+                          <a href="/equipment" class="navbar-item">Equipment</a>
+                        
+                          <a href="/calendar" class="navbar-item">Event Calendar</a>
+                        
+                          <a href="/blog" class="navbar-item">Blog</a>
+                        
+                          <a href="/faq" class="navbar-item">FAQ</a>
+                        
+                          <a href="/about" class="navbar-item">About</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+
+
+
+
+<section class="hero is-dark is-bold">
+
+    <div class="hero-body"></div>
+    <div class="hero-foot p-5">
+        <div class="container">
+            <h1 class="title">
+                Crea Classes
+            </h1>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<div class="section pb-0">
+    <div class="container content">
+        <!--
+<article class="message is-info">
+  <div class="message-body">
+
+**[Free T-Shirt Printing Class](https://bookwhen.com/creamakerspace/e/ev-s0bv-20230822170000) on Aug 22**.
+
+Availability is limited. Must RSVP. Follow us on <a href="https://facebook.com/CreaMakerspace">Facebook</a> or <a href="https://instagram.com/CreaMakerspace">Instagram</a> for future event promotions.
+
+  </div>
+</article>
+-->
+<p>We'd love to teach you how to make something and/or how to safely operate any of our shared equipment!</p>
+<p>Select a class below that interests you or browse the <a href="https://bookwhen.com/creamakerspace"><strong>full class schedule</strong></a>.</p>
+
+    </div>
+</div>
+
+
+<div class="section">
+    <div class="container">
+        <div class="columns is-multiline">
+            
+            
+            
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx" data-goatcounter-click="art-and-robots" data-goatcounter-title="Art &amp; Robots"><img src="/images/classes/robot-art.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx" data-goatcounter-click="art-and-robots" data-goatcounter-title="Art &amp; Robots" class="title is-6 has-text-primary">
+                    Art &amp; Robots
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>A light-hearted, artistic introduction to robots, circuits, and code suitable for ages 8 to 108. You'll design a simple craft robot, and we'll walk through the process of incorporating a micro:bit to bring it to life.</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx" data-goatcounter-click="art-and-robots" data-goatcounter-title="Art &amp; Robots" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr" data-goatcounter-click="laser-acrylic" data-goatcounter-title="Laser: Edge Lit Acrylic"><img src="/images/classes/laser-edge-lit.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr" data-goatcounter-click="laser-acrylic" data-goatcounter-title="Laser: Edge Lit Acrylic" class="title is-6 has-text-primary">
+                    Laser: Edge Lit Acrylic
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Illuminate your creativity in our class on laser engraving for edge-lit acrylic signs! We'll guide you through creating a design for your edge-lit sign, and teach you how to safely operate the laser for cutting and engraving.</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr" data-goatcounter-click="laser-acrylic" data-goatcounter-title="Laser: Edge Lit Acrylic" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?tag=cnc-sign" data-goatcounter-click="cnc-router-signs" data-goatcounter-title="CNC Router: Sign Making"><img src="/images/classes/cnc-routing.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?tag=cnc-sign" data-goatcounter-click="cnc-router-signs" data-goatcounter-title="CNC Router: Sign Making" class="title is-6 has-text-primary">
+                    CNC Router: Sign Making
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Unleash your creativity and learn the art of sign making! This workshop will provide a comprehensive introduction to the Shapeoko 5 CNC router. We'll guide you through the end-to-end process of designing a custom sign and teach you how to safely operate the CNC router!</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?tag=cnc-sign" data-goatcounter-click="cnc-router-signs" data-goatcounter-title="CNC Router: Sign Making" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?entry=v12sgjao19la" data-goatcounter-click="woodshop-101" data-goatcounter-title="Woodshop 101: Cutting &amp; Shaping"><img src="/images/classes/sawstop.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?entry=v12sgjao19la" data-goatcounter-click="woodshop-101" data-goatcounter-title="Woodshop 101: Cutting &amp; Shaping" class="title is-6 has-text-primary">
+                    Woodshop 101: Cutting &amp; Shaping
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>This class will provide you with an introduction to many of the bench tools in the woodshop. We'll compare and contrast the various saws in the shop, and we'll discuss sanding, routing, and planing. And of course, we'll do this all hands-on in the shop.</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?entry=v12sgjao19la" data-goatcounter-click="woodshop-101" data-goatcounter-title="Woodshop 101: Cutting &amp; Shaping" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz" data-goatcounter-click="3d-printing-intro" data-goatcounter-title="Intro to 3D Printing"><img src="/images/classes/3d-printing.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz" data-goatcounter-click="3d-printing-intro" data-goatcounter-title="Intro to 3D Printing" class="title is-6 has-text-primary">
+                    Intro to 3D Printing
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Immerse yourself in the world of 3D printing! We'll guide you through the 3D printing process from finding freely available 3D models, to understanding different kinds of filaments, and learning how to operate the 3D printer. We'll slice a few 3D models together and explore the most common 3D printing issues.</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz" data-goatcounter-click="3d-printing-intro" data-goatcounter-title="Intro to 3D Printing" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?entry=825rnsfzng4v" data-goatcounter-click="3d-modeling" data-goatcounter-title="Intro to 3D Modeling"><img src="/images/classes/3d-modeling.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?entry=825rnsfzng4v" data-goatcounter-click="3d-modeling" data-goatcounter-title="Intro to 3D Modeling" class="title is-6 has-text-primary">
+                    Intro to 3D Modeling
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Ready to move beyond finding models for 3D printing and start making them yourself? This class will introduce you to the basic concepts and tools for parametric 3D modeling with OnShape.</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?entry=825rnsfzng4v" data-goatcounter-click="3d-modeling" data-goatcounter-title="Intro to 3D Modeling" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+            <div class="column is-one-third">
+                
+                
+
+<div class="card">
+    
+    <div class="card-image">
+        <figure class="image is-4by3">
+            <a href="https://bookwhen.com/creamakerspace?tag=tshirt" data-goatcounter-click="tshirt-printing" data-goatcounter-title="Sublimation T-Shirt Printing"><img src="/images/classes/tshirt-printing.webp" alt="Placeholder image">
+            </a>
+        </figure>
+    </div>
+    <div class="card-content p-3">
+        <div class="media">
+            <div class="media-content has-text-centered">
+                <a href="https://bookwhen.com/creamakerspace?tag=tshirt" data-goatcounter-click="tshirt-printing" data-goatcounter-title="Sublimation T-Shirt Printing" class="title is-6 has-text-primary">
+                    Sublimation T-Shirt Printing
+                </a>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Make your own custom t-shirt! Let us guide you through designing, sublimation printing, and heat transfer to create your own custom t-shirt to wear proudly!</p>
+
+            
+        </div>
+        <div class="has-text-right pt-2">
+            <a href="https://bookwhen.com/creamakerspace?tag=tshirt" data-goatcounter-click="tshirt-printing" data-goatcounter-title="Sublimation T-Shirt Printing" class="has-text-weight-bold has-text-primary">Read More</a>
+        </div>
+    </div>
+</div>
+
+                
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+    <footer class="footer">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third px-5">
+                <div class="block pb-5">
+                    <h5 class="title is-5">Hours of Operation</h5>
+                    <ul>
+                        <li>Mon: Closed</li>
+                        <li>Tues-Fri: 2 PM - 8 PM</li>
+                        <li>Sat-Sun: 12 PM - 8 PM</li>
+                    </ul>
+                </div>
+                <h5 class="title is-5">Contact Us</h5>
+                <ul>
+                    <li><a href='https://www.google.com/maps/place/1000+SW+34th+St,+Suite+C,+Renton,+WA+98057'>1000 SW 34th St, Suite C, Renton, WA 98057</a></li>
+                    <li><a href="#" class="email-link"
+                        data-email="aGlAY3JlYW1ha2Vyc3BhY2UuY29t"
+                        data-email-html="aGlAY3JlYTxzcGFuPm1ha2Vyc3BhY2U8L3NwYW4+LmNvbQ=="
+                    >placeholder@example.com</a></li>
+                </ul>
+            </div>
+            <div class="column is-one-third has-text-centered px-5">
+                <nav>
+                    
+                    <div class="pb-2 is-size-5"><a href='/classes'>Classes</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/groups'>Groups</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/join'>Membership</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/equipment'>Equipment</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/faq'>FAQ</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/policies'>Policies &amp; Rules</a>
+            </div>
+            
+                    <div class="pb-2 is-size-5"><a href='/blog'>Blog</a>
+            </div>
+            
+            </nav>
+        </div>
+        <div class="column is-one-third px-5">
+            <h5 class="title is-5">About Us</h5>
+            <p class="block">Crea is a place where you can make your ideas come to life.
+                We provide shared access to a collaborative space and equipment.
+                We also provide equipment training and other classes and events.</p>
+            <h5 class="title is-5 pt-5">Subscribe</h5>
+            <p class="block">For email updates, subscribe to our newsletter:</p>
+            <script>
+
+            </script>
+            <form name="sibform" method="post" target="iframe">
+                <div class="field is-horizontal">
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <input class="input" type="text" name="EMAIL" data-required="true" placeholder="Email">
+                                <input type="text" name="email_address_check" value="" class="is-hidden">
+                                <input type="hidden" name="locale" value="en">
+                                <input type="hidden" name="html_type" value="simple">
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-link is-danger" form="sib-form" onclick="submitForm(event)">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <p class="block is-hidden" id="form-submitted">Thanks! We're glad that you want updates!</p>
+            <iframe name="iframe" class="is-hidden"></iframe>
+            <script>
+                function submitForm(event) {
+                    // we set the action in JS to make it slightly harder for bots
+                    document.sibform.action = "https://000a4b3c.sibforms.com/serve/MUIEAFNX5KBJVY5bcgEBDAUJRB4w9Y91GvT4PyYcJI2q9JkjjjsLyd8Q031gGVQdcOaY5lqYM9tbHoAaPugkFAH4DcQHLE8_IN86qR3j3cPv2Cxr1bIED_tu8jy3gJ5wjLfob5KNnfkVj8Gqii8bE3WdK-xGUiEaf1NKaiq7R-PwI6yzEDS9iw_95WxTUYgxzzJMdsGT1xF9KV8b";
+                    document.sibform.submit();
+                    document.sibform.classList.add("is-hidden");
+                    document.getElementById('form-submitted').classList.remove("is-hidden");
+                }
+            </script>
+        </div>
+    </div>
+    </div>
+</footer>
+<div class="layer copyright py-3">
+    <div class="container level">
+        <div class="level-left" onclick="gc=(typeof gc === 'undefined')?1:gc+1;if(gc===5){toggleGoatCounter();}">
+            
+            &copy; Crea Makerspace 2023
+            
+        </div>
+        <div class="level-right">
+            
+            
+            <a class="link" href="https://www.instagram.com/CreaMakerspace/">
+                <span class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </span>
+            </a>
+            
+            
+            <a class="link" href="https://www.facebook.com/CreaMakerspace/">
+                <span class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </span>
+            </a>
+            
+            
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
