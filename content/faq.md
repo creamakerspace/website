@@ -103,6 +103,21 @@ Stop by and tell us about your experience. Where experience is significant (e.g.
 
 Occasional, hobby-level experience will not considered sufficient to shortcut our certification classes. Our insurance requires us to keep the bar high.
 
+### Can youth be in the makerspace?
+
+Yes (with some limitations). We've even structured our memberships with a 40% discount for family members to encourage parents making alongside their children.
+
+However, given that the makerspace has a variety of unique hazards, our insurance only allows youth under the following restrictions:
+
+| Access      | Restriction |
+| ------      | ----------- |
+| Woodshop (table & power tools, CNC router) | 15+ with guardian supervision |
+| Workshop (hand tools, laser cutter) | 15+ with staff OR guardian supervision |
+| Office space & classroom (robotics, 3D printing) | 15+ with staff OR guardian supervision <br> 8+ with guardian supervision |
+
+In all cases, guardians must co-sign the [liability waiver and rules](/policies) (in-person).
+
+
 ### Can I volunteer in the makerspace?
 
 Our goal is to build a sustainable organization that doesn't require burning out volunteers to survive, and as we grow, we intend to hire staff to target specific gaps.

@@ -16,11 +16,9 @@ All makerspace participants are required to sign the liability waiver and rules.
 
 ### Refund Policy
 
-We aim to be reasonable with refunds, however, so that refunds don't impact our prices, we reduce refunds by any non-refundable fees charged by our payment processor.
+We aim to be reasonable with refunds, however, we reduce refunds by any non-refundable fees charged by our payment processor.
 
 - For memberships, you must request the refund within 30 days of being charged for an unused membership.
-
-- For early-termination of annual memberships, we will prorate the refund based on the _monthly_ price. `Refund = Total Paid - (Months Elapsed x Monthly Price) - Processing Fees`. There is no prorated early-termination for monthly memberships.
 
 - For classes, you must cancel at least 48 hours prior to the event.
 
