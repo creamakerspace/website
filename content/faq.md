@@ -114,7 +114,7 @@ However, given that the makerspace has a variety of unique hazards, our insuranc
 | Woodshop (table & power tools, CNC router) | 15+ with guardian supervision |
 | Rest of Workshop (hand tools, laser cutter, robotics, 3D printing, sublimation, vinyl) | 15+ with staff OR guardian supervision <br> 8+ with guardian supervision |
 
-In all cases, guardians must co-sign the [liability waiver and rules](/policies) (in-person).
+In all cases, guardians must co-sign the [liability waiver and rules](/policies) (in-person). Youth may operate equipment requiring training (e.g. laser, CNC, saws), but only if both they and their supervising adult are both trained.
 
 
 ### Can I volunteer in the makerspace?
