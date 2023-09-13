@@ -1,13 +1,12 @@
 +++
 title = "DreamSourceLab DSLogic Plus"
-updated = "2023-08-07"
+updated = "2023-09-13"
 template = "sop.html"
 description = "USB-based logic analyzer for debuging digital protocols such as I2C, SPI, UART, etc..."
 weight = 8000
 
 [extra]
 image = "/images/equipment/dslogic-plus.webp"
-coming_soon = true
 tags = "elab"
 
 [extra.specs]
