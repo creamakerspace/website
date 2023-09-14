@@ -34,6 +34,7 @@ Turn your ideas into physical creations.
 
  - Laser cutter/engraver
  - 3D printer
+ - Vinyl cutter (Cricut)
  - Sublimation printer
  - Ink jet printer
  - Heat press
