@@ -3,19 +3,14 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
-<!--
-<article class="message is-info">
-  <div class="message-body">
+## FREE October Events
 
-**[Free T-Shirt Printing Class](https://bookwhen.com/creamakerspace/e/ev-s0bv-20230822170000) on Aug 22**.
+<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/OctEvents400.png"></a>
 
-Availability is limited. Must RSVP. Follow us on <a href="https://facebook.com/CreaMakerspace">Facebook</a> or <a href="https://instagram.com/CreaMakerspace">Instagram</a> for future event promotions.
 
-  </div>
-</article>
--->
+## Classes at Crea
 
-We'd love to teach you how to make something and/or how to safely operate any of our shared equipment!
+Crea classes give you a chance to be hands-on with a variety of tools and equipments. Below is a glimpse of the classes we offer. See our full class schedule for the the most up-to-date view of upcoming classes:
 
-Select a class below that interests you or browse the [**full class schedule**](https://bookwhen.com/creamakerspace).
+<a href="https://bookwhen.com/creamakerspace" class="button is-primary is-medium">Full Class Schedule</a>
 
