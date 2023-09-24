@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://creamakerspace.com"
 title = "Crea Makerspace"
-description = "Renton makerspace providing classes, events, and shared access to a collaborative space and equipment."
+description = "Renton makerspace: Classes and events featuring woodworking, laser cutting, 3D printing, art, design, robotics, and more."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

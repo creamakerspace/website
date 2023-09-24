@@ -9,8 +9,8 @@ blog_header = "What's happening at Crea?"
 image = "images/logo-share.png"
 
 [extra.hero]
-header = "Your Dream Workshop"
-text = "Shared workshop and equipment in Renton"
+header = "Shared Workshop in Renton"
+text = "Woodshop, laser cutter, 3D printer, robotics, and more..."
 link_text = "Schedule a tour"
 link = "https://calendly.com/creamakerspace/meet"
 
