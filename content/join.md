@@ -7,21 +7,29 @@ aliases = ["/pricing"]
 banner = "/images/woodwork-3.jpg"
 +++
 
+_Members get access to our makerspace and [equipment](/equipment) to work on their own projects._
+
+If you've never visited Crea before, we recommend visiting on an Open House night or <a href="https://calendly.com/creamakerspace/meet">scheduling a tour</a>.
+
+### Open House Wednesdays
+
+<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/OctEvents400.png"></a>
+
+<span class="has-text-danger has-text-weight-bold">In October, from 6pm to 8pm</span>, we have open house workshops (no membership or day pass required).
+Registration is recommended, but not required (though some events have limited supplies for early registrants). But feel free to drop-in unannounced during the open house to simply hang out and meet us and our maker community.
+
+<a href="https://bookwhen.com/creamakerspace?tag=free" class="button is-primary">Open House RSVP</a>
+
+
+
 
 <!--
-### Open House Tuesdays
-
-<span class="has-text-danger has-text-weight-bold">Every Tuesday, from 6pm to 9pm</span>, Crea is open to the public for free (no membership or day pass required).
-
-If you've never visited Crea before, we recommend visiting on Open House night.
-
 {% message(header="What to expect") %}
     <p>When you arrive, ask for Tony (usually near the entrance). We'll give you a brief tour, an overview of the makerspace rules, and answer any questions you have. After the tour, if you want to hang around and get to know our maker community or work on your own project in the space, we'll simply ask you to sign our liability waiver (as required by our insurance policy).</p>
     <p>While accessing the space during open house is free, some equipment still has a machine time cost (except for members with unlimited machine time) or a cost for staff to operate the equipment on your behalf. That said, we encourage you to disuss your project with members; you <i>might</i> even find a member who wants to help out.</p>
 {% end %}
--->
 
-_Members get access to our makerspace and [equipment](/equipment) to work on their own projects._
+-->
 
 ### Membership Plans
 
