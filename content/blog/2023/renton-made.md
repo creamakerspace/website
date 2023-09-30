@@ -10,6 +10,9 @@ path = "/renton-made"
 image = "/images/renton/rmac-4x3.webp"
 +++
 
+{% message(header="Applications Closed") %}
+Applications for this program are closed. We'll be contacting the winners soon.
+{% end %}
 
 <div class="is-size-4">
 
@@ -17,7 +20,7 @@ image = "/images/renton/rmac-4x3.webp"
 {{ images(src=["renton/rmac.jpg"]) }}
 </div>
 
-Funded by the [**Renton Municipal Arts Commission**](https://www.rentonwa.gov/city_hall/mayor/boards__commissions__committees/renton_municipal_arts_commission), Crea Makerspace will provide membership, trainings, and materials to 10 applicants for FREE. 
+Funded by the [**Renton Municipal Arts Commission**](https://www.rentonwa.gov/city_hall/mayor/boards__commissions__committees/renton_municipal_arts_commission), Crea Makerspace will provide membership, trainings, and materials to 10 applicants for FREE.
 
 Each selected applicant will receive:
 
@@ -33,7 +36,7 @@ Recipients are to use makerspace and budget to complete at least 1 project that 
 </div>
 
 <a href="https://calendly.com/creamakerspace/meet" class="button is-light is-large mt-6">Schedule a Tour</a>
-<a href="https://forms.gle/BZwDrfsvGi9BZAYe6" class="button is-primary is-large mt-6" data-goatcounter-click="renton-made-apply">Apply Now</a>
+<a class="button is-primary is-large mt-6" disabled data-goatcounter-click="renton-made-apply">Apply Now</a>
 
 <div class="is-size-7">
 

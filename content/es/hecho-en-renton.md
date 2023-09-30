@@ -9,6 +9,10 @@ aliases = ["/es/renton-made"]
 image = "/images/renton/rmac-4x3.webp"
 +++
 
+{% message(header="Aplicaciones Cerradas") %}
+Las aplicaciones para este programa están cerradas. Pronto contactaremos a los ganadores.
+{% end %}
+
 
 <div class="is-size-4">
 
@@ -34,7 +38,7 @@ Los beneficiarios debe usar el makerspace y el presupuesto para completar al men
 </div>
 
 <a href="https://calendly.com/CreaMakerspace/meet" class="button ís-light is-large mt-6">Tomar un Tour</a>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSd9pU4vFjEybX-aAr-vpN1Wf8-QC7oqJ6KkQsvZWB6vedS3Aw/viewform?hl=es-419" class="button is-primary is-large mt-6" data-goatcounter-click="renton-made-apply-es">Enviar Solicitud</a>
+<a disabled class="button is-primary is-large mt-6" data-goatcounter-click="renton-made-apply-es">Enviar Solicitud</a>
 
 <div class="is-size-7">
 
