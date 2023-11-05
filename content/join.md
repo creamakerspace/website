@@ -13,9 +13,9 @@ If you've never visited Crea before, we recommend visiting on an Open House nigh
 
 ### Open House Wednesdays
 
-<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/OctEvents400.png"></a>
+<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/NovEvents.png" width=400></a>
 
-<span class="has-text-danger has-text-weight-bold">In October, from 6pm to 8pm</span>, we have open house workshops (no membership or day pass required).
+<span class="has-text-danger has-text-weight-bold">In November, from 6pm to 8pm</span>, we have open house workshops (no membership or day pass required).
 Registration is recommended, but not required (though some events have limited supplies for early registrants). But feel free to drop-in unannounced during the open house to simply hang out and meet us and our maker community.
 
 <a href="https://bookwhen.com/creamakerspace?tag=free" class="button is-primary">Open House RSVP</a>

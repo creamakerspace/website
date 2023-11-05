@@ -3,9 +3,9 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
-## FREE October Events
+## FREE November Events
 
-<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/OctEvents400.png"></a>
+<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/NovEvents.png" width=400></a>
 
 
 ## Classes at Crea
