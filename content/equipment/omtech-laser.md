@@ -15,7 +15,7 @@ tags = "fablab cnc"
 "Max cutting depth" = '0.39" (plywood or acrylic)'
 # "Pass through size" = '32¾" × 3⅞" (835 × 95 mm)'
 "Max power" = "80W"
-"Supported materials" = "Wood, paper, plastics, leather, fabric, stone, and some other nonmetallic materials"
+"Supported materials" = "Wood, paper, plastics, leather, fabric, stone, glass, ceramics, rubber, and some other nonmetallic materials"
 +++
 
 ![](/images/equipment/omtech-laser.webp)
@@ -52,20 +52,21 @@ The OMTech 80W Laser Cutter uses a laser beam to cut and engrave various materia
 
 The laser cutter can be used to cut and engrave a variety of materials, including:
 
-- **Wood** including Cork, MDF, Plywood, Balsa, Birch, Cherry, Oak, Poplar, etc.  
+- **Wood** including Cork, MDF, Plywood, Balsa, Birch, Cherry, Oak, Poplar, etc.
 - **Plastics**: Notably acrylic, plexiglass, PETG, and ABS.
 - **Cardboard**
 - **Ceramics**, including dishes and tile.
 - **Glass**
 - **Leather** (e.g. wallets, cases)
+- **Rubber**
 - **Stone** including marble & granite
 
 <article class="message is-danger">
   <div class="message-body">
 
-Do **NOT** cut or engrave metals due to conductivity and reflectivity.
+Do **NOT** cut or engrave metals due to conductivity and reflectivity. Note: It is possible to remove certain pain or annodized coatings from some metals, and some metals can be marked with laser marking sprays such as CerMark (Molybdenum disulfide) that leaves behind a black mark when heated with the laser.
 
-Do **NOT** cut or engrave the following materials due to toxic fumes: artificial leather, astatine, beryllium oxide, bromine, chlorine (including PVB, PVC, Vinyl, Cintra), fluorine (Teflon, PTFE, etc.), iodine, phenolic resins (including Epoxy), nor polycarbonate (PC, Lexan, etc.) For other materials, consult the material safety data sheet (MSDS) regarding safety, toxicity, corrosiveness, reflectivity, and reactions to high heat. Discuss any material uncertainties with makerspace staff. 
+Do **NOT** cut or engrave the following materials due to toxic fumes: artificial leather, astatine, beryllium oxide, bromine, chlorine (including PVB, PVC, Vinyl, Cintra), fluorine (Teflon, PTFE, etc.), iodine, phenolic resins (including Epoxy), nor polycarbonate (PC, Lexan, etc.) For other materials, consult the material safety data sheet (MSDS) regarding safety, toxicity, corrosiveness, reflectivity, and reactions to high heat. Discuss any material uncertainties with makerspace staff.
 
   </div>
 </article>
@@ -87,11 +88,11 @@ Do **NOT** cut or engrave the following materials due to toxic fumes: artificial
 1. Focus the laser. Jog the laser to a position above the material is under the laser, and adjust the workbed height using the Laser Focus Guide. (For the current lens, that is 16mm between the laser head and the material. The focal distance is determined by a ramp test.)
 1. From Lightburn, use the Trace button to have it move the laser head around the cut or engraving perimeter without powering the laser. Re-align the material as needed.
 1. Close the cover, and ensure the water chiller and exhaust are both running.
-1. Click "Start" in lightburn 
+1. Click "Start" in lightburn
 1. Monitor the progress of the laser.
-    - Do **NOT** leave the laser unattended while cutting or engraving. 
+    - Do **NOT** leave the laser unattended while cutting or engraving.
     - If a flame appears on your material, press the emergency stop button. If the flame does not go out immediately after the emergency stop, extinguish with the nearby fire blanket or fire extinguisher.
-1. Once the cut/engrave is complete, turn off the laser cutter. Allow a few seconds for fumes to continue exhausting before opening the cover. 
+1. Once the cut/engrave is complete, turn off the laser cutter. Allow a few seconds for fumes to continue exhausting before opening the cover.
 1. Remove the material from the laser cutter bed and clean up any residue
 
 
