@@ -3,8 +3,8 @@ title = "Crea Makerspace"
 template = "index.html"
 
 [extra]
-announcement_header = "Pumpkin Carving"
-announcement = "Join us for an <a href='https://bookwhen.com/creamakerspace/e/ev-snlr-20231025180000'><b>epic pumpkin carving workshop</b></a> on Wed, Oct 25. It's FREE!"
+announcement_header = "Christmas Ornaments"
+announcement = "Join us for a <a href='https://bookwhen.com/creamakerspace/e/ev-sqii-20231129180000'><b>Christmas ornament making workshop</b></a> on Wed, Nov 29. It's FREE!"
 blog_header = "What's happening at Crea?"
 image = "images/logo-share.png"
 
