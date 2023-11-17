@@ -58,15 +58,19 @@ The following materials are recommended for use with the Epson ET-2803 sublimati
   </div>
 </article>
 
-
-1. Prepare the design to be printed.
+1. Prepare the design to be printed. We recommend 300 DPI when sublimating on smooth surfaces, and 150-200 DPI for fabrics and textured surfaces.
 1. **Mirror the design** before printing, as sublimation ink is printed in reverse on the transfer paper.
-1. Load the sublimation paper into the printer.
-1. Verify the sublimation printer has sufficient ink.
-1. From the print dialog in your application, select the Epson Sublimation Printer and adjust the print settings as necessary. It is recommended to use the highest print quality setting to ensure a sharp and vibrant image.
+1. Load sublimation paper into the printer.
+1. From the print dialog in your application, select the Epson Sublimation Printer (ET-2800 series) and adjust the print settings as necessary. It is recommended to use the highest print quality setting to ensure a sharp and vibrant image.
 1. Print. Remember, the print should appear mirrorred!
 1. Once the print job is complete, remove the transfer paper from the printer and allow it to cool for several minutes.
 1. Now your design is ready for the heat transfer process. If using the heat press, see the Heat Press SOP for relevant procedures.
+
+<article class="message is-info">
+  <div class="message-body">
+    Colors on the sublimation paper usually appear much less vibrant than when sublimated to your material. If the print is missing colors entirely, the printer may need printhead cleaning as sublimation dye is prone to clogging when not used regularly.
+  </div>
+</article>
 
 ## Refilling the sublimation ink
 
@@ -78,14 +82,13 @@ The following materials are recommended for use with the Epson ET-2803 sublimati
 
 1. Gather Hiipoo Submlimation Ink refill with the Autofill mouth. If the autofill bottles are empty, refill them from the non-autofill bottles. The autofill bottles greatly reduce leakage and cleaning.
 1. Make sure the printer is turned off and unplugged.
-1. Put on the gloves to protect your hands from ink stains.
-1. Unscrew the cap from the Hiipoo Sublimation Ink bottle and attach the autofill mouth to the printer's ink tank for that color.
+1. Select "Fill Ink" from the Maintenance menu on the printer, and follow instructions.
+1. Using the Hiipoo Sublimation Ink bottle, attach the autofill mouth to the printer's ink tank for that color.
 1. Do NOT squeeze to bottle. Let gravity drain the ink for several seconds. The autofill bottle will stop draining once the printer's ink tank is full or the bottle is empty.
-1. Carefully remove the autofill bottle.
+1. Remove the autofill bottle.
 1. If any ink leaked or spilled, wipe it clean immediately.
 1. Turn the printer back on and perform a printhead cleaning to prime the ink system.
-1. Check the ink levels and make sure they are properly displayed on the printer's control panel.
-1. You can now resume printing with your Epson ET-2803 sublimation printer using Hiipoo Sublimation Ink.
+1. You can now resume printing.
 
 Please do NOT discard the autofill bottle even if it is empty. We refill the autofill bottles from larger non-autofill bottles.
 
