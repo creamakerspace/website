@@ -10,19 +10,11 @@ image = "/images/2023/candles.png"
 banner = "/images/2023/candles-banner.webp"
 +++
 
-<article class="message is-info">
-  <div class="message-body">
-
-This page is draft content. It is not final, and is subject to change.
-
-  </div>
-</article>
-
 <div class="is-size-3">
 
 We're kicking off the holiday season with a Maker Advent Calendar.
 
-Each day leading up to Christmas, we'll be reavealing a maker challenge. Complete the challenge and post a photo of your creation using <b>#makeradvent</b> and tagging <b>@creamakerspace</b> for a chance to win our maker gift basket raffle.
+Each day leading up to Christmas, we'll be reavealing a maker challenge. Complete the challenge, and post a photo of your creation using <b>#makeradvent</b> and tagging <b>@creamakerspace</b> for a chance to win our maker gift basket raffle.
 
 Follow us on [Instagram](https://www.instagram.com/CreaMakerspace/) or [Facebook](https://www.facebook.com/CreaMakerspace/) for the daily reveals.
 
@@ -48,7 +40,7 @@ Follow us on [Instagram](https://www.instagram.com/CreaMakerspace/) or [Facebook
 <script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
 <div id="calendar" style="text-align:center;"></div>
 
-<small>Visit the makerspace for a sneak peek of upcoming challenges from the Advent calendar hanging on the wall. :-)</small>
+<small>Visit Crea Makerspace or [Wyldwood Creative](https://www.wyldwoodcreative.com/) for a sneak peek of upcoming challenges from the Advent calendar hanging on the wall. :-)</small>
 
 ### The Raffle
 
@@ -65,15 +57,18 @@ Anybody can make, but to win the raffle:
 - Must not use the same photo or project for multiple challenges.
 - Limit: 1 raffle entry per day per person.
 
-The raffle will be held on December 26th. Winner will receive a 1 month of makerspace membership and a basket of materials to make even more amazing things.
+The raffle will be held on December 26th.
 
 </div>
 <div class="column">
 
+Raffle winner will receive a 1 month of [makerspace membership](/join) and a basket of materials from Crea Makerspace and [Wyldwood Creative](https://www.wyldwoodcreative.com/) to make even more amazing things.
+
 <article class="message is-info">
   <div class="message-body">
 
-TODO: Add photo of gift basket
+
+Photo of the raffle gift basket coming soon...
 
   </div>
 </article>
