@@ -288,50 +288,96 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'Memories', description: 'Merry Christmas. May your day be filled with joyful memories. 🎄🎁🎊' }
     ];
 
-    let daysToReveal = 0;
+    function makeCalendar() {
+      // Function to create a HTML block
+      function createBlock(item, index) {
+          let img, back, opacity;
+          if(index < daysToReveal) {
+            img = `<img src="/images/2023/advent/challenge-${index+1}.webp">`
+            back = `<h3>${item.title}</h3><p>${item.description}</p>`
+            opacity = 1;
+          } else {
+            img = `<img src="/images/2023/advent/blank-${index+1}.webp">`
+            if(index === daysToReveal) {
+              back = `<h3>Coming Soon</h3><p>This challenge will be revealed <span id="countdown">on Dec ${index+1}</span></p>`
+            } else {
+              back = `<h3>Coming Soon</h3><p>This challenge will be revealed on Dec ${index+1}</p>`
+            }
+            opacity = 0.25;
+          }
 
-    if(params.reveal) {
-        daysToReveal = +params.reveal;
-    } else {
-        let showFutureDays = 0;
-        if(params.showfuture) {
-          showFutureDays = +params.showfuture;
+          return `
+              <div class="flip-card"  style="opacity: ${opacity}">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                          ${img}
+                      </div>
+                      <div class="flip-card-back p-3 pt-6">
+                          ${back}
+                      </div>
+                  </div>
+              </div>`;
+      }
+
+      function updateCountDown() {
+        // Calculate countdown until next reveal
+        let until = dayjs('2023-12-01').add(daysToReveal, 'day')
+        let countdown = (until - dayjs()) / 1000;
+        if(countdown < 0) {
+          updateCalendar();
+          updateCountDown();
+          return;
         }
-        daysToReveal = Math.max(0, Math.ceil((dayjs() - dayjs('2023-12-01')) / (24 * 60 * 60 * 1000)) + showFutureDays)
-        if(params.peek) {
-          daysToReveal += 1
+
+        let countdownDays = Math.floor(countdown / (24 * 60 * 60))
+        let countdownHrs = Math.floor(countdown / (60 * 60) % 24)
+        let countdownMins = Math.floor(countdown / 60 % 60)
+        let countdownSecs = Math.floor(countdown % 60)
+
+        let parts = [];
+        if(countdownDays > 1) { parts.push(`${countdownDays} days`) }
+        else if(countdownDays === 1) { parts.push('1 day') }
+        if(countdownHrs > 1) { parts.push(`${countdownHrs} hours`) }
+        else if(countdownHrs === 1) { parts.push('1 hour') }
+        if(countdownMins > 1) { parts.push(`${countdownMins} minutes`) }
+        else if(countdownMins ===1) { parts.push('1 minute') }
+        if(parts.length === 0) {
+          parts.push('less than 1 minute')
         }
-    }
+        let countdownFriendly = 'in ' + parts.join(', ')
+        document.getElementById('countdown').innerHTML = countdownFriendly;
+      }
 
+      let today = dayjs()
+      let daysToReveal = 0;
 
-    // Function to create a HTML block
-    function createBlock(item, index) {
-        let img, back, opacity;
-        if(index < daysToReveal) {
-          img = `<img src="/images/2023/advent/challenge-${index+1}.webp">`
-          back = `<h3>${item.title}</h3><p>${item.description}</p>`
-          opacity = 1;
+      function updateCalendar() {
+        // Calculate how many days to reveal
+        let today = dayjs()
+        if(params.reveal) {
+            daysToReveal = +params.reveal;
         } else {
-          img = `<img src="/images/2023/advent/blank-${index+1}.webp">`
-          back = `<h3>Coming Soon</h3><p>This challenge will be revealed on Dec ${index+1}</p>`
-          opacity = 0.25;
+            let showFutureDays = 0;
+            if(params.showfuture) {
+              showFutureDays = +params.showfuture;
+            }
+            daysToReveal = Math.max(0, Math.ceil((today - dayjs('2023-12-01')) / (24 * 60 * 60 * 1000)) + showFutureDays)
+            if(params.peek) {
+              daysToReveal += 1
+            }
         }
-        return `
-            <div class="flip-card"  style="opacity: ${opacity}">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        ${img}
-                    </div>
-                    <div class="flip-card-back p-3 pt-6">
-                        ${back}
-                    </div>
-                </div>
-            </div>`;
+
+        // Render the calendar
+        let blocks = challenges.map(createBlock).join("\n");
+        document.getElementById('calendar').innerHTML = blocks;
+      }
+
+      updateCalendar()
+      updateCountDown()
+      setInterval(updateCountDown, 15000)
     }
 
-    let blocks = challenges.map(createBlock).join("\n");
-    document.getElementById('calendar').innerHTML = blocks;
-
+    makeCalendar()
 });
 </script>
     </div>
