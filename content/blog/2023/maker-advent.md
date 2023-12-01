@@ -71,7 +71,7 @@ Raffle winner will receive a 1 month of [makerspace membership](/join) and a var
 
 ### Open Workshop
 
-On Tuesdays at 6pm during Advent, the Crea Makerspace will host an open workshop for you to work on your projects. During these workshops, we'll happpily assist with making and customizing for free, including custom laser engraving and helping make cuts for any wood projects. Please sign up [here](https://bookwhen.com/creamakerspace?tags=free) to help us plan.
+On Tuesdays at 6pm during Advent, the makerspace will host an open workshop for you to work on your projects. During these workshops, we'll happpily assist with making and customizing for free, including custom laser engraving and helping make cuts for any wood projects. Please sign up [here](https://bookwhen.com/creamakerspace?tags=free) to help us plan.
 
 <script>
 const params = new Proxy(new URLSearchParams(window.location.search), {
