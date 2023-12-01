@@ -12,7 +12,7 @@ banner = "/images/2023/candles-banner.webp"
 
 <div class="is-size-3">
 
-We're kicking off the holiday season with a Maker Advent Calendar.
+In collaboration with [Wyldwood Creative](https://www.wyldwoodcreative.com/), we're kicking off the holiday season with a Maker Advent Calendar.
 
 Each day leading up to Christmas, we'll be reavealing a maker challenge. Complete the challenge, and post a photo of your creation using <b>#makeradvent</b> and tagging <b>@creamakerspace</b> for a chance to win our maker gift basket raffle.
 
@@ -62,16 +62,9 @@ The raffle will be held on December 26th.
 </div>
 <div class="column">
 
-Raffle winner will receive a 1 month of [makerspace membership](/join) and a basket of materials from Crea Makerspace and [Wyldwood Creative](https://www.wyldwoodcreative.com/) to make even more amazing things.
+Raffle winner will receive a 1 month of [makerspace membership](/join) and a variety of materials and kits from Crea Makerspace and [Wyldwood Creative](https://www.wyldwoodcreative.com/) to make even more amazing things.
 
-<article class="message is-info">
-  <div class="message-body">
-
-
-Photo of the raffle gift basket coming soon...
-
-  </div>
-</article>
+![Maker Advent Prize](/images/2023/advent/maker-kit.webp)
 
 </div>
 </div>
