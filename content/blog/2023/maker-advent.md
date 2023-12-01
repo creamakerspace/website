@@ -6,7 +6,7 @@ description = "Our Advent calendar features a maker challenge for every day of A
 path = "/maker-advent"
 
 [extra]
-image = "/images/2023/candles.png"
+image = "/images/2023/candles.webp"
 banner = "/images/2023/candles-banner.webp"
 +++
 
