@@ -10,9 +10,9 @@ image = "/images/2023/candles.webp"
 banner = "/images/2023/candles-banner.webp"
 +++
 
-<div class="is-size-3">
+<div class="is-size-4">
 
-In collaboration with [Wyldwood Creative](https://www.wyldwoodcreative.com/), we're kicking off the holiday season with a Maker Advent Calendar.
+We're kicking off the holiday season with a Maker Advent Calendar in collaboration with [Wyldwood Creative](https://www.wyldwoodcreative.com/).
 
 Each day leading up to Christmas, we'll be reavealing a maker challenge. Complete the challenge, and post a photo of your creation using <b>#makeradvent</b> and tagging <b>@creamakerspace</b> for a chance to win our maker gift basket raffle.
 
