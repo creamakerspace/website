@@ -32,10 +32,10 @@
                     </span>
                 </a>
                 {% endif %}
-                {% if social.discourse %}
-                <a class="link" href="{{ social.discourse | safe }}">
+                {% if social.discord %}
+                <a class="link" href="{{ social.discord | safe }}">
                     <span class="icon">
-                        <i class="fa-brands fa-discourse"></i>
+                        <i class="fa-brands fa-discord"></i>
                     </span>
                 </a>
                 {% endif %}
@@ -71,7 +71,7 @@
                     <a class="navbar-link is-hidden-desktop">
                         More
                     </a>
-                      
+
                     <div class="navbar-dropdown is-right">
                         {% for item in config.extra.nav | slice(start=3) %}
                           <a href="{{ item.link | safe }}" class="navbar-item">{{ item.text }}</a>
