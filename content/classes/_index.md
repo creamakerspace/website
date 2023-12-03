@@ -3,9 +3,14 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
-## FREE November Events
+## FREE December Events
 
-<a href="https://bookwhen.com/creamakerspace?tag=free"><img src="/images/classes/NovEvents.png" width=400></a>
+We have a collection of free events planned for December:
+- Open Workshop Nights (Tuesday Evenings)
+- Advent of Code (Thursday Evenings)
+- Gift Wrapping Party (Midday Dec 22)
+
+Details are all posted to our new <a href="https://www.meetup.com/renton-made">Renton Made Meetup Group</a>.
 
 
 ## Classes at Crea
