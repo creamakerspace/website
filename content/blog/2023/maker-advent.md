@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'With a Friend', description: 'Craft with a buddy! Two heads are better than one. 👯‍♂️🎨' },
         { title: 'Delightful Drinks', description: 'Mix, sip, and enjoy! Create a delicious holiday drink. 🍹🎅' },
         { title: 'Holiday Decorations', description: 'Deck the halls! Craft unique holiday decorations. 🌟🎀' },
-        { title: 'Press & Impress', description: 'Heat things up! Use a heat press for creative magic. 🔥🎁' },
+        { title: 'Press & Impress', description: 'Heat things up! Use a heat press or your trusty iron to create magic through heat-transfer. 🔥🎁' },
         { title: 'Light It Up', description: 'Light up your celebrations! Craft something that glows. 💡✨' },
         { title: 'Working with Wood', description: 'Embrace nature! Craft with wood for a natural touch. 🌲🛠️' },
         { title: 'Game Night', description: 'Game time! Make your own game pieces or accessories. 🎲🎨' },
