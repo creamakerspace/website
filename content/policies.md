@@ -8,10 +8,10 @@ banner = "/images/woodwork-3.jpg"
 
 ### Participant Policies
 
-All makerspace participants are required to sign the liability waiver and rules.
+All makerspace participants are required to sign the Liability Waiver. Members are additionally required to sign the Membership Rules.
 
 - [Liability Waiver](https://drive.google.com/file/d/1xm5IkX4wElDCrVL0bsAPBGGv2DfKVQbX/view?usp=drive_link)
-- [Crea Rules](https://drive.google.com/file/d/1Cy4YQb7ERnfsVKGHHX7i32D-UdpNgdbx/view?usp=drive_link)
+- [Membership Rules](https://drive.google.com/file/d/1Cy4YQb7ERnfsVKGHHX7i32D-UdpNgdbx/view?usp=drive_link)
 
 
 ### Refund Policy
