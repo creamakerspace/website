@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'Reader\'s Delight', description: 'Craft something for the literature enthusiast in your life. 📚🎁' },
         { title: '3D Printing', description: 'Print in 3D! Bring your ideas to life with a 3D printer. 🖨️🌐' },
         { title: 'Make it Move', description: 'Get moving! Craft something that adds a touch of motion. 🔄🎨' },
-        { title: 'Recycled Material', description: 'RecycleMake something of recycled or repurposed material. 🔄✨' },
+        { title: 'Recycled Material', description: 'Recycle Reuse Repurpose! Make something of recycled or repurposed material. 🔄✨' },
         { title: 'Secret Storage', description: 'Crafted concealment! Hide something in plain sight with your clever creation. 🕵️‍♀️👀' },
         { title: 'With a Child', description: 'Advent points to a child being born. Finish Advent by making something with a child. 🎈👶✨' },
         { title: 'Memories', description: 'Merry Christmas. May your day be filled with joyful memories. 🎄🎁🎊' }
