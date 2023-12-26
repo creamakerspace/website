@@ -3,8 +3,8 @@ title = "Crea Makerspace"
 template = "index.html"
 
 [extra]
-announcement_header = "Open Workshops"
-announcement = "Check out our free <a href='https://www.meetup.com/renton-made'><b>Open Workshop Nights</b></a> - Tuesday evenings this month."
+#announcement_header = "Open Workshops"
+#announcement = "Check out our free <a href='https://www.meetup.com/renton-made'><b>Open Workshop Nights</b></a> - Tuesday evenings this month."
 blog_header = "What's happening at Crea?"
 image = "images/logo-share.png"
 
