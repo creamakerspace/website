@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" type="text/css" href="https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;@event-calendar&#x2F;build@1.5.1&#x2F;event-calendar.min.css">
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/custom.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -217,7 +218,6 @@
   <button class="modal-close is-large" aria-label="close"></button>
 </div>
 <!-- https://github.com/vkurko/calendar -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
 <div id="calendar"></div>
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         return mondays;
-    }    
+    }
 
 
     // Returns array of Events for days we're close
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', () => {
             start: 'prev,next today',
             center: 'title',
             end: 'dayGridMonth,timeGridWeek,listWeek'
-        },    
+        },
         nowIndicator: true,
         scrollTime: "11:30:00",
         displayEventEnd: false,
