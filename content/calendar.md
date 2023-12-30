@@ -3,6 +3,8 @@ title = "Event Calendar"
 template = "page.html"
 [extra]
 banner = "/images/woodwork-3.jpg"
+stylesheet = "https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.css"
+
 +++
 
 
@@ -17,7 +19,6 @@ banner = "/images/woodwork-3.jpg"
 </div>
 
 <!-- https://github.com/vkurko/calendar -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@event-calendar/build@1.5.1/event-calendar.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
 <div id="calendar"></div>
@@ -65,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         return mondays;
-    }    
+    }
 
 
     // Returns array of Events for days we're close
@@ -111,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             start: 'prev,next today',
             center: 'title',
             end: 'dayGridMonth,timeGridWeek,listWeek'
-        },    
+        },
         nowIndicator: true,
         scrollTime: "11:30:00",
         displayEventEnd: false,
