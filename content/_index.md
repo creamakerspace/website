@@ -40,7 +40,7 @@ link = "/join"
 
 Think of it as a gym, but instead of exercise and weight machines, we have equipment for making things.
 
-Makerspaces vary significantly in the equipment available. Crea Makerspace features woodworking, CNC, laser cutting, 3D printing, t-shirt printing, robotics, and more. We aspire to evolve alongside the interests of our community here in Renton. Here are several photos from our makerspace:
+Makerspaces vary significantly in the equipment available. Crea Makerspace has equipment for woodworking, CNC, laser cutting, 3D printing, t-shirt printing, robotics, and more. We aspire to evolve alongside the interests of our community here in Renton. Here are several photos from our makerspace:
 
 {{ images(src=["featured/laser.webp", "featured/signs.webp", "featured/3dprint.webp", "featured/laser-acrylic.webp"]) }}
 {{ images(src=["featured/woodwork.webp", "featured/dogtags.webp", "featured/plane.webp", "featured/articuno.webp"]) }}
