@@ -153,7 +153,7 @@ Notes:
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account, for members of your household or immediate family, and apply to lesser or equal plans.
-- All plans automatically renew each month, but you can <a href="faq#how-do-i-cancel-my-membership">cancel</a> or change your plan at any time with no hassle.
+- All plans automatically renew each month, but you can <a href="/faq#how-do-i-cancel-my-membership">cancel</a> or change your plan at any time with no hassle.
 - Referral bonus can only be claimed by existing members who refer a first-time member (that is not part of a family plan).
 - Discounts don't stack. Pick one.
 
