@@ -132,6 +132,12 @@ dt::after {
   }
 }
 
+@include desktop {
+  .desktop-50 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 
 // corner ribbons
 
