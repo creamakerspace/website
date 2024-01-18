@@ -11,7 +11,7 @@ image = "/images/renton/rmac-4x3.webp"
 +++
 
 {% message(header="Applications Closed") %}
-Applications for this program are closed. We'll be contacting the winners soon.
+Applications for this program are closed. Final projects are documented <a href="/blog/2024/renton-made-projects">here</a>.
 {% end %}
 
 <div class="is-size-4">
