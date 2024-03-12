@@ -18,7 +18,7 @@ we have manage a sustainable schedule. As such, Crea will also be closed these d
 - Sun, Dec 24, 2023 (Christmas Eve)
 - Sun, Dec 31 (New Years Eve)
 - Sun, Mar 31, 2024 (Easter)
-- Apr 7 - 14, 2024 (Founder Vacation)
+- Apr 1 - 9, 2024 (Founder Vacation)
 
 See also: the [Event Calendar](/calendar)
 

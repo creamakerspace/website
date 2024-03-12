@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { start: '2023-12-24', title: 'Closed (Christmas Eve)' },
             { start: '2023-12-31', title: 'Closed (New Year\'s Eve)' },
             { start: '2024-03-31', title: 'Closed (Easter)' },
-            { start: '2024-04-07', end: '2024-04-14', title: 'Closed (Founder Vacation)' }
+            { start: '2024-04-02', end: '2024-04-09', title: 'Closed (Founder Vacation)' }
         ];
         closed = vacation.map((d) => {
             return {
