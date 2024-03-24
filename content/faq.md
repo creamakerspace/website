@@ -11,14 +11,13 @@ We're open Tues-Fri 2pm-8pm, and weekends 12pm-8pm.
 
 We're closed every Monday.
 
-While we hope to grow and hire staff to increase our availability, in the near term,
-we have manage a sustainable schedule. As such, Crea will also be closed these days:
+We will also be closed these days:
 
-- Thu, Nov 23, 2023 (Thanksgiving)
-- Sun, Dec 24, 2023 (Christmas Eve)
-- Sun, Dec 31 (New Years Eve)
-- Sun, Mar 31, 2024 (Easter)
 - Apr 1 - 9, 2024 (Founder Vacation)
+- Thu, July 4, 2024 (Independence Day)
+- Thu, Nov 28, 2024 (Thanksgiving)
+- Wed, Dec 25, 2024 (Christmas)
+
 
 See also: the [Event Calendar](/calendar)
 
