@@ -1,6 +1,6 @@
 +++
 title = "Heat Press"
-updated = "2023-05-18"
+updated = "2024-03-24"
 template = "sop.html"
 description = "Heat press for dye sublimation transfer or vynyl transfer."
 weight = 8050
@@ -51,12 +51,14 @@ Material  |  Temperature  |  Time
 --------  |  -----------  |  ----
 Polyester Fabric (sublimation)   |  375-400°F  |  40-75s
 Fabrics (HTV)  |  285-305°F  | 10-20s
-Mug (sublimation) | 356°F  |  180s
+Mug (sublimation) | 385°F  |  180s
 Plate (sublimation) | 392°F  |  900s
+DTF Curing (non-contact) | 400°F | 90-120s
+DTF Adhesive Transfer | 325°F | 10-20s
 
 ## Procedures
 
-### Procedure for Sublimation Transfer to Polyester Fabric
+### Sublimation Transfer to Polyester Fabric
 1. Print the sublimation design using sublimation ink and transfer paper. Remember to mirror the design so that it will be correctly positioned on the plate when transferred.
 1. Heat up the heat press to the required temperature for the sublimation transfer process (usually around 375°-400°F)
 1. Place the garment onto the lower platen of the heat press, making sure it is centered and smooth
@@ -67,6 +69,20 @@ Plate (sublimation) | 392°F  |  900s
 1. Close the heat press and apply pressure and heat for the recommended time (usually around 40-75 seconds)
 1. Open the heat press and carefully remove the transfer paper, revealing the transferred design on the garment
 1. Allow the garment to cool for a few minutes before handling.
+
+### DTF Transfer to any fabric
+1. Print the sublimation design using sublimation ink and DTF film. Remember to mirror the design so that it will be correctly positioned on the plate when transferred.
+1. Immediately after printing, coat the material in DTF powder. Shake off excess powder that doesn't stick to film.
+1. Heat up the heat press to 400°F
+1. Place DTF powder coated film under onto the lower platen of the heat press, but do NOT press down the heat press. You are effectively baking under the heat. 
+1. Monitor the film and powder. It should take approximately 90-120s for the powder to crystalize. Remove film once curing is complete. The cured film may be used immediately or stored.
+1. To use a cured DTF adhesive, heat up the heat press to 325°F.
+1. Use heat-resistant tape to place the DTF adhesive onto the garment, with the printed side facing the garment
+1. Place a Teflon sheet under the fabric layer being transferred to and on top of the design prevent smudging and color bleeding
+1. Close the heat press and apply pressure and heat for the recommended time (usually around 10-20 seconds)
+1. Open the heat press and carefully remove the fabric WITHOUT removing the DTF adhesive.
+1. Wait for the fabric to cool (e.g. 5 minutes), then carefully peel the DTF adhesive revealing the transferred design.
+
 
 ## References
 
