@@ -58,7 +58,7 @@ We've started posting details for these to our new Meetup group
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/7sI29u9tC2IM0JqaEM?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
+            <a href="https://buy.stripe.com/aEU5lG0X63MQak07sD?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
                 Choose Starter
             </a>
         </div>
