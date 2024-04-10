@@ -3,8 +3,8 @@ title = "Crea Makerspace"
 template = "index.html"
 
 [extra]
-announcement_header = "Closed Apr 1-9"
-announcement = "We're OPEN Easter Sunday (Mar 31), but CLOSED April 1-9."
+# announcement_header = "Closed Apr 1-9"
+# announcement = "We're OPEN Easter Sunday (Mar 31), but CLOSED April 1-9."
 blog_header = "What's happening at Crea?"
 image = "images/logo-share.png"
 
