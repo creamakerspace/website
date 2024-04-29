@@ -9,17 +9,6 @@ banner = "/images/woodwork-3.jpg"
 
 _Members get access to our makerspace and [equipment](/equipment) to work on their own projects._
 
-If you've never visited Crea before, we recommend visiting on an Open House night or <a href="https://calendly.com/creamakerspace/meet">scheduling a tour</a>.
-
-
-### Open House Tuesdays
-
-<!-- span class="has-text-danger has-text-weight-bold">In December, from 6pm to 8pm</span>, we have open house workshops (no membership or day pass required). -->
-
-We've started posting details for these to our new Meetup group
-
-<a href="https://www.meetup.com/renton-made" class="button is-primary">Renton Made Meetup Group</a>.
-
 
 ### Membership Plans
 

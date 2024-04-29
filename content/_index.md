@@ -11,8 +11,8 @@ image = "images/logo-share.png"
 [extra.hero]
 header = "Shared Workshop in Renton"
 text = "Woodshop, laser cutter, 3D printer, robotics, and more..."
-link_text = "Schedule a tour"
-link = "https://calendly.com/creamakerspace/meet"
+# link_text = "Schedule a tour"
+# link = "https://calendly.com/creamakerspace/meet"
 
 [[extra.experiences]]
 header = "Take a class"
@@ -47,8 +47,3 @@ Makerspaces vary significantly in the equipment available. Crea Makerspace has e
 {{ images(src=["featured/elab.webp", "featured/mugs.webp", "featured/sign.webp", "featured/cake.webp"]) }}
 
 
-If you already have projects in mind, [get a membership](/join), and use our equipment to finish your projects.
-
-If you want a guided experience to discover what you're capable of making, [take a class](/classes).
-
-If you want to see the space and ask questions, [take a free tour](https://calendly.com/creamakerspace/meet).

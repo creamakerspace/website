@@ -1,13 +1,13 @@
 +++
 title = "Sublimation T-Shirt Printing"
-updated = "2023-08-12"
+updated = "2024-04-29"
 template = "class.html"
 weight = 95
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?tag=tshirt"
+# redirect = "https://bookwhen.com/creamakerspace?tag=tshirt"
 image = "/images/classes/tshirt-printing.webp"
-booking_link = "https://bookwhen.com/creamakerspace?tag=tshirt"
+# booking_link = "https://bookwhen.com/creamakerspace?tag=tshirt"
 
 +++
 

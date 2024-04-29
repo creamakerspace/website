@@ -16,6 +16,7 @@
                 <h2 class="subtitle">
                     {{ section.extra.hero.text }}
                 </h2>
+                {% if section.extra.hero.link %}
                 <div>
                     <a href="{{ section.extra.hero.link | safe }}" class="cta button is-primary is-rounded">
                         <span class="has-text-weight-bold">{{ section.extra.hero.link_text }}</span>
@@ -24,6 +25,7 @@
                         </span>
                     </a>
                 </div>
+                {% endif %}
             </div>
         </div>
     </section>
@@ -50,7 +52,21 @@
     {% endif %}
 
     <section class="container section">
-        {{ experiences::list(experiences=section.extra.experiences) }}
+        <!-- {{ experiences::list(experiences=section.extra.experiences) }} -->
+
+        <div class="container py-6 my-6">
+            <article class='message is-danger'>
+                <div class="message-header is-size-2">Makerspace Closing</div>
+                <div class="message-body is-size-4">
+                    The last day of operations is June 2. See our <a href="/blog/2024/farewell">Farewell post</a> for details.
+                </div>
+            </article>
+            <p class="is-size-4">
+                For now, the content on this site is for posterity, in hopes of fostering a new chapter for Renton makers.
+            </p>
+        </div>
+
+
     </section>
 
     <section class="hero is-dark p-6">

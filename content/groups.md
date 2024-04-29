@@ -5,6 +5,7 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
+
 Crea is a unique place for group events that spark creativity and foster collaboration. Whether you lead a corporate team, club, youth group, or any other community, our versatile space and equipment variety are here to cater to your unique needs and objectives.
 
 ### Why Choose Crea Makerspace for Your Group Event?

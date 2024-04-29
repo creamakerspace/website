@@ -1,13 +1,13 @@
 +++
 title = "Laser: Edge Lit Acrylic"
-updated = "2023-07-29"
+updated = "2024-04-29"
 template = "class.html"
 weight = 20
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
+# redirect = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
 image = "/images/classes/laser-edge-lit.webp"
-booking_link = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
+# booking_link = "https://bookwhen.com/creamakerspace?entry=l83nehgvz0sr"
 
 [extra.details]
 

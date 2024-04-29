@@ -3,9 +3,10 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
+{% message(header="Makerspace Closing" class="is-danger") %}
+The last day of operations is June 2. See our <a href="/blog/2024/farewell">Farewell post</a> for details.
+{% end %}
+
 ## Classes at Crea
 
-Crea classes give you a chance to be hands-on with a variety of tools and equipments. Below is a glimpse of the classes we offer. See our full class schedule for the the most up-to-date view of upcoming classes:
-
-<a href="https://bookwhen.com/creamakerspace" class="button is-primary is-medium">Full Class Schedule</a>
-
+These are just some of the classes we have had the privilege of teaching:

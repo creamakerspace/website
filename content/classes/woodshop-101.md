@@ -1,13 +1,13 @@
 +++
 title = "Woodshop 101: Cutting & Shaping"
-updated = "2023-07-29"
+updated = "2024-04-29"
 template = "class.html"
 weight = 40
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
+# redirect = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
 image = "/images/classes/sawstop.webp"
-booking_link = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
+# booking_link = "https://bookwhen.com/creamakerspace?entry=v12sgjao19la"
 
 [extra.details]
 
@@ -28,7 +28,7 @@ Cutting and shaping wood is foundational to nearly all woodworking projects. In 
 - Sanders
 
 Upon completion of this class, you'll:
-- feel empowered by your ability to safely operate various saws and other cutting and shaping equipment 
+- feel empowered by your ability to safely operate various saws and other cutting and shaping equipment
 - be certified to independently use most of the equipment in the woodshop for your future projects
 
 **Who it's for**: Anyone aged 15+ (youth 15-17 must have a guardian present).

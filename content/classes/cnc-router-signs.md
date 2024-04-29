@@ -1,13 +1,13 @@
 +++
 title = "CNC Router: Sign Making"
-updated = "2023-07-29"
+updated = "2024-04-29"
 template = "class.html"
 weight = 30
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
+# redirect = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
 image = "/images/classes/cnc-routing.webp"
-booking_link = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
+# booking_link = "https://bookwhen.com/creamakerspace?tag=cnc-sign"
 
 [extra.details]
 

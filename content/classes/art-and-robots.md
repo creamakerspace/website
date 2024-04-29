@@ -1,14 +1,14 @@
 +++
 title = "Art & Robots"
-updated = "2023-07-29"
+updated = "2024-04-29"
 template = "class.html"
 weight = 10
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx"
+# redirect = "https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx"
 image = "/images/classes/robot-art.webp"
 # banner = "/images/classes/robot-art-2.webp"
-booking_link = "https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx"
+# booking_link = "https://bookwhen.com/creamakerspace?entry=sjq4jwbcofgx"
 
 +++
 

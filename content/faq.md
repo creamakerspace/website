@@ -35,11 +35,11 @@ If you are looking for more substantial or exclusive access to equipment, contac
 
 - Jack plane, orbital sander, belt sander, circular saw, jig saw, pull saw, hack saw, & saw guide.
 - Drills, impact driver, brad nailer, narrow crown (18ga) stapler, T50 staplers, rotary tool, hot glue guns, & heat gun.
-- Clamps, wrenches, utility knives, hammers, tape measures, levels, rubber mallet, & squares. 
+- Clamps, wrenches, utility knives, hammers, tape measures, levels, rubber mallet, & squares.
 - Chisels, screwdrivers, pliers, allen wrenches, socket set, & wrenches.
-- Assortments of drill bits, driver bits, router bits, & hole saw bits. 
+- Assortments of drill bits, driver bits, router bits, & hole saw bits.
 
-We are regularly evaluating what additional tools we should make available, so feedback on tools is always welcome. 
+We are regularly evaluating what additional tools we should make available, so feedback on tools is always welcome.
 
 Additionally, you are welcome to bring your own tools to use for your projects.
 
@@ -141,4 +141,4 @@ Yes.
 
 - Discuss with us first to ensure we can accomodate the equipment or materials.
 - Gifted materials will become part of the "community materials".
-- Crea is not a non-profit, so gifts are not tax deductible, and large gifts may have gift tax implications. 
+- Crea is not a non-profit, so gifts are not tax deductible, and large gifts may have gift tax implications.

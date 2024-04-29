@@ -1,13 +1,13 @@
 +++
 title = "Intro to 3D Printing"
-updated = "2023-07-29"
+updated = "2024-04-29"
 template = "class.html"
 weight = 90
 
 [extra]
-redirect = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
+# redirect = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
 image = "/images/classes/3d-printing.webp"
-booking_link = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
+# booking_link = "https://bookwhen.com/creamakerspace?entry=1hv223yyw8lz"
 
 [extra.details]
 
@@ -20,7 +20,7 @@ Immerse yourself in the world of 3D printing! We'll guide you through the 3D pri
 In this class, you will learn:
 - how our [Prusa 3D Printer](/equipment/prusa-mini/) works
 - how to find free 3D models
-- how to take an existing 3D model and "slice" it for 3D printing including topics such as overhangs, bridges, and supports 
+- how to take an existing 3D model and "slice" it for 3D printing including topics such as overhangs, bridges, and supports
 - how different filaments compare with each other
 - how to safely operate the 3D printer including changing filament and first-layer monitoring
 - common 3D printing issues and how to resolve them
