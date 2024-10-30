@@ -5,21 +5,6 @@ template = "page.html"
 banner = "/images/woodwork-3.jpg"
 +++
 
-### What days are you open?
-
-We're open Tues-Fri 2pm-8pm, and weekends 12pm-8pm.
-
-We're closed every Monday.
-
-We will also be closed these days:
-
-- Apr 1 - 9, 2024 (Founder Vacation)
-- Thu, July 4, 2024 (Independence Day)
-- Thu, Nov 28, 2024 (Thanksgiving)
-- Wed, Dec 25, 2024 (Christmas)
-
-
-See also: the [Event Calendar](/calendar)
 
 ### What is "unlimited" machine time?
 

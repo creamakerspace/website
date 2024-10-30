@@ -12,10 +12,6 @@ _Members get access to our makerspace and [equipment](/equipment) to work on the
 
 ### Membership Plans
 
-{% message(header="New Member Promotion", class="is-warning") %}
-    Sign up online with promotion code NEWMEMBER for <b>50% off your first month of membership</b>. Code valid for first-time members on the Starter and Maker plans.
-{% end %}
-
 <div class="pricing-table py-5">
     <div class="pricing-plan">
         <div class="plan-header is-uppercase">Starter</div>
@@ -47,7 +43,7 @@ _Members get access to our makerspace and [equipment](/equipment) to work on the
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/aEU5lG0X63MQak07sD?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
+            <a class="monthly button is-fullwidth is-uppercase" target="_blank" data-goatcounter-click="join-starter-month">
                 Choose Starter
             </a>
         </div>
@@ -80,7 +76,7 @@ _Members get access to our makerspace and [equipment](/equipment) to work on the
             </div>
         </div>
         <div class="plan-footer">
-            <a href="https://buy.stripe.com/cN29BWcFO3MQcs8cMV?prefilled_promo_code=NEWMEMBER" class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
+            <a class="monthly button is-fullwidth is-uppercase"  data-goatcounter-click="join-maker-month">
                 Choose Maker
             </a>
         </div>
@@ -123,22 +119,10 @@ _Members get access to our makerspace and [equipment](/equipment) to work on the
     </div>
 </div>
 
-{% message(header="Referral Bonus", class="is-info mt-6") %}
-
-Help our maker community grow, and we'll apply a credit toward your next monthly renewal!
-Members will receive a credit for each referral that becomes a new member:
-
-<ul>
-<li>$50 credit if your referral signs up for the Maker Membership plan</li>
-<li>$20 credit if your referral signs up for the Starter Membership plan</li>
-</ul>
-
-{% end %}
-
 <div class="is-size-7 pt-5">
 
 Notes:
-- Some equipment requires completion of [training class](https://bookwhen.com/creamakerspace?tags=certification#focus=ev-s96l-20230808183000).
+- Some equipment requires completion of training class.
 - Unlimited usage is still subject to reasonable usage and sharing of the equipment.
 - 24/7 access for Pro members requires a background check.
 - Family discounts limited to single billing account, for members of your household or immediate family, and apply to lesser or equal plans.

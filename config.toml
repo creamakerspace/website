@@ -23,8 +23,8 @@ copyright = "Crea Makerspace"
 newsletter_link = "https://000a4b3c.sibforms.com/serve/MUIFADBpU_VxJyEdG4xr-0aiMwvbdmcHQJ0COyy3jVYmXFNQyZr8v5XYgV-6IgjxHLDKJFBMGiW1Ff-HiWZLQ9q4AkjR7F0SBAQwWzP9XACbpsg32d7_t3eppyy9Rpg2BSx-FlcPSo9wO4WiQCP95bwp2A7A9wfN2v9usaMIf6ecUKie2bqKoniGitGLmEEV9z99sSKlCE5M1b8I"
 contact_email = "hi@creamakerspace.com"
 contact_email_html = "hi@crea<span>makerspace</span>.com"
-address = "1000 SW 34th St, Suite C, Renton, WA 98057"
-address_short = "1000 SW 34th St, Suite C"
+# address = "1000 SW 34th St, Suite C, Renton, WA 98057"
+# address_short = "1000 SW 34th St, Suite C"
 
 
 # analytics
@@ -56,9 +56,9 @@ link = "/join"
 text = "Equipment"
 link = "/equipment"
 
-[[extra.nav]]
-text = "Event Calendar"
-link = "/calendar"
+# [[extra.nav]]
+# text = "Event Calendar"
+# link = "/calendar"
 
 # [[extra.nav]]
 # text = "Makers"

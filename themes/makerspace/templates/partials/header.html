@@ -1,14 +1,16 @@
 <div class="level is-dark" id="connect-nav">
     <div class="container">
         <div class="level-right">
-            <p class="level-item has-text-centered px-5">
-                <a class="link icon-text" target="_blank" href="https://www.google.com/maps/place/{{ config.extra.address }},+Renton,+WA+98057">
-                    <span class="icon">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </span>
-                    <span>{{ config.extra.address_short }}</span>
-                </a>
-            </p>
+            {% if config.extra.address %}
+                <p class="level-item has-text-centered px-5">
+                    <a class="link icon-text" target="_blank" href="https://www.google.com/maps/place/{{ config.extra.address }},+Renton,+WA+98057">
+                        <span class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </span>
+                        <span>{{ config.extra.address_short }}</span>
+                    </a>
+                </p>
+            {% endif %}
             <p class="level-item has-text-centered">
                 {% set social = config.extra.social %}
                 {% if social.instagram %}

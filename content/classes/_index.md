@@ -3,10 +3,10 @@ title = "Crea Classes"
 sort_by = "weight"
 +++
 
-{% message(header="Makerspace Closing" class="is-danger") %}
-The last day of operations is June 2. See our <a href="/blog/2024/farewell">Farewell post</a> for details.
+{% message(header="Closed Permanently" class="is-danger") %}
+Crea Makerspace closed in June 2024. See our <a href="/blog/2024/farewell">Farewell post</a> for details.
 {% end %}
 
 ## Classes at Crea
 
-These are just some of the classes we have had the privilege of teaching:
+These are just some of the classes we had the privilege of teaching:
